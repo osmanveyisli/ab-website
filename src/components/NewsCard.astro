@@ -1,0 +1,45 @@
+---
+import { formatDate } from "@lib/content";
+import { hasContentImage, imageObjectPosition } from "@lib/contentImages";
+import { localized, ui } from "@lib/i18n";
+import type { Lang, NewsArticle } from "@lib/types";
+
+type Props = {
+  article: NewsArticle;
+  lang: Lang;
+  compact?: boolean;
+};
+
+const { article, lang, compact = false } = Astro.props;
+const title = localized(article.title, lang);
+const summary = localized(article.summary, lang);
+const hasImage = hasContentImage(article.image);
+---
+
+<article class:list={["news-card", compact && "compact"]} data-news-card>
+  {
+    hasImage && article.image ? (
+      <a class="card-image" href={`/${lang}/news/${article.slug}/`} aria-label={title}>
+        <img
+          src={article.image.src}
+          alt={localized(article.image.alt, lang)}
+          loading="lazy"
+          style={imageObjectPosition(article.imagePosition)}
+        />
+      </a>
+    ) : (
+      <a class="card-image card-image-placeholder" href={`/${lang}/news/${article.slug}/`} aria-label={title}>
+        <span>AB</span>
+      </a>
+    )
+  }
+  <div class="card-body">
+    <h3><a href={`/${lang}/news/${article.slug}/`}>{title}</a></h3>
+    <div class="card-meta">
+      <time datetime={article.publishedDate}>{formatDate(article.publishedDate, lang)}</time>
+      {article.isDemo && <span class="demo-note">{localized(ui.demoContent, lang)}</span>}
+    </div>
+    <p>{summary}</p>
+    <a class="card-detail-link" href={`/${lang}/news/${article.slug}/`}>{localized(ui.viewDetails, lang)}</a>
+  </div>
+</article>

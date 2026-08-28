@@ -1,0 +1,178 @@
+---
+import OpportunityCard from "@components/OpportunityCard.astro";
+import categories from "@data/categories.json";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { opportunities, sortOpportunities, statusLabel } from "@lib/content";
+import { categoryLabel, languages, localized, ui } from "@lib/i18n";
+import type { Lang } from "@lib/types";
+
+export function getStaticPaths() {
+  return languages.map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const sortedOpportunities = [...opportunities].sort(sortOpportunities);
+const pageCopy = {
+  az: {
+    eyebrow: "Aktiv imkanlar",
+    description: "İmkanları axtarın və kateqoriya, son tarix və statusa görə süzün. Müddəti bitmiş imkanlar standart siyahıda gizlədilir.",
+    placeholder: "Başlıq, təşkilatçı, kateqoriya və ya uyğunluq üzrə axtar...",
+  },
+  en: {
+    eyebrow: "Active opportunities",
+    description: "Search and filter student opportunities by category, deadline, and status. Expired opportunities are hidden by default.",
+    placeholder: "Search title, organizer, category, or eligibility...",
+  },
+};
+const copy = pageCopy[lang];
+---
+
+<BaseLayout
+  lang={lang}
+  title={localized(ui.opportunities, lang)}
+  description={copy.description}
+  canonicalPath={`/${lang}/opportunities/`}
+>
+  <section class="page-hero opportunities-hero">
+    <div class="container narrow">
+      <p class="eyebrow">{copy.eyebrow}</p>
+      <h1>{localized(ui.opportunities, lang)}</h1>
+      <p>{copy.description}</p>
+    </div>
+  </section>
+
+  <section class="section opportunities-section">
+    <div class="container">
+      <form
+        class="filter-bar"
+        role="search"
+        aria-label={localized(ui.opportunities, lang)}
+        data-opportunity-filters
+        data-label-open={statusLabel("open", lang)}
+        data-label-closing-soon={statusLabel("closing-soon", lang)}
+        data-label-expired={statusLabel("expired", lang)}
+        data-label-no-deadline={statusLabel("no-deadline", lang)}
+        data-result={localized(ui.result, lang)}
+        data-results={localized(ui.results, lang)}
+      >
+        <label>
+          <span>{localized(ui.search, lang)}</span>
+          <input type="search" name="search" placeholder={copy.placeholder} autocomplete="off" />
+        </label>
+        <label>
+          <span>{localized(ui.category, lang)}</span>
+          <select name="category">
+            <option value="">{localized(ui.allCategories, lang)}</option>
+            {categories.map((category) => <option value={category}>{categoryLabel(category, lang)}</option>)}
+          </select>
+        </label>
+        <label>
+          <span>{localized(ui.status, lang)}</span>
+          <select name="status">
+            <option value="active">{localized(ui.activeOnly, lang)}</option>
+            <option value="open">{statusLabel("open", lang)}</option>
+            <option value="closing-soon">{statusLabel("closing-soon", lang)}</option>
+            <option value="no-deadline">{statusLabel("no-deadline", lang)}</option>
+            <option value="expired">{localized(ui.expiredArchive, lang)}</option>
+            <option value="all">{localized(ui.allStatuses, lang)}</option>
+          </select>
+        </label>
+      </form>
+
+      <div class="results-meta" aria-live="polite">
+        <span data-results-count></span>
+      </div>
+
+      <div class="card-grid listing-grid" data-opportunity-list>
+        {
+          sortedOpportunities.map((opportunity) => (
+            <OpportunityCard opportunity={opportunity} lang={lang} hideExpiredByDefault />
+          ))
+        }
+      </div>
+
+      <p class="empty-state is-hidden" data-empty-state>{localized(ui.noMatches, lang)}</p>
+    </div>
+  </section>
+
+  <script>
+    const DAY_IN_MS = 24 * 60 * 60 * 1000;
+    type OpportunityStatus = "open" | "closing-soon" | "expired" | "no-deadline";
+
+    const filters = document.querySelector<HTMLFormElement>("[data-opportunity-filters]");
+    const cards = Array.from(document.querySelectorAll<HTMLElement>("[data-opportunity-card]"));
+    const emptyState = document.querySelector<HTMLElement>("[data-empty-state]");
+    const resultsCount = document.querySelector<HTMLElement>("[data-results-count]");
+    const pageLang = document.documentElement.lang || "az";
+
+    function normalizeDateOnly(date: Date) {
+      return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    }
+
+    function parseLocalDate(value: string) {
+      const [year, month, day] = value.split("-").map(Number);
+      return new Date(year, month - 1, day);
+    }
+
+    function getStatus(deadline: string): OpportunityStatus {
+      if (!deadline) return "no-deadline";
+      const today = normalizeDateOnly(new Date());
+      const deadlineDate = parseLocalDate(deadline);
+      const daysUntilDeadline = Math.floor((deadlineDate.getTime() - today.getTime()) / DAY_IN_MS);
+      if (daysUntilDeadline < 0) return "expired";
+      if (daysUntilDeadline <= 7) return "closing-soon";
+      return "open";
+    }
+
+    function labelForStatus(status: OpportunityStatus) {
+      if (!filters) return status;
+      return filters.dataset[`label${status.replace(/(^|-)([a-z])/g, (_, _dash, letter) => letter.toUpperCase())}`] || status;
+    }
+
+    function applyFilters() {
+      if (!filters) return;
+
+      const formData = new FormData(filters);
+      const term = String(formData.get("search") || "").trim().toLocaleLowerCase(pageLang);
+      const category = String(formData.get("category") || "");
+      const statusFilter = String(formData.get("status") || "active");
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const status = getStatus(card.dataset.deadline || "");
+        card.dataset.status = status;
+        const badge = card.querySelector<HTMLElement>("[data-status-label]");
+        if (badge) {
+          badge.textContent = labelForStatus(status);
+          badge.className = `status-badge status-${status}`;
+        }
+
+        const matchesTerm = !term || Boolean(card.dataset.search?.toLocaleLowerCase(pageLang).includes(term));
+        const matchesCategory = !category || Boolean(card.dataset.categories?.split("|").includes(category));
+        const matchesStatus =
+          statusFilter === "all" ||
+          (statusFilter === "active" && status !== "expired") ||
+          statusFilter === status;
+        const isVisible = matchesTerm && matchesCategory && matchesStatus;
+
+        card.classList.toggle("is-filter-hidden", !isVisible);
+        if (isVisible) visibleCount += 1;
+      });
+
+      emptyState?.classList.toggle("is-hidden", visibleCount !== 0);
+      if (resultsCount) {
+        const label = visibleCount === 1 ? filters.dataset.result : filters.dataset.results;
+        resultsCount.textContent = `${visibleCount} ${label}`;
+      }
+    }
+
+    if (filters) {
+      applyFilters();
+      filters.addEventListener("input", applyFilters);
+      filters.addEventListener("change", applyFilters);
+    }
+  </script>
+</BaseLayout>

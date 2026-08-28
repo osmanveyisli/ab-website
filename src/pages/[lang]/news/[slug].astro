@@ -1,0 +1,85 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { formatDate, newsArticles } from "@lib/content";
+import { hasContentImage, imageObjectPosition } from "@lib/contentImages";
+import { languages, localized, ui } from "@lib/i18n";
+import type { Lang, NewsArticle } from "@lib/types";
+
+export function getStaticPaths() {
+  return languages.flatMap((lang) =>
+    newsArticles.map((article) => ({
+      params: { lang, slug: article.slug },
+      props: { lang, article },
+    })),
+  );
+}
+
+const { lang, article } = Astro.props as { lang: Lang; article: NewsArticle };
+const title = localized(article.title, lang);
+const summary = localized(article.summary, lang);
+const hasImage = hasContentImage(article.image);
+---
+
+<BaseLayout
+  lang={lang}
+  title={title}
+  description={summary}
+  image={hasImage ? article.image?.src : undefined}
+  canonicalPath={`/${lang}/news/${article.slug}/`}
+>
+  <article class="detail-page">
+    <div class="container detail-grid">
+      <div class="detail-main">
+        <a class="back-link" href={`/${lang}/news/`}>{lang === "az" ? "Xəbərlərə qayıt" : "Back to news"}</a>
+        <div class="detail-meta-row">
+          <time datetime={article.publishedDate}>{formatDate(article.publishedDate, lang)}</time>
+          {article.isDemo && <span class="demo-note">{localized(ui.demoContent, lang)}</span>}
+        </div>
+        <h1>{title}</h1>
+        <p class="lead">{summary}</p>
+
+        {
+          hasImage && article.image && (
+            <img
+              class="detail-image"
+              src={article.image.src}
+              alt={localized(article.image.alt, lang)}
+              style={imageObjectPosition(article.imagePosition)}
+            />
+          )
+        }
+
+        <section class="content-block">
+          {article.body[lang].map((paragraph) => <p>{paragraph}</p>)}
+        </section>
+      </div>
+
+      <aside class="detail-sidebar" aria-label={localized(ui.originalSource, lang)}>
+        <dl class="detail-list">
+          <div>
+            <dt>{localized(ui.published, lang)}</dt>
+            <dd>{formatDate(article.publishedDate, lang)}</dd>
+          </div>
+          <div>
+            <dt>{localized(ui.originalSource, lang)}</dt>
+            <dd>{article.sourceName}</dd>
+          </div>
+          <div>
+            <dt>{localized(ui.tags, lang)}</dt>
+            <dd class="tag-row">{article.tags[lang].map((tag) => <span>{tag}</span>)}</dd>
+          </div>
+        </dl>
+
+        {
+          article.sourceUrl ? (
+            <a class="button primary full-width" href={article.sourceUrl} target="_blank" rel="noopener noreferrer">
+              {localized(ui.originalSource, lang)}
+            </a>
+          ) : (
+            <p class="source-missing">{localized(ui.newsSourceMissing, lang)}</p>
+          )
+        }
+      </aside>
+    </div>
+  </article>
+</BaseLayout>

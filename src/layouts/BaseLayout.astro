@@ -1,0 +1,111 @@
+---
+import SiteFooter from "@components/SiteFooter.astro";
+import SiteHeader from "@components/SiteHeader.astro";
+import { languages, switchPath } from "@lib/i18n";
+import { siteConfig } from "@lib/siteConfig";
+import type { Lang } from "@lib/types";
+import "../styles/global.css";
+
+type Props = {
+  lang: Lang;
+  title: string;
+  description: string;
+  image?: string;
+  canonicalPath?: string;
+};
+
+const { lang, title, description, image = "/ab-logo.png", canonicalPath = Astro.url.pathname } = Astro.props;
+const site = Astro.site?.toString().replace(/\/$/, "") || "http://localhost:4321";
+const canonicalUrl = new URL(canonicalPath, site).toString();
+const imageUrl = new URL(image, site).toString();
+const siteIdentity = `${siteConfig.brand} — ${siteConfig.fullName}`;
+const pageTitle = title === siteIdentity ? siteIdentity : `${title} | ${siteIdentity}`;
+const alternateUrls = languages.map((language) => ({
+  lang: language,
+  href: new URL(switchPath(canonicalPath, language), site).toString(),
+}));
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/ab-logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/ab-logo.png" />
+    <link rel="canonical" href={canonicalUrl} />
+    {alternateUrls.map((alternate) => <link rel="alternate" hreflang={alternate.lang} href={alternate.href} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(switchPath(canonicalPath, "az"), site).toString()} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content={lang === "az" ? "az_AZ" : "en_US"} />
+    <meta property="og:site_name" content={siteIdentity} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={imageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="theme-color" content="#081426" />
+  </head>
+  <body>
+    <SiteHeader lang={lang} />
+    <main id="main-content">
+      <slot />
+    </main>
+    <SiteFooter lang={lang} />
+    <script>
+      (() => {
+        const DAY_IN_MS = 24 * 60 * 60 * 1000;
+
+        function normalizeDateOnly(date: Date) {
+          return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+        }
+
+        function parseLocalDate(value: string) {
+          const [year, month, day] = value.split("-").map(Number);
+          return new Date(year, month - 1, day);
+        }
+
+        function getStatus(deadline: string) {
+          if (!deadline) return "no-deadline";
+
+          const today = normalizeDateOnly(new Date());
+          const deadlineDate = parseLocalDate(deadline);
+          const daysUntilDeadline = Math.floor((deadlineDate.getTime() - today.getTime()) / DAY_IN_MS);
+
+          if (daysUntilDeadline < 0) return "expired";
+          if (daysUntilDeadline <= 7) return "closing-soon";
+          return "open";
+        }
+
+        function labelForStatus(status: string, lang: string) {
+          const labels: Record<string, Record<string, string>> = {
+            az: {
+              open: "Açıqdır",
+              "closing-soon": "Son günlər",
+              expired: "Müddəti bitib",
+              "no-deadline": "Sabit son tarix yoxdur",
+            },
+            en: {
+              open: "Open",
+              "closing-soon": "Closing soon",
+              expired: "Expired",
+              "no-deadline": "No fixed deadline",
+            },
+          };
+
+          return labels[lang]?.[status] || labels.az.open;
+        }
+
+        document.querySelectorAll<HTMLElement>("[data-status-deadline]").forEach((badge) => {
+          const status = getStatus(badge.dataset.statusDeadline || "");
+          badge.textContent = labelForStatus(status, badge.dataset.statusLang || "az");
+          badge.className = `status-badge status-${status}`;
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,206 @@
+---
+import NewsCard from "@components/NewsCard.astro";
+import OpportunityCard from "@components/OpportunityCard.astro";
+import StatusBadge from "@components/StatusBadge.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { categoryLabel, languages, localized, ui } from "@lib/i18n";
+import { formatDate, getFeaturedOpportunities, getNewestNews, getNewestOpportunities, getOpportunityStatus } from "@lib/content";
+import { hasContentImage, imageObjectPosition } from "@lib/contentImages";
+import type { Lang } from "@lib/types";
+
+export function getStaticPaths() {
+  return languages.map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const featured = getFeaturedOpportunities();
+const featuredPrimary = featured[0];
+const featuredSecondary = featured.slice(1, 3);
+const featuredPrimaryStatus = featuredPrimary ? getOpportunityStatus(featuredPrimary.deadline) : null;
+const featuredPrimaryHasImage = featuredPrimary ? hasContentImage(featuredPrimary.image) : false;
+const newestOpportunities = getNewestOpportunities(3);
+const latestNews = getNewestNews(3);
+const mainNews = latestNews[0];
+const secondaryNews = latestNews.slice(1);
+const mainNewsHasImage = mainNews ? hasContentImage(mainNews.image) : false;
+
+const intro = {
+  az: {
+    eyebrow: "Azərbaycanlı şagirdlər üçün",
+    title: "Azərbaycanlı şagirdlər üçün imkanları bir yerdə tap.",
+    description:
+      "AB müsabiqələr, təqaüdlər, olimpiadalar, proqramlar, təcrübələr və vacib təhsil xəbərlərini aydın formada paylaşır.",
+    cta: "İmkanlara bax",
+    secondary: "Xəbərləri oxu",
+  },
+  en: {
+    eyebrow: "For Azerbaijani students",
+    title: "Find opportunities for Azerbaijani students in one place.",
+    description:
+      "AB publishes competitions, scholarships, olympiads, programs, internships, and important education news in a clear format.",
+    cta: "Browse opportunities",
+    secondary: "Read news",
+  },
+};
+
+const copy = intro[lang];
+---
+
+<BaseLayout
+  lang={lang}
+  title={localized(ui.home, lang)}
+  description={copy.description}
+  canonicalPath={`/${lang}/`}
+>
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">{copy.eyebrow}</p>
+        <h1>{copy.title}</h1>
+        <p>{copy.description}</p>
+        <div class="hero-actions">
+          <a class="button primary" href={`/${lang}/opportunities/`}>{copy.cta}</a>
+          <a class="button secondary" href={`/${lang}/news/`}>{copy.secondary}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {
+    featuredPrimary && (
+      <section class="section featured-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">{localized(ui.featured, lang)}</p>
+              <h2>{localized(ui.featuredOpportunities, lang)}</h2>
+            </div>
+            <a class="text-link" href={`/${lang}/opportunities/`}>{localized(ui.viewAll, lang)}</a>
+          </div>
+
+          <div class="featured-layout">
+            <article class="featured-primary">
+              <a class="featured-media" href={`/${lang}/opportunities/${featuredPrimary.slug}/`} aria-label={localized(featuredPrimary.title, lang)}>
+                {
+                  featuredPrimaryHasImage && featuredPrimary.image ? (
+                    <img
+                      src={featuredPrimary.image.src}
+                      alt={localized(featuredPrimary.image.alt, lang)}
+                      loading="lazy"
+                      style={imageObjectPosition(featuredPrimary.imagePosition)}
+                    />
+                  ) : (
+                    <span>AB</span>
+                  )
+                }
+              </a>
+              <div class="featured-copy">
+                <div class="deadline-summary">
+                  {featuredPrimaryStatus === "expired" && <StatusBadge status={featuredPrimaryStatus} deadline={featuredPrimary.deadline} lang={lang} />}
+                  <span>{featuredPrimary.deadline ? formatDate(featuredPrimary.deadline, lang) : localized(ui.noFixedDeadline, lang)}</span>
+                </div>
+                <h3>
+                  <a href={`/${lang}/opportunities/${featuredPrimary.slug}/`}>{localized(featuredPrimary.title, lang)}</a>
+                </h3>
+                <dl class="card-facts">
+                  <div>
+                    <dt>{localized(ui.eligibilityShort, lang)}</dt>
+                    <dd>{localized(featuredPrimary.eligibilitySummary, lang)}</dd>
+                  </div>
+                </dl>
+                <p>{localized(featuredPrimary.summary, lang)}</p>
+                <a class="card-detail-link" href={`/${lang}/opportunities/${featuredPrimary.slug}/`}>{localized(ui.viewDetails, lang)}</a>
+              </div>
+            </article>
+
+            {
+              featuredSecondary.length > 0 && (
+                <div class="featured-secondary-list">
+                  {featuredSecondary.map((opportunity) => (
+                    <a href={`/${lang}/opportunities/${opportunity.slug}/`}>
+                      <span>{opportunity.deadline ? formatDate(opportunity.deadline, lang) : localized(ui.noFixedDeadline, lang)}</span>
+                      <strong>{localized(opportunity.title, lang)}</strong>
+                      <em>{opportunity.categories.slice(0, 2).map((category) => categoryLabel(category, lang)).join(", ")}</em>
+                    </a>
+                  ))}
+                </div>
+              )
+            }
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <section class="section alternate">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">{lang === "az" ? "Yeni" : "Latest"}</p>
+          <h2>{localized(ui.latestOpportunities, lang)}</h2>
+        </div>
+        <a class="text-link" href={`/${lang}/opportunities/`}>{localized(ui.opportunities, lang)}</a>
+      </div>
+      <div class="card-grid">
+        {newestOpportunities.map((opportunity) => <OpportunityCard opportunity={opportunity} lang={lang} compact />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">{localized(ui.news, lang)}</p>
+          <h2>{localized(ui.latestNews, lang)}</h2>
+        </div>
+        <a class="text-link" href={`/${lang}/news/`}>{localized(ui.news, lang)}</a>
+      </div>
+      {
+        mainNews && (
+          <div class="home-news-layout">
+            <article class="home-news-main">
+              <a
+                class:list={["card-image", !mainNewsHasImage && "card-image-placeholder"]}
+                href={`/${lang}/news/${mainNews.slug}/`}
+                aria-label={localized(mainNews.title, lang)}
+              >
+                {
+                  mainNewsHasImage && mainNews.image ? (
+                    <img
+                      src={mainNews.image.src}
+                      alt={localized(mainNews.image.alt, lang)}
+                      loading="lazy"
+                      style={imageObjectPosition(mainNews.imagePosition)}
+                    />
+                  ) : (
+                    <span>AB</span>
+                  )
+                }
+              </a>
+              <div>
+                <time datetime={mainNews.publishedDate}>{formatDate(mainNews.publishedDate, lang)}</time>
+                <h3><a href={`/${lang}/news/${mainNews.slug}/`}>{localized(mainNews.title, lang)}</a></h3>
+                <p>{localized(mainNews.summary, lang)}</p>
+                <a class="card-detail-link" href={`/${lang}/news/${mainNews.slug}/`}>{localized(ui.viewDetails, lang)}</a>
+              </div>
+            </article>
+
+            {
+              secondaryNews.length > 0 && (
+                <div class="home-news-secondary">
+                  {secondaryNews.map((article) => (
+                    <NewsCard article={article} lang={lang} compact />
+                  ))}
+                </div>
+              )
+            }
+          </div>
+        )
+      }
+    </div>
+  </section>
+</BaseLayout>

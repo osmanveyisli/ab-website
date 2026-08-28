@@ -1,0 +1,44 @@
+---
+import NewsCard from "@components/NewsCard.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { getNewestNews } from "@lib/content";
+import { languages, localized, ui } from "@lib/i18n";
+import type { Lang } from "@lib/types";
+
+export function getStaticPaths() {
+  return languages.map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const articles = getNewestNews();
+const description = {
+  az: "AB-dən şagirdlər üçün vacib təhsil xəbərləri və yeniliklər.",
+  en: "Student-relevant education news and important updates from AB.",
+}[lang];
+---
+
+<BaseLayout
+  lang={lang}
+  title={localized(ui.news, lang)}
+  description={description}
+  canonicalPath={`/${lang}/news/`}
+>
+  <section class="page-hero">
+    <div class="container narrow">
+      <p class="eyebrow">{lang === "az" ? "Son xəbərlər" : "Latest news"}</p>
+      <h1>{localized(ui.news, lang)}</h1>
+      <p>{description}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="card-grid news-grid listing-grid" data-news-list>
+        {articles.map((article) => <NewsCard article={article} lang={lang} />)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

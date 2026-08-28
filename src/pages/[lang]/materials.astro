@@ -1,0 +1,40 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { languages, localized, ui } from "@lib/i18n";
+import type { Lang } from "@lib/types";
+
+export function getStaticPaths() {
+  return languages.map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const copy = {
+  az: {
+    title: "Materiallar",
+    message: "Tezliklə.",
+    description: "Faydalı şagird resursları bu bölməyə daha sonra əlavə olunacaq.",
+  },
+  en: {
+    title: "Materials",
+    message: "Coming soon.",
+    description: "Useful student resources will be added to this section later.",
+  },
+}[lang];
+---
+
+<BaseLayout
+  lang={lang}
+  title={localized(ui.materials, lang)}
+  description={copy.description}
+  canonicalPath={`/${lang}/materials/`}
+>
+  <section class="coming-soon">
+    <div class="container narrow">
+      <p class="eyebrow">{copy.title}</p>
+      <h1>{copy.message}</h1>
+    </div>
+  </section>
+</BaseLayout>

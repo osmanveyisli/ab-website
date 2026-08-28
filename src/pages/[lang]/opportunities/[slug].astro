@@ -1,0 +1,150 @@
+---
+import StatusBadge from "@components/StatusBadge.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { formatDate, getOpportunityStatus, opportunities } from "@lib/content";
+import { hasContentImage, imageObjectPosition } from "@lib/contentImages";
+import { categoryLabel, languages, localized, ui } from "@lib/i18n";
+import type { Lang, Opportunity } from "@lib/types";
+
+export function getStaticPaths() {
+  return languages.flatMap((lang) =>
+    opportunities.map((opportunity) => ({
+      params: { lang, slug: opportunity.slug },
+      props: { lang, opportunity },
+    })),
+  );
+}
+
+const { lang, opportunity } = Astro.props as { lang: Lang; opportunity: Opportunity };
+const status = getOpportunityStatus(opportunity.deadline);
+const title = localized(opportunity.title, lang);
+const summary = localized(opportunity.summary, lang);
+const description = opportunity.description[lang];
+const eligibility = localized(opportunity.eligibility, lang);
+const categoryList = opportunity.categories.map((category) => categoryLabel(category, lang)).join(", ");
+const detailFacts = opportunity.detailFacts || [];
+const hasImage = hasContentImage(opportunity.image);
+const officialCta = opportunity.officialCta ? localized(opportunity.officialCta, lang) : localized(ui.visitOfficialSource, lang);
+---
+
+<BaseLayout
+  lang={lang}
+  title={title}
+  description={summary}
+  image={hasImage ? opportunity.image?.src : undefined}
+  canonicalPath={`/${lang}/opportunities/${opportunity.slug}/`}
+>
+  <article class="detail-page">
+    <div class="container detail-grid">
+      <div class="detail-main">
+        <a class="back-link" href={`/${lang}/opportunities/`}>{lang === "az" ? "İmkanlara qayıt" : "Back to opportunities"}</a>
+        <div class="detail-meta-row">
+          <StatusBadge status={status} deadline={opportunity.deadline} lang={lang} />
+          {opportunity.isDemo && <span class="demo-note">{localized(ui.demoContent, lang)}</span>}
+        </div>
+        <h1>{title}</h1>
+        <p class="lead">{summary}</p>
+
+        {
+          hasImage && opportunity.image && (
+            <img
+              class="detail-hero-image"
+              src={opportunity.image.src}
+              alt={localized(opportunity.image.alt, lang)}
+              style={imageObjectPosition(opportunity.imagePosition)}
+            />
+          )
+        }
+
+        <div class="detail-source-inline">
+          {
+            opportunity.officialUrl ? (
+              <a class="button primary" href={opportunity.officialUrl} target="_blank" rel="noopener noreferrer">
+                {officialCta}
+              </a>
+            ) : (
+              <p class="source-missing">{localized(ui.sourceMissing, lang)}</p>
+            )
+          }
+          <p class="source-note">
+            {lang === "az"
+              ? "AB bu imkanı məlumat məqsədilə paylaşır. Rəsmi şərtləri təşkilatçının mənbəsindən yoxlayın."
+              : "AB shares this opportunity for information purposes. Check the organizer's source for official requirements."}
+          </p>
+        </div>
+
+        <dl class="detail-keyfacts">
+          <div>
+            <dt>{localized(ui.deadline, lang)}</dt>
+            <dd>{opportunity.deadline ? formatDate(opportunity.deadline, lang) : localized(ui.noFixedDeadline, lang)}</dd>
+          </div>
+          <div>
+            <dt>{localized(ui.eligibilityShort, lang)}</dt>
+            <dd>{localized(opportunity.eligibilitySummary, lang)}</dd>
+          </div>
+          <div>
+            <dt>{localized(ui.organizer, lang)}</dt>
+            <dd>{opportunity.organizer}</dd>
+          </div>
+          <div>
+            <dt>{localized(ui.category, lang)}</dt>
+            <dd>{categoryList}</dd>
+          </div>
+          {
+            detailFacts.map((fact) => (
+              <div>
+                <dt>{localized(fact.label, lang)}</dt>
+                <dd>{localized(fact.value, lang)}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </div>
+
+      <aside class="detail-sidebar" aria-label={localized(ui.officialSource, lang)}>
+        {
+          opportunity.officialUrl ? (
+            <a class="button primary full-width" href={opportunity.officialUrl} target="_blank" rel="noopener noreferrer">
+              {officialCta}
+            </a>
+          ) : (
+            <p class="source-missing">{localized(ui.sourceMissing, lang)}</p>
+          )
+        }
+
+        <p class="source-note">
+          {lang === "az"
+            ? "AB bu imkanı məlumat məqsədilə paylaşır. Rəsmi şərtləri təşkilatçının mənbəsindən yoxlayın."
+            : "AB shares this opportunity for information purposes. Check the organizer's source for official requirements."}
+        </p>
+
+        <dl class="detail-list">
+          {
+            opportunity.lastVerified && (
+              <div class="verified-row">
+                <dt>{localized(ui.lastVerified, lang)}</dt>
+                <dd>{formatDate(opportunity.lastVerified, lang)}</dd>
+              </div>
+            )
+          }
+          <div>
+            <dt>{localized(ui.dateAdded, lang)}</dt>
+            <dd>{formatDate(opportunity.dateAdded, lang)}</dd>
+          </div>
+        </dl>
+      </aside>
+    </div>
+
+    <div class="container detail-content-layout">
+      <section class="content-block">
+        <h2>{localized(ui.abSummary, lang)}</h2>
+        {description.map((paragraph) => <p>{paragraph}</p>)}
+      </section>
+
+      <section class="content-block">
+        <h2>{localized(ui.eligibility, lang)}</h2>
+        <p>{eligibility}</p>
+      </section>
+    </div>
+  </article>
+</BaseLayout>

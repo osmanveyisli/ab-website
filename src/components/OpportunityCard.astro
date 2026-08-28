@@ -1,0 +1,67 @@
+---
+import StatusBadge from "@components/StatusBadge.astro";
+import { formatDate, getOpportunityStatus, localizedOpportunitySearchText } from "@lib/content";
+import { hasContentImage, imageObjectPosition } from "@lib/contentImages";
+import { categoryLabel, localized, ui } from "@lib/i18n";
+import type { Lang, Opportunity } from "@lib/types";
+
+type Props = {
+  opportunity: Opportunity;
+  lang: Lang;
+  compact?: boolean;
+  hideExpiredByDefault?: boolean;
+};
+
+const { opportunity, lang, compact = false, hideExpiredByDefault = false } = Astro.props;
+const status = getOpportunityStatus(opportunity.deadline);
+const title = localized(opportunity.title, lang);
+const summary = localized(opportunity.summary, lang);
+const eligibilitySummary = localized(opportunity.eligibilitySummary, lang);
+const searchText = localizedOpportunitySearchText(opportunity, lang);
+const primaryCategory = opportunity.categories[0] ? categoryLabel(opportunity.categories[0], lang) : "";
+const deadlineText = opportunity.deadline ? formatDate(opportunity.deadline, lang) : localized(ui.noFixedDeadline, lang);
+const hasImage = hasContentImage(opportunity.image);
+---
+
+<article
+  class:list={["opportunity-card", compact && "compact", hideExpiredByDefault && status === "expired" && "is-filter-hidden"]}
+  data-opportunity-card
+  data-search={searchText}
+  data-categories={opportunity.categories.join("|")}
+  data-deadline={opportunity.deadline || ""}
+  data-status={status}
+>
+  <a
+    class:list={["card-image", !hasImage && "card-image-placeholder"]}
+    href={`/${lang}/opportunities/${opportunity.slug}/`}
+    aria-label={title}
+  >
+    {
+      hasImage && opportunity.image ? (
+        <img
+          src={opportunity.image.src}
+          alt={localized(opportunity.image.alt, lang)}
+          loading="lazy"
+          style={imageObjectPosition(opportunity.imagePosition)}
+        />
+      ) : (
+        <span>AB</span>
+      )
+    }
+  </a>
+  <div class="card-body">
+    <h3><a href={`/${lang}/opportunities/${opportunity.slug}/`}>{title}</a></h3>
+    <div class="deadline-summary">
+      {status === "expired" && <StatusBadge status={status} deadline={opportunity.deadline} lang={lang} />}
+      <span>{deadlineText}</span>
+    </div>
+    <p class="card-eligibility">{eligibilitySummary}</p>
+    <p class="card-summary">{summary}</p>
+    <div class="card-footer-row">
+      <span class:list={["card-secondary-meta", opportunity.isDemo && "demo-note"]}>
+        {opportunity.isDemo ? localized(ui.demoContent, lang) : primaryCategory}
+      </span>
+      <a class="card-detail-link" href={`/${lang}/opportunities/${opportunity.slug}/`}>{localized(ui.viewDetails, lang)}</a>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,48 @@
+---
+import { localized, switchPath, ui } from "@lib/i18n";
+import { siteConfig } from "@lib/siteConfig";
+import type { Lang } from "@lib/types";
+
+type Props = {
+  lang: Lang;
+};
+
+const { lang } = Astro.props;
+const currentPath = Astro.url.pathname;
+const navItems = [
+  { href: `/${lang}/opportunities/`, label: localized(ui.opportunities, lang) },
+  { href: `/${lang}/news/`, label: localized(ui.news, lang) },
+  { href: `/${lang}/materials/`, label: localized(ui.materials, lang) },
+  { href: `/${lang}/about/`, label: localized(ui.about, lang) },
+];
+---
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <a class="footer-brand" href={`/${lang}/`}>
+        <img class="footer-logo" src="/ab-logo.png" alt="" width="642" height="631" aria-hidden="true" />
+        <span>{siteConfig.brand} — {siteConfig.fullName}</span>
+      </a>
+      <p>© 2026 {siteConfig.brand} — {siteConfig.fullName}</p>
+    </div>
+    <nav aria-label={localized(ui.footerNavigation, lang)}>
+      {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
+      {
+        siteConfig.instagramUrl ? (
+          <a href={siteConfig.instagramUrl} target="_blank" rel="noopener noreferrer">{localized(ui.instagram, lang)}</a>
+        ) : null
+      }
+      {
+        siteConfig.whatsappUrl ? (
+          <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer">{localized(ui.whatsapp, lang)}</a>
+        ) : null
+      }
+      <span class="language-switcher footer-language" aria-label={localized(ui.language, lang)}>
+        <a href={switchPath(currentPath, "az")} aria-current={lang === "az" ? "page" : undefined}>AZ</a>
+        <span aria-hidden="true">|</span>
+        <a href={switchPath(currentPath, "en")} aria-current={lang === "en" ? "page" : undefined}>EN</a>
+      </span>
+    </nav>
+  </div>
+</footer>

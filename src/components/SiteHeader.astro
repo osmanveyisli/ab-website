@@ -1,0 +1,123 @@
+---
+import { localized, switchPath, ui } from "@lib/i18n";
+import { siteConfig } from "@lib/siteConfig";
+import type { Lang } from "@lib/types";
+
+type Props = {
+  lang: Lang;
+};
+
+const { lang } = Astro.props;
+const currentPath = Astro.url.pathname;
+
+const navItems = [
+  { href: `/${lang}/`, label: localized(ui.home, lang) },
+  { href: `/${lang}/opportunities/`, label: localized(ui.opportunities, lang) },
+  { href: `/${lang}/news/`, label: localized(ui.news, lang) },
+  { href: `/${lang}/materials/`, label: localized(ui.materials, lang) },
+  { href: `/${lang}/about/`, label: localized(ui.about, lang) },
+];
+
+function isActive(href: string) {
+  if (href === `/${lang}/`) return currentPath === `/${lang}/`;
+  return currentPath.startsWith(href);
+}
+---
+
+<header class="site-header">
+  <a class="skip-link" href="#main-content">{localized(ui.skipToContent, lang)}</a>
+  <div class="container header-inner">
+    <a class="brand" href={`/${lang}/`} aria-label={`AB ${localized(ui.home, lang)}`}>
+      <img class="brand-logo" src="/ab-logo.png" alt="" width="642" height="631" aria-hidden="true" />
+      <span class="brand-text">
+        <strong>{siteConfig.brand}</strong>
+        <span>{siteConfig.fullName}</span>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label={localized(ui.mainNavigation, lang)}>
+      {
+        navItems.map((item) => (
+          <a href={item.href} aria-current={isActive(item.href) ? "page" : undefined}>
+            {item.label}
+          </a>
+        ))
+      }
+      <span class="language-switcher" aria-label={localized(ui.language, lang)}>
+        <a href={switchPath(currentPath, "az")} aria-current={lang === "az" ? "page" : undefined}>AZ</a>
+        <span aria-hidden="true">|</span>
+        <a href={switchPath(currentPath, "en")} aria-current={lang === "en" ? "page" : undefined}>EN</a>
+      </span>
+    </nav>
+    <button
+      class="mobile-menu-button"
+      type="button"
+      aria-label={localized(ui.openMenu, lang)}
+      aria-expanded="false"
+      aria-controls="mobile-navigation"
+      data-mobile-menu-button
+      data-label-open={localized(ui.openMenu, lang)}
+      data-label-close={localized(ui.closeMenu, lang)}
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-navigation" aria-label={localized(ui.mainNavigation, lang)} hidden data-mobile-menu>
+    {
+      navItems.map((item) => (
+        <a href={item.href} aria-current={isActive(item.href) ? "page" : undefined}>
+          {item.label}
+        </a>
+      ))
+    }
+    <span class="language-switcher mobile-language-switcher" aria-label={localized(ui.language, lang)}>
+      <a href={switchPath(currentPath, "az")} aria-current={lang === "az" ? "page" : undefined}>AZ</a>
+      <span aria-hidden="true">|</span>
+      <a href={switchPath(currentPath, "en")} aria-current={lang === "en" ? "page" : undefined}>EN</a>
+    </span>
+  </nav>
+</header>
+
+<script>
+  (() => {
+    const button = document.querySelector<HTMLButtonElement>("[data-mobile-menu-button]");
+    const menu = document.querySelector<HTMLElement>("[data-mobile-menu]");
+    if (!button || !menu) return;
+
+    const setOpen = (open: boolean) => {
+      button.setAttribute("aria-expanded", String(open));
+      button.setAttribute("aria-label", open ? button.dataset.labelClose || "Close menu" : button.dataset.labelOpen || "Open menu");
+      menu.hidden = !open;
+      document.documentElement.classList.toggle("mobile-nav-open", open);
+    };
+
+    button.addEventListener("click", () => {
+      setOpen(button.getAttribute("aria-expanded") !== "true");
+    });
+
+    menu.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => setOpen(false));
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") setOpen(false);
+    });
+
+    document.addEventListener("click", (event) => {
+      if (!menu.hidden && !menu.contains(event.target as Node) && !button.contains(event.target as Node)) {
+        setOpen(false);
+      }
+    });
+
+    let lastScrollY = window.scrollY;
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (!menu.hidden && Math.abs(window.scrollY - lastScrollY) > 8) setOpen(false);
+        lastScrollY = window.scrollY;
+      },
+      { passive: true },
+    );
+  })();
+</script>

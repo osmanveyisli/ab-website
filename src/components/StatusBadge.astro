@@ -1,0 +1,21 @@
+---
+import { statusLabel } from "@lib/content";
+import type { Lang, OpportunityStatus } from "@lib/types";
+
+type Props = {
+  status: OpportunityStatus;
+  deadline?: string | null;
+  lang: Lang;
+};
+
+const { status, deadline = null, lang } = Astro.props;
+---
+
+<span
+  class:list={["status-badge", `status-${status}`]}
+  data-status-label
+  data-status-lang={lang}
+  data-status-deadline={deadline || ""}
+>
+  {statusLabel(status, lang)}
+</span>

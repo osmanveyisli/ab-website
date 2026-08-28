@@ -1,0 +1,90 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { languages, localized, ui } from "@lib/i18n";
+import { siteConfig } from "@lib/siteConfig";
+import type { Lang } from "@lib/types";
+
+export function getStaticPaths() {
+  return languages.map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const copy = {
+  az: {
+    eyebrow: "Haqqımızda",
+    title: "AB — Abituriyentlər Birliyi",
+    description:
+      "AB azərbaycanlı şagirdlərə təhsil imkanlarını və vacib tələbə xəbərlərini daha rahat izləməyə kömək edən tələbə platformasıdır.",
+    bodyTitle: "AB nə paylaşır?",
+    sourceTitle: "Rəsmi mənbələr",
+    paragraphs: [
+      "Platformada müsabiqələr, olimpiadalar, təqaüdlər, proqramlar, təcrübələr, tədqiqat imkanları, hakatonlar, universitet tədbirləri və tələbələr üçün vacib təhsil xəbərləri yayımlana bilər.",
+    ],
+    sourceText:
+      "AB imkanları məlumat məqsədilə xülasə edir. Müraciət şərtləri, son tarixlər və yeniliklər hər zaman imkan səhifəsində göstərilən rəsmi mənbə vasitəsilə yoxlanılmalıdır.",
+    socialTitle: "AB icmasına qoşul",
+  },
+  en: {
+    eyebrow: "About",
+    title: "AB — Abituriyentlər Birliyi",
+    description:
+      "AB is a student platform helping Azerbaijani students discover educational opportunities and relevant student news.",
+    bodyTitle: "What AB publishes",
+    sourceTitle: "Official sources",
+    paragraphs: [
+      "AB can publish competitions, olympiads, scholarships, funded programs, internships, research opportunities, hackathons, university events, educational programs, and student-relevant education news.",
+    ],
+    sourceText:
+      "AB summarizes opportunities for informational purposes. Application requirements, deadlines, and updates should always be confirmed through the official source linked on each opportunity page.",
+    socialTitle: "Join the AB community",
+  },
+}[lang];
+---
+
+<BaseLayout
+  lang={lang}
+  title={localized(ui.about, lang)}
+  description={copy.description}
+  canonicalPath={`/${lang}/about/`}
+>
+  <section class="page-hero">
+    <div class="container about-hero">
+      <img class="about-logo" src="/ab-logo.png" alt="AB — Abituriyentlər Birliyi" width="642" height="631" />
+      <div>
+        <p class="eyebrow">{copy.eyebrow}</p>
+        <h1>{copy.title}</h1>
+        <p>{copy.description}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow content-block">
+      <h2>{copy.bodyTitle}</h2>
+      {copy.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+      <h2>{copy.sourceTitle}</h2>
+      <p>{copy.sourceText}</p>
+
+      <h2>{copy.socialTitle}</h2>
+      <div class="social-panel" aria-label={copy.socialTitle}>
+        {
+          siteConfig.instagramUrl ? (
+            <a class="button secondary" href={siteConfig.instagramUrl} target="_blank" rel="noopener noreferrer">
+              {localized(ui.instagram, lang)}
+            </a>
+          ) : null
+        }
+        {
+          siteConfig.whatsappUrl ? (
+            <a class="button secondary" href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer">
+              {localized(ui.whatsapp, lang)}
+            </a>
+          ) : null
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>

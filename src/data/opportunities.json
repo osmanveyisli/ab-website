@@ -1,0 +1,500 @@
+[
+{
+  "slug": "conrad-challenge-2026-2027",
+  "title": {
+    "az": "Conrad Challenge 2026–2027",
+    "en": "Conrad Challenge 2026–2027"
+  },
+  "summary": {
+    "az": "13–18 yaşlı şagirdlər 2–5 nəfərlik komandalarla real problemlərə STEM əsaslı innovativ həll hazırlayaraq beynəlxalq Conrad Challenge müsabiqəsində iştirak edə bilərlər.",
+    "en": "Students aged 13–18 can form teams of 2–5 and develop STEM-based innovations addressing real-world problems in the international Conrad Challenge."
+  },
+  "description": {
+    "az": [
+      "Conrad Challenge, Space Center Houston tərəfindən keçirilən beynəlxalq STEM innovasiya və sahibkarlıq müsabiqəsidir. Müsabiqə şagirdlərə real problemləri müəyyənləşdirmək, innovativ həll hazırlamaq və ideyanı praktik layihəyə çevirmək imkanı verir.",
+      "2026–2027 mövsümünün birinci mərhələsi — Activation Stage — 27 avqust 2026-cı ildə başlayıb və 30 oktyabr 2026-cı ildə başa çatır. Bu mərhələ virtualdır və iştirak üçün ödəniş tələb olunmur.",
+      "Komandalar 13–18 yaşlı 2–5 şagirddən ibarət olmalıdır. Komandaya müəllim, valideyn, sahə üzrə mütəxəssis və ya digər uyğun 18 yaşdan yuxarı şəxs coach kimi qoşulmalıdır. Komanda üzvlərinin eyni məktəbdən, şəhərdən və ya ölkədən olması tələb edilmir.",
+      "İştirakçılar Aerospace and Aviation, Cyber Technology and Security, Energy and Environment, Health and Nutrition və Water Challenge istiqamətlərindən birini seçərək innovasiya ideyası üzərində işləyə bilərlər.",
+      "Activation Stage ödənişsiz olsa da, müsabiqənin sonrakı Innovation Stage mərhələsi üçün komanda başına ödəniş nəzərdə tutulur. Finala yüksələn iştirakçılar Space Center Houston-da keçirilən Innovation Summit-ə dəvət oluna bilərlər və həmin mərhələ üçün ayrıca iştirak, səyahət və yaşayış xərcləri yarana bilər."
+    ],
+    "en": [
+      "The Conrad Challenge is an international STEM innovation and entrepreneurship competition hosted by Space Center Houston. It gives students the opportunity to identify real-world problems, develop innovative solutions and turn their ideas into viable projects.",
+      "The first phase of the 2026–2027 season, the Activation Stage, began on August 27, 2026 and ends on October 30, 2026. This stage is virtual and has no participation fee.",
+      "Teams must consist of 2–5 students aged 13–18. Each team must also have a coach aged 18 or older, who may be a teacher, parent, subject-matter expert or another qualified mentor. Team members do not need to attend the same school or live in the same city or country.",
+      "Participants may develop innovations in Aerospace and Aviation, Cyber Technology and Security, Energy and Environment, Health and Nutrition, or the Water Challenge.",
+      "Although the Activation Stage is free, later stages of the competition have participation fees. Finalists may be invited to the Innovation Summit at Space Center Houston, which also involves separate participation, travel and accommodation costs."
+    ]
+  },
+  "categories": [
+    "STEM",
+    "Competition",
+    "Innovation"
+  ],
+  "deadline": "2026-10-30",
+  "image": {
+    "src": "/images/conrad-challenge-2026-2027.png",
+    "alt": {
+      "az": "Conrad Challenge iştirakçıları Space Center Houston-da kosmik gəmi qarşısında",
+      "en": "Conrad Challenge participants in front of a spacecraft at Space Center Houston"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Yaş",
+        "en": "Age"
+      },
+      "value": {
+        "az": "13–18 yaş",
+        "en": "Ages 13–18"
+      }
+    },
+    {
+      "label": {
+        "az": "Komanda",
+        "en": "Team"
+      },
+      "value": {
+        "az": "2–5 şagird + 18+ coach",
+        "en": "2–5 students + an 18+ coach"
+      }
+    },
+    {
+      "label": {
+        "az": "Format",
+        "en": "Format"
+      },
+      "value": {
+        "az": "1-ci mərhələ onlayn",
+        "en": "Phase 1 online"
+      }
+    },
+    {
+      "label": {
+        "az": "Ödəniş",
+        "en": "Cost"
+      },
+      "value": {
+        "az": "Activation Stage ödənişsizdir; sonrakı mərhələlər ödənişlidir",
+        "en": "Activation Stage is free; later stages have fees"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "30 oktyabr 2026",
+        "en": "October 30, 2026"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Dünyanın müxtəlif ölkələrindən 13–18 yaşlı şagirdlər 2–5 nəfərlik komanda və 18+ coach ilə iştirak edə bilərlər.",
+    "en": "Students aged 13–18 worldwide may participate in teams of 2–5 with a coach aged 18 or older."
+  },
+  "eligibility": {
+    "az": [
+      "İştirakçılar 13–18 yaş arasında olmalıdır.",
+      "Komanda 2–5 şagirddən ibarət olmalıdır.",
+      "Hər komandada 18 yaşdan yuxarı coach olmalıdır.",
+      "Komanda üzvləri müxtəlif məktəb, şəhər və hətta ölkələrdən ola bilərlər.",
+      "Qeydiyyat zamanı iştirakçı və qanuni nümayəndə müvafiq qayda və şərtlərlə tanış olmalıdır."
+    ],
+    "en": [
+      "Participants must be between 13 and 18 years old.",
+      "Teams must consist of 2–5 students.",
+      "Each team must have a coach aged 18 or older.",
+      "Team members may come from different schools, cities or even countries.",
+      "During registration, participants and their legal guardians must review the applicable rules and terms."
+    ]
+  },
+  "organizer": "Space Center Houston — Conrad Challenge",
+  "officialUrl": "https://conrad.spacecenter.org/the-challenge/activation-stage/",
+  "officialCta": {
+    "az": "Rəsmi səhifəyə keç",
+    "en": "Visit official page"
+  },
+  "dateAdded": "2026-08-28",
+  "lastVerified": "2026-08-28"
+},
+{
+  "slug": "immerse-education-essay-competition-2027",
+  "title": {
+    "az": "Immerse Education Essay Competition 2027",
+    "en": "Immerse Education Essay Competition 2027"
+  },
+  "summary": {
+    "az": "13–18 yaşlı şagirdlər üçün ödənişsiz beynəlxalq esse müsabiqəsində iştirakçılar 500 sözlük akademik esse təqdim edərək Immerse Education proqramları üçün 100%-dək təqaüd qazana bilərlər.",
+    "en": "In this free international essay competition for students aged 13–18, participants submit a 500-word academic essay for the chance to earn scholarships of up to 100% toward Immerse Education programmes."
+  },
+  "description": {
+    "az": [
+      "Immerse Education Essay Competition 2027 dünyanın müxtəlif ölkələrindən 13–18 yaşlı şagirdlər üçün açıq beynəlxalq akademik esse müsabiqəsidir.",
+      "İştirakçılar müsabiqə üçün təqdim olunan mövzulardan birini seçərək 500 sözlük akademik esse hazırlayırlar. Mövzular süni intellekt, riyaziyyat, mühəndislik, biznes, hüquq, tibb və digər akademik sahələri əhatə edir.",
+      "Esselər tədqiqat və sübutlardan istifadə, tənqidi analiz, struktur, söz seçimi, qrammatika və punktuasiya kimi meyarlar əsasında qiymətləndirilir.",
+      "Müsabiqədə iştirak ödənişsizdir və dünyanın müxtəlif ölkələrindən uyğun yaşda olan şagirdlər iştirak edə bilərlər.",
+      "10 qalib Immerse Education proqramları üçün 100% təqaüd, digər yüksək nəticə göstərən iştirakçılar isə 50–75% qismən təqaüd qazana bilərlər."
+    ],
+    "en": [
+      "The Immerse Education Essay Competition 2027 is an international academic essay competition open to students aged 13–18 from around the world.",
+      "Participants choose from the competition's available questions and prepare a 500-word academic essay. Subjects include artificial intelligence, mathematics, engineering, business, law, medicine and other academic fields.",
+      "Essays are assessed on criteria including research and evidence, critical analysis, structure, word choice, grammar and punctuation.",
+      "Participation is free and eligible students from countries around the world can enter.",
+      "Ten winners can receive 100% scholarships toward Immerse Education programmes, while other high-performing entrants may receive partial scholarships of 50–75%."
+    ]
+  },
+  "categories": [
+    "Competition",
+    "Scholarship",
+    "International"
+  ],
+  "deadline": "2026-10-25",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "İştirak haqqı",
+        "en": "Participation fee"
+      },
+      "value": {
+        "az": "Ödənişsiz",
+        "en": "Free"
+      }
+    },
+    {
+      "label": {
+        "az": "Yaş",
+        "en": "Age"
+      },
+      "value": {
+        "az": "13–18 yaş",
+        "en": "Ages 13–18"
+      }
+    },
+    {
+      "label": {
+        "az": "Esse həcmi",
+        "en": "Essay length"
+      },
+      "value": {
+        "az": "500 söz",
+        "en": "500 words"
+      }
+    },
+    {
+      "label": {
+        "az": "Mükafat",
+        "en": "Award"
+      },
+      "value": {
+        "az": "100%-dək Immerse Education proqram təqaüdü",
+        "en": "Up to 100% scholarship toward an Immerse Education programme"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Dünyanın istənilən ölkəsindən proqramların başladığı vaxt 13–18 yaş aralığında olacaq şagirdlər.",
+    "en": "Students worldwide who will be aged 13–18 when the programmes covered by the scholarships begin."
+  },
+  "eligibility": {
+    "az": "Müsabiqə dünyanın istənilən ölkəsindən 13–18 yaşlı şagirdlər üçün açıqdır. Rəsmi qaydalara əsasən, iştirakçı təqaüdün istifadə oluna biləcəyi proqram başladığı vaxt 13–18 yaş aralığında olmalıdır. Hər iştirakçı yalnız bir esse təqdim edə bilər.",
+    "en": "The competition is open to students aged 13–18 worldwide. According to the official eligibility rules, entrants must be aged 13–18 when the programmes for which the scholarships are valid begin. Each participant may submit only one essay."
+  },
+  "organizer": "Immerse Education",
+  "officialUrl": "https://www.immerse.education/about/programmes/immerse-essay-competition",
+  "officialCta": {
+    "az": "Rəsmi müsabiqə səhifəsinə keç ↗",
+    "en": "Visit official competition page ↗"
+  },
+  "image": {
+    "src": "/images/immerse-education-essay-competition-2027.png",
+    "alt": {
+      "az": "Immerse Education Essay Competition 2027",
+      "en": "Immerse Education Essay Competition 2027"
+    }
+  },
+  "dateAdded": "2026-08-28",
+  "lastVerified": "2026-08-28",
+  "featured": false,
+  "isDemo": false
+},
+{
+  "slug": "wharton-investment-competition-2026-27",
+  "title": {
+    "az": "Wharton Global High School Investment Competition 2026–27",
+    "en": "Wharton Global High School Investment Competition 2026–27"
+  },
+  "summary": {
+    "az": "9–12-ci sinif şagirdləri üçün Wharton School tərəfindən təşkil olunan ödənişsiz beynəlxalq investisiya müsabiqəsində komandalar real müştəri ssenarisi əsasında investisiya strategiyası hazırlayırlar.",
+    "en": "In this free international investment competition organized by the Wharton School, teams of students in grades 9–12 develop an investment strategy based on a real-world client scenario."
+  },
+  "description": {
+    "az": [
+      "Wharton Global High School Investment Competition University of Pennsylvania-nın Wharton School nəzdində fəaliyyət göstərən Wharton Global Youth Program tərəfindən təşkil olunur.",
+      "Müsabiqə 9–12-ci sinif şagirdləri üçün nəzərdə tutulub və iştirakçılar müəllim və ya məktəb məsləhətçisinin rəhbərliyi altında komanda şəklində iştirak edirlər.",
+      "Komandalar verilmiş müştəri ssenarisi əsasında investisiya strategiyası hazırlayır, şirkət və sənaye sahələrini araşdırır, risk və diversifikasiya kimi anlayışları tətbiq edir və investisiya simulyatorunda portfel qərarlarını sınaqdan keçirirlər.",
+      "Müsabiqədə iştirak ödənişsizdir və dünyanın müxtəlif ölkələrindən məktəb komandaları iştirak edə bilər.",
+      "Qeydiyyat komandanın müəllim və ya uyğun məktəb məsləhətçisi tərəfindən həyata keçirilməlidir."
+    ],
+    "en": [
+      "The Wharton Global High School Investment Competition is organized by the Wharton Global Youth Program at the University of Pennsylvania's Wharton School.",
+      "The competition is designed for students in grades 9–12, who participate as a team under the guidance of a teacher or eligible school advisor.",
+      "Teams develop an investment strategy based on a client scenario, research companies and industries, apply concepts such as risk and diversification, and test portfolio decisions using an investment simulator.",
+      "Participation is free and school teams from countries around the world can take part.",
+      "Registration must be completed by the team's teacher or eligible school advisor."
+    ]
+  },
+  "categories": [
+    "Business",
+    "Competition",
+    "International"
+  ],
+  "deadline": "2026-09-11",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "İştirak haqqı",
+        "en": "Participation fee"
+      },
+      "value": {
+        "az": "Ödənişsiz",
+        "en": "Free"
+      }
+    },
+    {
+      "label": {
+        "az": "Siniflər",
+        "en": "Grades"
+      },
+      "value": {
+        "az": "9–12-ci sinif",
+        "en": "Grades 9–12"
+      }
+    },
+    {
+      "label": {
+        "az": "İştirak formatı",
+        "en": "Participation format"
+      },
+      "value": {
+        "az": "Məktəb komandası və müəllim/məsləhətçi ilə",
+        "en": "School team with a teacher/advisor"
+      }
+    },
+    {
+      "label": {
+        "az": "Əsas istiqamətlər",
+        "en": "Main focus"
+      },
+      "value": {
+        "az": "İnvestisiya strategiyası, maliyyə analizi və portfel idarəetməsi",
+        "en": "Investment strategy, financial analysis and portfolio management"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "9–12-ci sinif şagirdləri; komanda müəllim və ya uyğun məktəb məsləhətçisi ilə iştirak etməlidir.",
+    "en": "Students in grades 9–12; teams must participate with a teacher or eligible school advisor."
+  },
+  "eligibility": {
+    "az": "Müsabiqə 9–12-ci sinif şagirdləri üçün açıqdır. İştirak məktəb komandası şəklində həyata keçirilir və komandaya müəllim və ya uyğun məktəb məsləhətçisi rəhbərlik etməlidir. Beynəlxalq məktəb komandaları da iştirak edə bilər.",
+    "en": "The competition is open to students in grades 9–12. Students participate as a school team guided by a teacher or eligible school advisor. International school teams are also eligible to participate."
+  },
+  "organizer": "Wharton Global Youth Program, University of Pennsylvania",
+  "officialUrl": "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/",
+  "officialCta": {
+    "az": "Rəsmi müsabiqə səhifəsinə keç ↗",
+    "en": "Visit official competition page ↗"
+  },
+  "image": {
+    "src": "/images/wharton-investment-competition-2026-27.png",
+    "alt": {
+      "az": "Wharton Global High School Investment Competition iştirakçıları",
+      "en": "Wharton Global High School Investment Competition participants"
+    }
+  },
+  "dateAdded": "2026-08-27",
+  "lastVerified": "2026-08-27",
+  "featured": false,
+  "isDemo": false
+},
+  {
+    "slug": "nasa-space-apps-2026",
+    "title": {
+      "az": "NASA Space Apps 2026",
+      "en": "NASA Space Apps 2026"
+    },
+    "summary": {
+      "az": "NASA-nın qlobal Space Apps Challenge hakatonu üçün qeydiyyat açılıb. İştirakçılar NASA və tərəfdaş kosmik agentliklərin məlumatlarından istifadə edərək real problemlər üçün layihələr hazırlayırlar.",
+      "en": "Registration is open for NASA's global Space Apps Challenge hackathon. Participants use data from NASA and partner space agencies to build projects for real-world problems."
+    },
+    "description": {
+      "az": [
+        "NASA Space Apps Challenge 14-15 noyabr 2026 tarixlərində keçirilən qlobal hakatondur. İştirakçılar NASA və tərəfdaş kosmik agentliklərin açıq məlumatlarından istifadə edərək real problemlər üçün layihələr hazırlayırlar.",
+        "Hakaton bütün yaş və bacarıq səviyyələri üçün açıqdır. Lokal tədbir olmadıqda virtual Universal Event-ə qoşulmaq mümkündür. İştirak pulsuzdur və komandalar maksimum 6 nəfərdən ibarət ola bilər.",
+        "18 yaşdan aşağı iştirakçılar üçün valideyn və ya qanuni nümayəndə ilə bağlı əlavə qaydalar mövcuddur. Müraciət etməzdən əvvəl bütün iştirak şərtlərini rəsmi qeydiyyat səhifəsində yoxlayın."
+      ],
+      "en": [
+        "NASA Space Apps Challenge is a global hackathon taking place on 14-15 November 2026. Participants use open data from NASA and partner space agencies to build projects addressing real-world problems.",
+        "The hackathon is open to all ages and skill levels. If there is no local event available, participants can join the virtual Universal Event. Participation is free, and teams may include up to 6 people.",
+        "Participants under 18 should review the parent or legal guardian rules. Before applying, confirm all participation requirements on the official registration page."
+      ]
+    },
+    "categories": ["Hackathon", "STEM", "Space", "Technology"],
+    "deadline": null,
+    "imagePosition": "center top",
+    "detailFacts": [
+      {
+        "label": {
+          "az": "Tarix",
+          "en": "Date"
+        },
+        "value": {
+          "az": "14-15 noyabr 2026",
+          "en": "14-15 November 2026"
+        }
+      },
+      {
+        "label": {
+          "az": "İştirak haqqı",
+          "en": "Participation cost"
+        },
+        "value": {
+          "az": "Pulsuz",
+          "en": "Free"
+        }
+      },
+      {
+        "label": {
+          "az": "Komanda ölçüsü",
+          "en": "Team size"
+        },
+        "value": {
+          "az": "Maksimum 6 nəfər",
+          "en": "Up to 6 people"
+        }
+      },
+      {
+        "label": {
+          "az": "İştirak formatı",
+          "en": "Participation format"
+        },
+        "value": {
+          "az": "Lokal tədbir və ya virtual Universal Event",
+          "en": "Local event or virtual Universal Event"
+        }
+      }
+    ],
+    "eligibilitySummary": {
+      "az": "Bütün yaş və bacarıq səviyyələri üçün açıqdır.",
+      "en": "Open to all ages and skill levels."
+    },
+    "eligibility": {
+      "az": "NASA Space Apps 2026 bütün yaş və bacarıq səviyyələri üçün açıqdır. 18 yaşdan aşağı iştirakçılar rəsmi qaydalarda göstərilən valideyn və ya qanuni nümayəndə tələblərini yoxlamalıdırlar.",
+      "en": "NASA Space Apps 2026 is open to all ages and skill levels. Participants under 18 should check the official rules for parent or legal guardian requirements."
+    },
+    "organizer": "NASA Space Apps Challenge",
+    "officialUrl": "https://www.spaceappschallenge.org/2026/",
+    "image": {
+      "src": "/images/nasa-space-apps-2026.png",
+      "alt": {
+        "az": "NASA Space Apps Challenge tədbirində iştirakçılar",
+        "en": "Participants at a NASA Space Apps Challenge event"
+      }
+    },
+    "dateAdded": "2026-08-27",
+    "lastVerified": "2026-08-27",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "slug": "breakthrough-junior-challenge-2026",
+    "title": {
+      "az": "Breakthrough Junior Challenge 2026",
+      "en": "Breakthrough Junior Challenge 2026"
+    },
+    "summary": {
+      "az": "Fizika, riyaziyyat və ya həyat elmlərindən çətin bir anlayışı maksimum 2 dəqiqəlik ingiliscə video ilə izah et.",
+      "en": "Students aged 13-18 explain a difficult concept from physics, mathematics, or life sciences in an English video of no more than 2 minutes."
+    },
+    "description": {
+      "az": [
+        "13-18 yaşlı şagirdlər üçün Breakthrough Junior Challenge 2026 müraciətləri davam edir.",
+        "Tapşırıq fizika, riyaziyyat və ya həyat elmlərindən çətin bir anlayışı maksimum 2 dəqiqəlik ingiliscə video ilə izah etməkdir.",
+        "Əsas mükafatlar: şagirdə $250,000 universitet təqaüdü, müəllimə $50,000, məktəbə $100,000 dəyərində elmi laboratoriya.",
+        "Müraciətdən sonra 17-30 sentyabr tarixlərində ən azı 5 digər videonu qiymətləndirmək məcburidir."
+      ],
+      "en": [
+        "Applications are open for Breakthrough Junior Challenge 2026 for students aged 13-18.",
+        "The task is to explain a difficult concept from physics, mathematics, or life sciences in an English video of no more than 2 minutes.",
+        "Main prizes: a $250,000 university scholarship for the student, $50,000 for the teacher, and a $100,000 science lab for the school.",
+        "After applying, participants must review at least 5 other videos between 17-30 September."
+      ]
+    },
+    "categories": ["STEM", "Competition", "Scholarship"],
+    "deadline": "2026-09-15",
+    "imagePosition": "center top",
+    "detailFacts": [
+      {
+        "label": {
+          "az": "Dəqiq son tarix",
+          "en": "Exact deadline"
+        },
+        "value": {
+          "az": "15 sentyabr 2026, 23:59 PDT",
+          "en": "15 September 2026, 23:59 PDT"
+        }
+      },
+      {
+        "label": {
+          "az": "Video dili və müddəti",
+          "en": "Video language and length"
+        },
+        "value": {
+          "az": "İngiliscə, maksimum 2 dəqiqə",
+          "en": "English, no more than 2 minutes"
+        }
+      },
+      {
+        "label": {
+          "az": "Müraciətdən sonra",
+          "en": "After applying"
+        },
+        "value": {
+          "az": "17-30 sentyabr tarixlərində ən azı 5 digər videonu qiymətləndirmək məcburidir",
+          "en": "Participants must review at least 5 other videos between 17-30 September"
+        }
+      }
+    ],
+    "eligibilitySummary": {
+      "az": "13-18 yaşlı şagirdlər.",
+      "en": "Students aged 13-18."
+    },
+    "eligibility": {
+      "az": "13-18 yaşlı şagirdlər üçün açıqdır.",
+      "en": "Open to students aged 13-18."
+    },
+    "organizer": "Breakthrough Junior Challenge",
+    "officialUrl": "https://breakthroughjuniorchallenge.org/",
+    "officialCta": {
+      "az": "Rəsmi müraciət səhifəsinə keç ↗",
+      "en": "Visit official application page ↗"
+    },
+    "image": {
+      "src": "/images/breakthrough-junior-challenge-2026.png",
+      "alt": {
+        "az": "Breakthrough Junior Challenge 2026 üçün rəsmi vizual",
+        "en": "Official visual for Breakthrough Junior Challenge 2026"
+      }
+    },
+    "dateAdded": "2026-08-27",
+    "lastVerified": "2026-08-27",
+    "featured": false,
+    "isDemo": false
+  }
+]
