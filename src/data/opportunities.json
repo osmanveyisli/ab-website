@@ -1,8 +1,130 @@
 [
 {
+  "slug": "lsesu-economics-society-essay-competition-2026",
+  "title": {
+    "az": "LSESU Economics Society Essay Competition 2026",
+    "en": "LSESU Economics Society Essay Competition 2026"
+  },
+  "summary": {
+    "az": "Dünyanın müxtəlif ölkələrindən uyğun yuxarı sinif şagirdləri LSESU Economics Society-nin 2026 esse müsabiqəsində beş iqtisadiyyat mövzusundan biri üzrə 1500 sözədək ingiliscə esse təqdim edə bilərlər.",
+    "en": "Eligible senior secondary students worldwide can enter the LSESU Economics Society's 2026 essay competition by submitting an English essay of up to 1,500 words on one of five economics questions."
+  },
+  "description": {
+    "az": [
+      "LSESU Economics Society Essay Competition London School of Economics and Political Science-in tələbə İqtisadiyyat Cəmiyyəti tərəfindən ASEEDER ilə əməkdaşlıq çərçivəsində keçirilən beynəlxalq akademik esse müsabiqəsidir.",
+      "2026-cı il müsabiqəsi hazırda müraciətləri qəbul edir və son təqdimetmə tarixi 1 sentyabr 2026-cı il saat 23:59-dur (GMT+1). Gecikmiş işlər qəbul edilmir.",
+      "İştirakçılar təqdim olunan beş iqtisadiyyat sualından yalnız birini seçərək bir esse təqdim edə bilərlər. Esse ingilis dilində yazılmalı və maksimum 1500 sözdən ibarət olmalıdır.",
+      "Rəsmi qaydalara əsasən müsabiqə dünyanın müxtəlif ölkələrindən, xüsusilə orta məktəbin sondan əvvəlki və son ilini yeni tamamlamış şagirdlər və 2026/27 akademik ilində universitetə başlayacaq şəxslər üçün nəzərdə tutulub.",
+      "Plagiat və süni intellekt tərəfindən yaradılmış məzmun qadağandır. Mükafatlar arasında LSESU Economics Society rəhbərliyi tərəfindən imzalanmış sertifikatlar və müxtəlif Amazon hədiyyə kartları nəzərdə tutulur."
+    ],
+    "en": [
+      "The LSESU Economics Society Essay Competition is an international academic essay competition run by the London School of Economics Students' Union Economics Society in partnership with ASEEDER.",
+      "The 2026 competition is currently accepting submissions, with a final deadline of September 1, 2026 at 23:59 GMT+1. Late submissions are not accepted.",
+      "Entrants choose one of five economics questions and may submit only one essay. Essays must be written in English and may contain up to 1,500 words.",
+      "According to the official rules, the competition accepts students globally and is particularly recommended for students who have just completed their penultimate or final year of secondary school and those entering university in the 2026/27 academic year.",
+      "Plagiarism and AI-generated content are prohibited. Awards include certificates signed by LSESU Economics Society leadership and various Amazon gift cards."
+    ]
+  },
+  "categories": [
+    "Essay",
+    "Economics",
+    "International"
+  ],
+  "deadline": "2026-09-01",
+  "image": {
+    "src": "/images/lsesu-economics-society-essay-competition-2026.png",
+    "alt": {
+      "az": "LSESU Economics Society Essay Competition 2026 üçün AB vizualı",
+      "en": "AB visual for the LSESU Economics Society Essay Competition 2026"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Format",
+        "en": "Format"
+      },
+      "value": {
+        "az": "Onlayn esse təqdimatı",
+        "en": "Online essay submission"
+      }
+    },
+    {
+      "label": {
+        "az": "Esse",
+        "en": "Essay"
+      },
+      "value": {
+        "az": "Maksimum 1500 söz, ingilis dilində",
+        "en": "Maximum 1,500 words, in English"
+      }
+    },
+    {
+      "label": {
+        "az": "Ödəniş",
+        "en": "Cost"
+      },
+      "value": {
+        "az": "Pulsuz",
+        "en": "Free"
+      }
+    },
+    {
+      "label": {
+        "az": "Mövzular",
+        "en": "Questions"
+      },
+      "value": {
+        "az": "5 sualdan 1-i seçilir",
+        "en": "Choose 1 of 5 questions"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "1 sentyabr 2026, 23:59 GMT+1",
+        "en": "September 1, 2026, 23:59 GMT+1"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Dünyanın müxtəlif ölkələrindən uyğun yuxarı sinif şagirdləri və 2026/27-ci ildə universitetə başlayacaq şəxslər müraciət edə bilərlər.",
+    "en": "Eligible senior secondary students worldwide and students entering university in 2026/27 may participate."
+  },
+  "eligibility": {
+    "az": [
+      "İştirakçılar dünyanın müxtəlif ölkələrindən ola bilərlər.",
+      "Müsabiqə xüsusilə orta məktəbin sondan əvvəlki və ya son ilini yeni tamamlamış şagirdlər üçün tövsiyə olunur.",
+      "2026/27 akademik ilində universitetə başlayacaq şəxslər də uyğun ola bilərlər.",
+      "Hər iştirakçı yalnız bir sual üzrə bir esse təqdim edə bilər.",
+      "Esse ingilis dilində olmalı və plagiat və AI-generated məzmun ehtiva etməməlidir."
+    ],
+    "en": [
+      "Participants may come from countries worldwide.",
+      "The competition is particularly recommended for students who have just completed their penultimate or final year of secondary school.",
+      "Students entering university in the 2026/27 academic year may also be eligible.",
+      "Each entrant may submit one essay responding to one question.",
+      "The essay must be in English and must not contain plagiarism or AI-generated content."
+    ]
+  },
+  "organizer": "LSESU Economics Society — in partnership with ASEEDER",
+  "officialUrl": "https://lsesueconsoc.org/competitions",
+  "officialCta": {
+    "az": "Rəsmi müsabiqə səhifəsinə keç",
+    "en": "Visit official competition page"
+  },
+  "dateAdded": "2026-08-29",
+  "lastVerified": "2026-08-29"
+},
+{
   "slug": "conrad-challenge-2026-2027",
   "title": {
-    "az": "Conrad Challenge 2026–2027",
+    "az": "onrad Challenge 2026–2027",
     "en": "Conrad Challenge 2026–2027"
   },
   "summary": {
