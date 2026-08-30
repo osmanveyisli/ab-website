@@ -1,0 +1,376 @@
+---
+import { studentTestimonials } from "@data/testimonials";
+import type { Lang } from "@lib/types";
+
+type Props = {
+  lang: Lang;
+  variant?: "editorial" | "hero";
+};
+
+const { lang, variant = "editorial" } = Astro.props;
+const sliderId = `student-reviews-${lang}`;
+const copy = {
+  az: {
+    eyebrow: "RƏYLƏR",
+    region: "Şagird rəyləri",
+    previous: "Əvvəlki rəy",
+    next: "Növbəti rəy",
+    dot: "Rəyə keç",
+    ageLabel: "yaş",
+  },
+  en: {
+    eyebrow: "REVIEWS",
+    region: "Student reviews",
+    previous: "Previous review",
+    next: "Next review",
+    dot: "Go to review",
+    ageLabel: "Age",
+  },
+}[lang];
+
+const testimonials = studentTestimonials.map((testimonial) => testimonial[lang]);
+---
+
+<aside class:list={["testimonial-slider", variant === "hero" && "testimonial-slider-hero"]} aria-label={copy.region} data-testimonial-slider>
+  <p class="eyebrow" id={sliderId}>{copy.eyebrow}</p>
+
+  <div class="testimonial-viewport" aria-live="polite">
+    {
+      testimonials.map((testimonial, index) => (
+        <figure
+          class:list={["testimonial-slide", index === 0 && "is-active"]}
+          data-testimonial-slide
+          aria-hidden={index === 0 ? "false" : "true"}
+          hidden={index !== 0}
+        >
+          <span class="testimonial-mark" aria-hidden="true">“</span>
+          <blockquote>{testimonial.quote}</blockquote>
+          <figcaption>
+            {testimonial.name && <strong>{testimonial.name}</strong>}
+            <span>{lang === "az" ? `${testimonial.age} ${copy.ageLabel} · ${testimonial.city}` : `${copy.ageLabel} ${testimonial.age} · ${testimonial.city}`}</span>
+          </figcaption>
+        </figure>
+      ))
+    }
+  </div>
+
+  <div class="testimonial-controls">
+    <button type="button" class="testimonial-arrow" data-testimonial-prev aria-label={copy.previous}>
+      <span aria-hidden="true">‹</span>
+    </button>
+    <div class="testimonial-dots" aria-label={copy.region}>
+      {
+        testimonials.map((_, index) => (
+          <button
+            type="button"
+            class:list={["testimonial-dot", index === 0 && "is-active"]}
+            data-testimonial-dot={index}
+            aria-label={`${copy.dot} ${index + 1}`}
+            aria-current={index === 0 ? "true" : "false"}
+          />
+        ))
+      }
+    </div>
+    <button type="button" class="testimonial-arrow" data-testimonial-next aria-label={copy.next}>
+      <span aria-hidden="true">›</span>
+    </button>
+  </div>
+</aside>
+
+<script>
+  const sliders = document.querySelectorAll<HTMLElement>("[data-testimonial-slider]");
+
+  sliders.forEach((slider) => {
+    const slides = Array.from(slider.querySelectorAll<HTMLElement>("[data-testimonial-slide]"));
+    const dots = Array.from(slider.querySelectorAll<HTMLButtonElement>("[data-testimonial-dot]"));
+    const previousButton = slider.querySelector<HTMLButtonElement>("[data-testimonial-prev]");
+    const nextButton = slider.querySelector<HTMLButtonElement>("[data-testimonial-next]");
+    const intervalMs = 6000;
+    let activeIndex = 0;
+    let intervalId: number | undefined;
+    let isPaused = false;
+
+    if (slides.length < 2 || !previousButton || !nextButton) return;
+
+    function showSlide(nextIndex: number) {
+      const normalizedIndex = (nextIndex + slides.length) % slides.length;
+      if (normalizedIndex === activeIndex) return;
+
+      slides[activeIndex].classList.remove("is-active");
+      slides[activeIndex].setAttribute("aria-hidden", "true");
+      slides[activeIndex].hidden = true;
+      dots[activeIndex]?.classList.remove("is-active");
+      dots[activeIndex]?.setAttribute("aria-current", "false");
+
+      slides[normalizedIndex].hidden = false;
+      slides[normalizedIndex].setAttribute("aria-hidden", "false");
+      slides[normalizedIndex].classList.add("is-active");
+      dots[normalizedIndex]?.classList.add("is-active");
+      dots[normalizedIndex]?.setAttribute("aria-current", "true");
+
+      activeIndex = normalizedIndex;
+    }
+
+    function stopRotation() {
+      if (intervalId) {
+        window.clearInterval(intervalId);
+        intervalId = undefined;
+      }
+    }
+
+    function startRotation() {
+      stopRotation();
+      if (isPaused) return;
+      intervalId = window.setInterval(() => showSlide(activeIndex + 1), intervalMs);
+    }
+
+    function resetRotation() {
+      startRotation();
+    }
+
+    previousButton.addEventListener("click", () => {
+      showSlide(activeIndex - 1);
+      resetRotation();
+    });
+
+    nextButton.addEventListener("click", () => {
+      showSlide(activeIndex + 1);
+      resetRotation();
+    });
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener("click", () => {
+        showSlide(index);
+        resetRotation();
+      });
+    });
+
+    slider.addEventListener("mouseenter", () => {
+      isPaused = true;
+      stopRotation();
+    });
+
+    slider.addEventListener("mouseleave", () => {
+      isPaused = false;
+      startRotation();
+    });
+
+    slider.addEventListener("focusin", () => {
+      isPaused = true;
+      stopRotation();
+    });
+
+    slider.addEventListener("focusout", () => {
+      window.setTimeout(() => {
+        if (slider.contains(document.activeElement)) return;
+        isPaused = false;
+        startRotation();
+      }, 0);
+    });
+
+    startRotation();
+  });
+</script>
+
+<style>
+  .testimonial-slider {
+    display: grid;
+    min-width: 0;
+    max-width: 380px;
+    gap: 14px;
+    align-self: center;
+    padding: 4px 0;
+  }
+
+  .testimonial-slider-hero {
+    width: min(100%, 430px);
+    max-width: none;
+    min-height: 0;
+    gap: 10px;
+    justify-self: end;
+    border: 1px solid #cfdedf;
+    border-radius: 16px;
+    background: #f7fbfb;
+    box-shadow: 0 6px 14px rgba(8, 20, 38, 0.035);
+    padding: 23px 26px 19px;
+  }
+
+  .testimonial-slider-hero > .eyebrow {
+    margin-bottom: 0;
+  }
+
+  .testimonial-viewport {
+    overflow: hidden;
+  }
+
+  .testimonial-slide {
+    margin: 0;
+    padding: 0;
+  }
+
+  .testimonial-slide.is-active {
+    animation: testimonial-enter 380ms ease;
+  }
+
+  .testimonial-slider-hero .testimonial-slide.is-active {
+    animation: testimonial-hero-enter 400ms ease;
+  }
+
+  .testimonial-mark {
+    display: block;
+    height: 32px;
+    color: rgba(34, 107, 114, 0.72);
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 0.9;
+  }
+
+  .testimonial-slider-hero .testimonial-mark {
+    height: 26px;
+    color: rgba(34, 107, 114, 0.68);
+    font-size: 3rem;
+    line-height: 0.72;
+  }
+
+  .testimonial-slide blockquote {
+    margin: 6px 0 0;
+    color: var(--navy);
+    font-size: clamp(1.06rem, 1.4vw, 1.18rem);
+    font-weight: 500;
+    line-height: 1.52;
+  }
+
+  .testimonial-slider-hero .testimonial-slide blockquote {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    margin-top: 8px;
+    font-size: clamp(1.06rem, 1.35vw, 1.16rem);
+    font-weight: 500;
+    line-height: 1.46;
+  }
+
+  .testimonial-slide figcaption {
+    display: grid;
+    gap: 3px;
+    margin-top: 16px;
+  }
+
+  .testimonial-slide figcaption strong {
+    color: var(--navy);
+    font-size: 0.92rem;
+    font-weight: 650;
+    line-height: 1.25;
+  }
+
+  .testimonial-slide figcaption span {
+    color: var(--muted);
+    font-size: 0.84rem;
+    font-weight: 650;
+    line-height: 1.3;
+  }
+
+  .testimonial-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .testimonial-slider-hero .testimonial-controls {
+    margin-top: 2px;
+  }
+
+  .testimonial-arrow {
+    display: inline-grid;
+    min-width: 32px;
+    min-height: 30px;
+    flex: 0 0 auto;
+    place-items: center;
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 1.45rem;
+    line-height: 1;
+    opacity: 0.58;
+    padding: 3px 7px;
+  }
+
+  .testimonial-slider:hover .testimonial-arrow,
+  .testimonial-slider:focus-within .testimonial-arrow,
+  .testimonial-arrow:hover,
+  .testimonial-arrow:focus-visible {
+    color: var(--teal);
+    opacity: 1;
+  }
+
+  .testimonial-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .testimonial-dot {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #9fb5b8;
+    border-radius: 999px;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .testimonial-dot.is-active {
+    background: var(--teal);
+  }
+
+  @keyframes testimonial-enter {
+    from {
+      opacity: 0;
+      transform: translateX(14px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes testimonial-hero-enter {
+    from {
+      opacity: 0;
+      transform: translateX(12px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @media (max-width: 860px) {
+    .testimonial-slider {
+      width: 100%;
+      max-width: none;
+      gap: 12px;
+      padding: 8px 0 0;
+    }
+
+    .testimonial-slider-hero {
+      width: 100%;
+      min-height: 0;
+      border-radius: 14px;
+      padding: 22px 21px 19px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .testimonial-slide.is-active,
+    .testimonial-slider-hero .testimonial-slide.is-active {
+      animation: none;
+    }
+  }
+</style>

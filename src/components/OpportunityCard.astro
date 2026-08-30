@@ -10,12 +10,14 @@ type Props = {
   lang: Lang;
   compact?: boolean;
   hideExpiredByDefault?: boolean;
+  stripSummaryTerminalPeriod?: boolean;
 };
 
-const { opportunity, lang, compact = false, hideExpiredByDefault = false } = Astro.props;
+const { opportunity, lang, compact = false, hideExpiredByDefault = false, stripSummaryTerminalPeriod = false } = Astro.props;
 const status = getOpportunityStatus(opportunity.deadline);
 const title = localized(opportunity.title, lang);
-const summary = localized(opportunity.summary, lang);
+const stripFinalPeriod = (value: string) => (value.endsWith(".") && !value.endsWith("..") ? value.slice(0, -1) : value);
+const summary = stripSummaryTerminalPeriod ? stripFinalPeriod(localized(opportunity.summary, lang)) : localized(opportunity.summary, lang);
 const eligibilitySummary = localized(opportunity.eligibilitySummary, lang);
 const searchText = localizedOpportunitySearchText(opportunity, lang);
 const primaryCategory = opportunity.categories[0] ? categoryLabel(opportunity.categories[0], lang) : "";

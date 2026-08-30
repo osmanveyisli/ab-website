@@ -417,10 +417,7 @@ h3 {
 }
 
 .featured-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  gap: 24px;
-  align-items: start;
+  display: block;
 }
 
 .featured-primary {
@@ -1108,7 +1105,6 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .featured-layout,
   .featured-primary,
   .home-news-layout {
     grid-template-columns: 1fr;
@@ -1184,6 +1180,23 @@ h3 {
   .page-hero,
   .coming-soon {
     padding: 28px 0;
+  }
+}
+
+@media (min-width: 941px) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1.5fr) minmax(360px, 0.95fr);
+    gap: clamp(60px, 7vw, 92px);
+  }
+}
+
+@media (max-width: 940px) {
+  .hero-grid {
+    gap: 38px;
+  }
+
+  .hero-grid .testimonial-slider-hero {
+    justify-self: start;
   }
 }
 

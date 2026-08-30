@@ -2,8 +2,9 @@
 import NewsCard from "@components/NewsCard.astro";
 import OpportunityCard from "@components/OpportunityCard.astro";
 import StatusBadge from "@components/StatusBadge.astro";
+import TestimonialSlider from "@components/TestimonialSlider.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
-import { categoryLabel, languages, localized, ui } from "@lib/i18n";
+import { languages, localized, ui } from "@lib/i18n";
 import { formatDate, getFeaturedOpportunities, getNewestNews, getNewestOpportunities, getOpportunityStatus } from "@lib/content";
 import { hasContentImage, imageObjectPosition } from "@lib/contentImages";
 import type { Lang } from "@lib/types";
@@ -18,7 +19,6 @@ export function getStaticPaths() {
 const { lang } = Astro.props as { lang: Lang };
 const featured = getFeaturedOpportunities();
 const featuredPrimary = featured[0];
-const featuredSecondary = featured.slice(1, 3);
 const featuredPrimaryStatus = featuredPrimary ? getOpportunityStatus(featuredPrimary.deadline) : null;
 const featuredPrimaryHasImage = featuredPrimary ? hasContentImage(featuredPrimary.image) : false;
 const newestOpportunities = getNewestOpportunities(3);
@@ -30,23 +30,24 @@ const mainNewsHasImage = mainNews ? hasContentImage(mainNews.image) : false;
 const intro = {
   az: {
     eyebrow: "Azərbaycanlı şagirdlər üçün",
-    title: "Azərbaycanlı şagirdlər üçün imkanları bir yerdə tap.",
+    title: "Azərbaycanlı şagirdlər üçün imkanları bir yerdə tap",
     description:
-      "AB müsabiqələr, təqaüdlər, olimpiadalar, proqramlar, təcrübələr və vacib təhsil xəbərlərini aydın formada paylaşır.",
+      "AB müsabiqələr, təqaüdlər, olimpiadalar, proqramlar, təcrübələr və vacib təhsil xəbərlərini aydın formada paylaşır",
     cta: "İmkanlara bax",
     secondary: "Xəbərləri oxu",
   },
   en: {
     eyebrow: "For Azerbaijani students",
-    title: "Find opportunities for Azerbaijani students in one place.",
+    title: "Find opportunities for Azerbaijani students in one place",
     description:
-      "AB publishes competitions, scholarships, olympiads, programs, internships, and important education news in a clear format.",
+      "AB publishes competitions, scholarships, olympiads, programs, internships, and important education news in a clear format",
     cta: "Browse opportunities",
     secondary: "Read news",
   },
 };
 
 const copy = intro[lang];
+const stripFinalPeriod = (value: string) => (value.endsWith(".") && !value.endsWith("..") ? value.slice(0, -1) : value);
 ---
 
 <BaseLayout
@@ -66,6 +67,7 @@ const copy = intro[lang];
           <a class="button secondary" href={`/${lang}/news/`}>{copy.secondary}</a>
         </div>
       </div>
+      <TestimonialSlider lang={lang} variant="hero" />
     </div>
   </section>
 
@@ -111,24 +113,10 @@ const copy = intro[lang];
                     <dd>{localized(featuredPrimary.eligibilitySummary, lang)}</dd>
                   </div>
                 </dl>
-                <p>{localized(featuredPrimary.summary, lang)}</p>
+                <p>{stripFinalPeriod(localized(featuredPrimary.summary, lang))}</p>
                 <a class="card-detail-link" href={`/${lang}/opportunities/${featuredPrimary.slug}/`}>{localized(ui.viewDetails, lang)}</a>
               </div>
             </article>
-
-            {
-              featuredSecondary.length > 0 && (
-                <div class="featured-secondary-list">
-                  {featuredSecondary.map((opportunity) => (
-                    <a href={`/${lang}/opportunities/${opportunity.slug}/`}>
-                      <span>{opportunity.deadline ? formatDate(opportunity.deadline, lang) : localized(ui.noFixedDeadline, lang)}</span>
-                      <strong>{localized(opportunity.title, lang)}</strong>
-                      <em>{opportunity.categories.slice(0, 2).map((category) => categoryLabel(category, lang)).join(", ")}</em>
-                    </a>
-                  ))}
-                </div>
-              )
-            }
           </div>
         </div>
       </section>
@@ -145,7 +133,7 @@ const copy = intro[lang];
         <a class="text-link" href={`/${lang}/opportunities/`}>{localized(ui.opportunities, lang)}</a>
       </div>
       <div class="card-grid">
-        {newestOpportunities.map((opportunity) => <OpportunityCard opportunity={opportunity} lang={lang} compact />)}
+        {newestOpportunities.map((opportunity) => <OpportunityCard opportunity={opportunity} lang={lang} compact stripSummaryTerminalPeriod />)}
       </div>
     </div>
   </section>
@@ -184,7 +172,7 @@ const copy = intro[lang];
               <div>
                 <time datetime={mainNews.publishedDate}>{formatDate(mainNews.publishedDate, lang)}</time>
                 <h3><a href={`/${lang}/news/${mainNews.slug}/`}>{localized(mainNews.title, lang)}</a></h3>
-                <p>{localized(mainNews.summary, lang)}</p>
+                <p>{stripFinalPeriod(localized(mainNews.summary, lang))}</p>
                 <a class="card-detail-link" href={`/${lang}/news/${mainNews.slug}/`}>{localized(ui.viewDetails, lang)}</a>
               </div>
             </article>
@@ -193,7 +181,7 @@ const copy = intro[lang];
               secondaryNews.length > 0 && (
                 <div class="home-news-secondary">
                   {secondaryNews.map((article) => (
-                    <NewsCard article={article} lang={lang} compact />
+                    <NewsCard article={article} lang={lang} compact stripSummaryTerminalPeriod />
                   ))}
                 </div>
               )
