@@ -1,4 +1,129 @@
-[
+[{
+  "slug": "blue-ocean-student-entrepreneur-competition-2027",
+  "title": {
+    "az": "Blue Ocean Student Entrepreneur Competition 2027",
+    "en": "Blue Ocean Student Entrepreneur Competition 2027"
+  },
+  "summary": {
+    "az": "14–18 yaşlı şagirdlər dünyanın istənilən yerindən fərdi və ya 5 nəfərədək komanda ilə pulsuz Blue Ocean Student Entrepreneur Competition 2027-yə qoşularaq innovativ biznes ideyalarını video pitch formasında təqdim edə bilərlər.",
+    "en": "Students aged 14–18 worldwide can enter the free Blue Ocean Student Entrepreneur Competition 2027 individually or in teams of up to five and submit an innovative business idea through a video pitch."
+  },
+  "description": {
+    "az": [
+      "Blue Ocean Student Entrepreneur Competition dünyanın müxtəlif ölkələrindən yuxarı sinif şagirdlərinin innovativ biznes ideyalarını inkişaf etdirib video pitch formasında təqdim etdiyi tam virtual sahibkarlıq müsabiqəsidir.",
+      "2027-ci il müsabiqəsi üçün qeydiyyat açıqdır. İştirakçılar əvvəlcə qeydiyyatdan keçir, Blue Ocean Mini-Course və təşkilatçıların təqdim etdiyi biznes strategiyası resurslarından istifadə edərək ideyalarını inkişaf etdirirlər.",
+      "İştirakçılar fərdi və ya maksimum 5 nəfərlik komanda ilə yarışa bilərlər. Bütün iştirakçılar qeydiyyat zamanı 14–18 yaş arasında olan yuxarı sinif şagirdləri olmalıdırlar.",
+      "Final təqdimatı 3–5 dəqiqəlik video pitch formasında hazırlanmalı, YouTube-a yerləşdirilməli və təşkilatçının sisteminə göndərilməlidir.",
+      "2027-ci il üçün pitch təqdimetmə son tarixi 21 fevral 2027, iştirakçının yerli vaxtı ilə saat 23:59-dur.",
+      "İştirak tamamilə ödənişsizdir. Təşkilatçı 2027-ci il üzrə birinci yer üçün 1,000 ABŞ dolları, ikinci yer üçün 750 dollar, üçüncü yer üçün 500 dollar və People's Choice mükafatı üçün 750 dollar elan edib."
+    ],
+    "en": [
+      "The Blue Ocean Student Entrepreneur Competition is a fully virtual entrepreneurship competition in which high-school students from around the world develop innovative business ideas and present them through video pitches.",
+      "Registration for the 2027 competition is open. Participants first register and can then use the Blue Ocean Mini-Course and strategy resources provided by the organizer to develop their ideas.",
+      "Students may compete individually or in teams of up to five. All participants must be high-school students aged 14–18 at the time of registration.",
+      "The final entry is a 3–5 minute video pitch that must be uploaded to YouTube and submitted through the organizer's system.",
+      "The 2027 pitch submission deadline is February 21, 2027 at 23:59 in the participant's local time zone.",
+      "Participation is completely free. Published 2027 awards include $1,000 for first place, $750 for second, $500 for third and $750 for the People's Choice award."
+    ]
+  },
+  "categories": [
+    "Entrepreneurship",
+    "Competition",
+    "Business"
+  ],
+  "deadline": "2027-02-21",
+  "image": {
+    "src": "/images/blue-ocean-competition-2027.png",
+    "alt": {
+      "az": "Blue Ocean Student Entrepreneur Competition üçün şagird sahibkarlıq müsabiqəsi vizualı",
+      "en": "Student entrepreneurship visual for the Blue Ocean Student Entrepreneur Competition"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Yaş",
+        "en": "Age"
+      },
+      "value": {
+        "az": "14–18 yaş",
+        "en": "Ages 14–18"
+      }
+    },
+    {
+      "label": {
+        "az": "Komanda",
+        "en": "Team"
+      },
+      "value": {
+        "az": "Fərdi və ya maksimum 5 şagird",
+        "en": "Individual or up to 5 students"
+      }
+    },
+    {
+      "label": {
+        "az": "Format",
+        "en": "Format"
+      },
+      "value": {
+        "az": "Tam onlayn",
+        "en": "Fully virtual"
+      }
+    },
+    {
+      "label": {
+        "az": "Ödəniş",
+        "en": "Cost"
+      },
+      "value": {
+        "az": "Pulsuz",
+        "en": "Free"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "21 fevral 2027",
+        "en": "February 21, 2027"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Dünyanın müxtəlif ölkələrindən, o cümlədən Azərbaycandan 14–18 yaşlı yuxarı sinif şagirdləri fərdi və ya maksimum 5 nəfərlik komanda ilə iştirak edə bilərlər.",
+    "en": "High-school students aged 14–18 worldwide, including students in Azerbaijan, may participate individually or in teams of up to five."
+  },
+  "eligibility": {
+    "az": [
+      "İştirakçı qeydiyyat zamanı 14–18 yaş arasında olmalıdır.",
+      "İştirakçı yuxarı sinif şagirdi olmalıdır.",
+      "Fərdi iştirak mümkündür.",
+      "Komandalar maksimum 5 şagirddən ibarət ola bilər.",
+      "Bütün komanda üzvləri ayrıca qeydiyyatdan keçməlidirlər.",
+      "Müsabiqə dünya üzrə şagirdlər üçün açıqdır və Azərbaycan məktəblərindən də əvvəlki iştirakçılar olub."
+    ],
+    "en": [
+      "Participants must be aged 14–18 at the time of registration.",
+      "Participants must be high-school students.",
+      "Individual participation is permitted.",
+      "Teams may contain a maximum of five students.",
+      "All team members must register.",
+      "The competition is open worldwide and Azerbaijani schools have participated previously."
+    ]
+  },
+  "organizer": "Blue Ocean Student Entrepreneurs Corporation",
+  "officialUrl": "https://blueoceancompetition.org/register/",
+  "officialCta": {
+    "az": "Qeydiyyat səhifəsinə keç",
+    "en": "Visit registration page"
+  },
+  "dateAdded": "2026-09-01",
+  "lastVerified": "2026-09-01"
+},
 {
   "slug": "lsesu-economics-society-essay-competition-2026",
   "title": {
