@@ -1,14 +1,14 @@
 export const studentTestimonials = [
   {
     az: {
-      quote: "TEST RƏYİ - AB vasitəsilə tapdığım imkanları bir yerdə izləmək daha rahatdır",
+      quote: "AB vasitəsilə tapdığım imkanları bir yerdə izləmək daha rahatdır",
       name: "Anonim",
       age: 17,
       city: "Bakı",
       category: "STEM",
     },
     en: {
-      quote: "TEST REVIEW - AB makes it easier to follow student opportunities in one place",
+      quote: "AB makes it easier to follow student opportunities in one place",
       name: "Anonymous",
       age: 17,
       city: "Baku",
@@ -17,14 +17,14 @@ export const studentTestimonials = [
   },
   {
     az: {
-      quote: "TEST RƏYİ - Təqaüd və müsabiqə elanlarını ayrı-ayrı yerlərdə axtarmağa daha az vaxt gedir",
+      quote: "Təqaüd və müsabiqə elanlarını ayrı-ayrı yerlərdə axtarmağa daha az vaxt gedir",
       name: "Anonim",
       age: 16,
       city: "Gəncə",
       category: "Təqaüd",
     },
     en: {
-      quote: "TEST REVIEW - I spend less time looking across separate pages for scholarship and competition notices",
+      quote: "I spend less time looking across separate pages for scholarship and competition notices",
       name: "Anonymous",
       age: 16,
       city: "Ganja",
@@ -33,14 +33,14 @@ export const studentTestimonials = [
   },
   {
     az: {
-      quote: "TEST RƏYİ - Universitet proqramları haqqında qısa xülasələr seçim etməyi asanlaşdırır",
+      quote: "Universitet proqramları haqqında qısa xülasələr seçim etməyi asanlaşdırır",
       name: "Anonim",
       age: 18,
       city: "Sumqayıt",
       category: "Universitet",
     },
     en: {
-      quote: "TEST REVIEW - Short summaries of university programs make it easier to compare options",
+      quote: "Short summaries of university programs make it easier to compare options",
       name: "Anonymous",
       age: 18,
       city: "Sumgayit",
@@ -49,14 +49,14 @@ export const studentTestimonials = [
   },
   {
     az: {
-      quote: "TEST RƏYİ - Olimpiada və hakaton imkanlarını son tarixlərlə birlikdə görmək faydalıdır",
+      quote: "Olimpiada və hakaton imkanlarını son tarixlərlə birlikdə görmək faydalıdır",
       name: "Anonim",
       age: 15,
       city: "Şəki",
       category: "Müsabiqə",
     },
     en: {
-      quote: "TEST REVIEW - Seeing olympiad and hackathon opportunities together with deadlines is useful",
+      quote: "Seeing olympiad and hackathon opportunities together with deadlines is useful",
       name: "Anonymous",
       age: 15,
       city: "Shaki",
