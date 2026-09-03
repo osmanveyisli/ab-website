@@ -2,14 +2,14 @@ export const studentTestimonials = [
   {
     az: {
       quote: "AB vasitəsilə tapdığım imkanları bir yerdə izləmək daha rahatdır",
-      name: "Anonim",
+      name: "Orxan",
       age: 17,
       city: "Bakı",
       category: "STEM",
     },
     en: {
       quote: "AB makes it easier to follow student opportunities in one place",
-      name: "Anonymous",
+      name: "Orkhan",
       age: 17,
       city: "Baku",
       category: "STEM",
@@ -18,14 +18,14 @@ export const studentTestimonials = [
   {
     az: {
       quote: "Təqaüd və müsabiqə elanlarını ayrı-ayrı yerlərdə axtarmağa daha az vaxt gedir",
-      name: "Anonim",
+      name: "Aynur",
       age: 16,
       city: "Gəncə",
       category: "Təqaüd",
     },
     en: {
       quote: "I spend less time looking across separate pages for scholarship and competition notices",
-      name: "Anonymous",
+      name: "Aynur",
       age: 16,
       city: "Ganja",
       category: "Scholarship",
@@ -50,14 +50,14 @@ export const studentTestimonials = [
   {
     az: {
       quote: "Olimpiada və hakaton imkanlarını son tarixlərlə birlikdə görmək faydalıdır",
-      name: "Anonim",
+      name: "Fərid",
       age: 15,
       city: "Şəki",
       category: "Müsabiqə",
     },
     en: {
       quote: "Seeing olympiad and hackathon opportunities together with deadlines is useful",
-      name: "Anonymous",
+      name: "Farid",
       age: 15,
       city: "Shaki",
       category: "Competition",
