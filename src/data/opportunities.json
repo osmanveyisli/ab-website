@@ -465,7 +465,7 @@
     }
   },
   "dateAdded": "2026-08-28",
-  "lastVerified": "2026-08-28",
+  "lastVerified": "2026-09-03",
   "featured": false,
   "isDemo": false
 },
@@ -593,7 +593,7 @@
       ]
     },
     "categories": ["Hackathon", "STEM", "Space", "Technology"],
-    "deadline": null,
+    "deadline": "2026-11-15",
     "imagePosition": "center top",
     "detailFacts": [
       {
@@ -655,7 +655,7 @@
       }
     },
     "dateAdded": "2026-08-27",
-    "lastVerified": "2026-08-27",
+    "lastVerified": "2026-09-03",
     "featured": true,
     "isDemo": false
   },

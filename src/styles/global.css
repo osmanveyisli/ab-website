@@ -976,6 +976,46 @@ h3 {
   margin-top: 16px;
 }
 
+.contact-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: end;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-soft);
+  margin-top: 18px;
+  padding: 18px;
+}
+
+.contact-copy {
+  display: grid;
+  gap: 8px;
+}
+
+.contact-copy .eyebrow {
+  margin-bottom: 0;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.contact-email {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+  min-height: 44px;
+  color: var(--teal);
+  font-weight: 850;
+  overflow-wrap: anywhere;
+  text-underline-offset: 4px;
+}
+
 .disabled-link {
   color: var(--muted);
 }
@@ -1161,9 +1201,14 @@ h3 {
     white-space: normal;
   }
 
+  .contact-panel,
   .about-hero {
     grid-template-columns: 1fr;
     gap: 18px;
+  }
+
+  .contact-actions {
+    justify-content: flex-start;
   }
 
   .about-logo {
@@ -1230,7 +1275,8 @@ h3 {
   }
 
   .hero-actions .button,
-  .coming-soon .button {
+  .coming-soon .button,
+  .contact-actions .button {
     width: 100%;
   }
 
