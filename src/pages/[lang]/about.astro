@@ -27,12 +27,13 @@ const copy = {
       "AB imkanları məlumat məqsədilə xülasə edir. Müraciət şərtləri, son tarixlər və yeniliklər hər zaman imkan səhifəsində göstərilən rəsmi mənbə vasitəsilə yoxlanılmalıdır.",
     socialTitle: "AB icmasına qoşul",
     contact: {
-      eyebrow: "ƏLAQƏ",
       title: "Əlaqə və geri bildirim",
       body: "Sualınız, təklifiniz və ya saytda düzəldilməli məlumat gördünüzsə, bizə e-poçt vasitəsilə yaza bilərsiniz.",
+      emailLabel: "E-poçt ünvanı",
       email: "abituriyentbirliyi@gmail.com",
       cta: "E-poçt göndər",
-      aria: "AB ilə e-poçt vasitəsilə əlaqə saxla",
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=abituriyentbirliyi@gmail.com&su=AB%20geri%20bildirim",
+      aria: "E-poçt göndər, Gmail yeni tabda açılır",
     },
   },
   en: {
@@ -49,17 +50,17 @@ const copy = {
       "AB summarizes opportunities for informational purposes. Application requirements, deadlines, and updates should always be confirmed through the official source linked on each opportunity page.",
     socialTitle: "Join the AB community",
     contact: {
-      eyebrow: "CONTACT",
       title: "Contact and feedback",
       body: "If you have a question, suggestion, or notice information that should be corrected, you can contact us by email.",
+      emailLabel: "Email address",
       email: "abituriyentbirliyi@gmail.com",
       cta: "Send an email",
-      aria: "Contact AB by email",
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=abituriyentbirliyi@gmail.com&su=AB%20feedback",
+      aria: "Send an email, Gmail opens in a new tab",
     },
   },
 }[lang];
 
-const contactHref = "mailto:abituriyentbirliyi@gmail.com";
 ---
 
 <BaseLayout
@@ -106,15 +107,19 @@ const contactHref = "mailto:abituriyentbirliyi@gmail.com";
 
       <section class="contact-panel" aria-labelledby="about-contact-heading">
         <div class="contact-copy">
-          <p class="eyebrow">{copy.contact.eyebrow}</p>
           <h2 id="about-contact-heading">{copy.contact.title}</h2>
           <p>{copy.contact.body}</p>
         </div>
         <div class="contact-actions">
-          <a class="contact-email" href={contactHref} aria-label={`${copy.contact.aria}: ${copy.contact.email}`}>
-            {copy.contact.email}
-          </a>
-          <a class="button primary" href={contactHref} aria-label={`${copy.contact.cta}: ${copy.contact.email}`}>
+          <p class="contact-label">{copy.contact.emailLabel}</p>
+          <span class="contact-email">{copy.contact.email}</span>
+          <a
+            class="button primary"
+            href={copy.contact.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={copy.contact.aria}
+          >
             {copy.contact.cta}
           </a>
         </div>

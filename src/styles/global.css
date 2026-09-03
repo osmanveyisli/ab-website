@@ -978,9 +978,9 @@ h3 {
 
 .contact-panel {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 18px;
-  align-items: end;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 260px);
+  gap: 28px;
+  align-items: start;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface-soft);
@@ -991,29 +991,37 @@ h3 {
 .contact-copy {
   display: grid;
   gap: 8px;
+  max-width: 45ch;
 }
 
-.contact-copy .eyebrow {
-  margin-bottom: 0;
+.contact-label {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 800;
 }
 
 .contact-actions {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: flex-end;
+  flex-direction: column;
+  gap: 8px;
+  border-left: 1px solid var(--line);
+  padding-left: 28px;
   min-width: 0;
 }
 
 .contact-email {
-  display: inline-flex;
-  align-items: center;
+  display: block;
   min-width: 0;
-  min-height: 44px;
-  color: var(--teal);
-  font-weight: 850;
+  color: var(--ink);
+  font-size: 0.95rem;
+  font-weight: 700;
   overflow-wrap: anywhere;
-  text-underline-offset: 4px;
+}
+
+.contact-actions .button {
+  width: 100%;
+  margin-top: 4px;
 }
 
 .disabled-link {
@@ -1208,7 +1216,10 @@ h3 {
   }
 
   .contact-actions {
-    justify-content: flex-start;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding-top: 18px;
+    padding-left: 0;
   }
 
   .about-logo {
@@ -1275,8 +1286,7 @@ h3 {
   }
 
   .hero-actions .button,
-  .coming-soon .button,
-  .contact-actions .button {
+  .coming-soon .button {
     width: 100%;
   }
 
