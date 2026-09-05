@@ -1,147 +1,130 @@
-[{
-  "slug": "blue-ocean-student-entrepreneur-competition-2027",
-  "title": {
-    "az": "Blue Ocean Student Entrepreneur Competition 2027",
-    "en": "Blue Ocean Student Entrepreneur Competition 2027"
-  },
-  "summary": {
-    "az": "14–18 yaşlı şagirdlər dünyanın istənilən yerindən fərdi və ya 5 nəfərədək komanda ilə pulsuz Blue Ocean Student Entrepreneur Competition 2027-yə qoşularaq innovativ biznes ideyalarını video pitch formasında təqdim edə bilərlər.",
-    "en": "Students aged 14–18 worldwide can enter the free Blue Ocean Student Entrepreneur Competition 2027 individually or in teams of up to five and submit an innovative business idea through a video pitch."
-  },
-  "description": {
-    "az": [
-      "Blue Ocean Student Entrepreneur Competition dünyanın müxtəlif ölkələrindən yuxarı sinif şagirdlərinin innovativ biznes ideyalarını inkişaf etdirib video pitch formasında təqdim etdiyi tam virtual sahibkarlıq müsabiqəsidir.",
-      "2027-ci il müsabiqəsi üçün qeydiyyat açıqdır. İştirakçılar əvvəlcə qeydiyyatdan keçir, Blue Ocean Mini-Course və təşkilatçıların təqdim etdiyi biznes strategiyası resurslarından istifadə edərək ideyalarını inkişaf etdirirlər.",
-      "İştirakçılar fərdi və ya maksimum 5 nəfərlik komanda ilə yarışa bilərlər. Bütün iştirakçılar qeydiyyat zamanı 14–18 yaş arasında olan yuxarı sinif şagirdləri olmalıdırlar.",
-      "Final təqdimatı 3–5 dəqiqəlik video pitch formasında hazırlanmalı, YouTube-a yerləşdirilməli və təşkilatçının sisteminə göndərilməlidir.",
-      "2027-ci il üçün pitch təqdimetmə son tarixi 21 fevral 2027, iştirakçının yerli vaxtı ilə saat 23:59-dur.",
-      "İştirak tamamilə ödənişsizdir. Təşkilatçı 2027-ci il üzrə birinci yer üçün 1,000 ABŞ dolları, ikinci yer üçün 750 dollar, üçüncü yer üçün 500 dollar və People's Choice mükafatı üçün 750 dollar elan edib."
-    ],
-    "en": [
-      "The Blue Ocean Student Entrepreneur Competition is a fully virtual entrepreneurship competition in which high-school students from around the world develop innovative business ideas and present them through video pitches.",
-      "Registration for the 2027 competition is open. Participants first register and can then use the Blue Ocean Mini-Course and strategy resources provided by the organizer to develop their ideas.",
-      "Students may compete individually or in teams of up to five. All participants must be high-school students aged 14–18 at the time of registration.",
-      "The final entry is a 3–5 minute video pitch that must be uploaded to YouTube and submitted through the organizer's system.",
-      "The 2027 pitch submission deadline is February 21, 2027 at 23:59 in the participant's local time zone.",
-      "Participation is completely free. Published 2027 awards include $1,000 for first place, $750 for second, $500 for third and $750 for the People's Choice award."
-    ]
-  },
-  "categories": [
-    "Entrepreneurship",
-    "Competition",
-    "Business"
-  ],
-  "deadline": "2027-02-21",
-  "image": {
-    "src": "/images/blue-ocean-competition-2027.png",
-    "alt": {
-      "az": "Blue Ocean Student Entrepreneur Competition üçün şagird sahibkarlıq müsabiqəsi vizualı",
-      "en": "Student entrepreneurship visual for the Blue Ocean Student Entrepreneur Competition"
-    }
-  },
-  "imageFit": "cover",
-  "imagePosition": "center center",
-  "detailFacts": [
-    {
-      "label": {
-        "az": "Yaş",
-        "en": "Age"
-      },
-      "value": {
-        "az": "14–18 yaş",
-        "en": "Ages 14–18"
-      }
-    },
-    {
-      "label": {
-        "az": "Komanda",
-        "en": "Team"
-      },
-      "value": {
-        "az": "Fərdi və ya maksimum 5 şagird",
-        "en": "Individual or up to 5 students"
-      }
-    },
-    {
-      "label": {
-        "az": "Format",
-        "en": "Format"
-      },
-      "value": {
-        "az": "Tam onlayn",
-        "en": "Fully virtual"
-      }
-    },
-    {
-      "label": {
-        "az": "Ödəniş",
-        "en": "Cost"
-      },
-      "value": {
-        "az": "Pulsuz",
-        "en": "Free"
-      }
-    },
-    {
-      "label": {
-        "az": "Son tarix",
-        "en": "Deadline"
-      },
-      "value": {
-        "az": "21 fevral 2027",
-        "en": "February 21, 2027"
-      }
-    }
-  ],
-  "eligibilitySummary": {
-    "az": "Dünyanın müxtəlif ölkələrindən, o cümlədən Azərbaycandan 14–18 yaşlı yuxarı sinif şagirdləri fərdi və ya maksimum 5 nəfərlik komanda ilə iştirak edə bilərlər.",
-    "en": "High-school students aged 14–18 worldwide, including students in Azerbaijan, may participate individually or in teams of up to five."
-  },
-  "eligibility": {
-    "az": [
-      "İştirakçı qeydiyyat zamanı 14–18 yaş arasında olmalıdır.",
-      "İştirakçı yuxarı sinif şagirdi olmalıdır.",
-      "Fərdi iştirak mümkündür.",
-      "Komandalar maksimum 5 şagirddən ibarət ola bilər.",
-      "Bütün komanda üzvləri ayrıca qeydiyyatdan keçməlidirlər.",
-      "Müsabiqə dünya üzrə şagirdlər üçün açıqdır və Azərbaycan məktəblərindən də əvvəlki iştirakçılar olub."
-    ],
-    "en": [
-      "Participants must be aged 14–18 at the time of registration.",
-      "Participants must be high-school students.",
-      "Individual participation is permitted.",
-      "Teams may contain a maximum of five students.",
-      "All team members must register.",
-      "The competition is open worldwide and Azerbaijani schools have participated previously."
-    ]
-  },
-  "organizer": "Blue Ocean Student Entrepreneurs Corporation",
-  "officialUrl": "https://blueoceancompetition.org/register/",
-  "officialCta": {
-    "az": "Qeydiyyat səhifəsinə keç",
-    "en": "Visit registration page"
-  },
-  "dateAdded": "2026-09-01",
-  "lastVerified": "2026-09-01"
-},
-{
-  "slug": "lsesu-economics-society-essay-competition-2026",
-  "title": {
-    "az": "LSESU Economics Society Essay Competition 2026",
-    "en": "LSESU Economics Society Essay Competition 2026"
-  },
-  "summary": {
-    "az": "Dünyanın müxtəlif ölkələrindən uyğun yuxarı sinif şagirdləri LSESU Economics Society-nin 2026 esse müsabiqəsində beş iqtisadiyyat mövzusundan biri üzrə 1500 sözədək ingiliscə esse təqdim edə bilərlər.",
-    "en": "Eligible senior secondary students worldwide can enter the LSESU Economics Society's 2026 essay competition by submitting an English essay of up to 1,500 words on one of five economics questions."
-  },
-  "description": {
-    "az": [
-      "LSESU Economics Society Essay Competition London School of Economics and Political Science-in tələbə İqtisadiyyat Cəmiyyəti tərəfindən ASEEDER ilə əməkdaşlıq çərçivəsində keçirilən beynəlxalq akademik esse müsabiqəsidir.",
-      "2026-cı il müsabiqəsi hazırda müraciətləri qəbul edir və son təqdimetmə tarixi 1 sentyabr 2026-cı il saat 23:59-dur (GMT+1). Gecikmiş işlər qəbul edilmir.",
-      "İştirakçılar təqdim olunan beş iqtisadiyyat sualından yalnız birini seçərək bir esse təqdim edə bilərlər. Esse ingilis dilində yazılmalı və maksimum 1500 sözdən ibarət olmalıdır.",
-      "Rəsmi qaydalara əsasən müsabiqə dünyanın müxtəlif ölkələrindən, xüsusilə orta məktəbin sondan əvvəlki və son ilini yeni tamamlamış şagirdlər və 2026/27 akademik ilində universitetə başlayacaq şəxslər üçün nəzərdə tutulub.",
-      "Plagiat və süni intellekt tərəfindən yaradılmış məzmun qadağandır. Mükafatlar arasında LSESU Economics Society rəhbərliyi tərəfindən imzalanmış sertifikatlar və müxtəlif Amazon hədiyyə kartları nəzərdə tutulur."
 [
+  {
+    "slug": "blue-ocean-student-entrepreneur-competition-2027",
+    "title": {
+      "az": "Blue Ocean Student Entrepreneur Competition 2027",
+      "en": "Blue Ocean Student Entrepreneur Competition 2027"
+    },
+    "summary": {
+      "az": "14–18 yaşlı şagirdlər dünyanın istənilən yerindən fərdi və ya 5 nəfərədək komanda ilə pulsuz Blue Ocean Student Entrepreneur Competition 2027-yə qoşularaq innovativ biznes ideyalarını video pitch formasında təqdim edə bilərlər.",
+      "en": "Students aged 14–18 worldwide can enter the free Blue Ocean Student Entrepreneur Competition 2027 individually or in teams of up to five and submit an innovative business idea through a video pitch."
+    },
+    "description": {
+      "az": [
+        "Blue Ocean Student Entrepreneur Competition dünyanın müxtəlif ölkələrindən yuxarı sinif şagirdlərinin innovativ biznes ideyalarını inkişaf etdirib video pitch formasında təqdim etdiyi tam virtual sahibkarlıq müsabiqəsidir.",
+        "2027-ci il müsabiqəsi üçün qeydiyyat açıqdır. İştirakçılar əvvəlcə qeydiyyatdan keçir, Blue Ocean Mini-Course və təşkilatçıların təqdim etdiyi biznes strategiyası resurslarından istifadə edərək ideyalarını inkişaf etdirirlər.",
+        "İştirakçılar fərdi və ya maksimum 5 nəfərlik komanda ilə yarışa bilərlər. Bütün iştirakçılar qeydiyyat zamanı 14–18 yaş arasında olan yuxarı sinif şagirdləri olmalıdırlar.",
+        "Final təqdimatı 3–5 dəqiqəlik video pitch formasında hazırlanmalı, YouTube-a yerləşdirilməli və təşkilatçının sisteminə göndərilməlidir.",
+        "2027-ci il üçün pitch təqdimetmə son tarixi 21 fevral 2027, iştirakçının yerli vaxtı ilə saat 23:59-dur.",
+        "İştirak tamamilə ödənişsizdir. Təşkilatçı 2027-ci il üzrə birinci yer üçün 1,000 ABŞ dolları, ikinci yer üçün 750 dollar, üçüncü yer üçün 500 dollar və People's Choice mükafatı üçün 750 dollar elan edib."
+      ],
+      "en": [
+        "The Blue Ocean Student Entrepreneur Competition is a fully virtual entrepreneurship competition in which high-school students from around the world develop innovative business ideas and present them through video pitches.",
+        "Registration for the 2027 competition is open. Participants first register and can then use the Blue Ocean Mini-Course and strategy resources provided by the organizer to develop their ideas.",
+        "Students may compete individually or in teams of up to five. All participants must be high-school students aged 14–18 at the time of registration.",
+        "The final entry is a 3–5 minute video pitch that must be uploaded to YouTube and submitted through the organizer's system.",
+        "The 2027 pitch submission deadline is February 21, 2027 at 23:59 in the participant's local time zone.",
+        "Participation is completely free. Published 2027 awards include $1,000 for first place, $750 for second, $500 for third and $750 for the People's Choice award."
+      ]
+    },
+    "categories": [
+      "Entrepreneurship",
+      "Competition",
+      "Business"
+    ],
+    "deadline": "2027-02-21",
+    "image": {
+      "src": "/images/blue-ocean-competition-2027.png",
+      "alt": {
+        "az": "Blue Ocean Student Entrepreneur Competition üçün şagird sahibkarlıq müsabiqəsi vizualı",
+        "en": "Student entrepreneurship visual for the Blue Ocean Student Entrepreneur Competition"
+      }
+    },
+    "imageFit": "cover",
+    "imagePosition": "center center",
+    "detailFacts": [
+      {
+        "label": {
+          "az": "Yaş",
+          "en": "Age"
+        },
+        "value": {
+          "az": "14–18 yaş",
+          "en": "Ages 14–18"
+        }
+      },
+      {
+        "label": {
+          "az": "Komanda",
+          "en": "Team"
+        },
+        "value": {
+          "az": "Fərdi və ya maksimum 5 şagird",
+          "en": "Individual or up to 5 students"
+        }
+      },
+      {
+        "label": {
+          "az": "Format",
+          "en": "Format"
+        },
+        "value": {
+          "az": "Tam onlayn",
+          "en": "Fully virtual"
+        }
+      },
+      {
+        "label": {
+          "az": "Ödəniş",
+          "en": "Cost"
+        },
+        "value": {
+          "az": "Pulsuz",
+          "en": "Free"
+        }
+      },
+      {
+        "label": {
+          "az": "Son tarix",
+          "en": "Deadline"
+        },
+        "value": {
+          "az": "21 fevral 2027",
+          "en": "February 21, 2027"
+        }
+      }
+    ],
+    "eligibilitySummary": {
+      "az": "Dünyanın müxtəlif ölkələrindən, o cümlədən Azərbaycandan 14–18 yaşlı yuxarı sinif şagirdləri fərdi və ya maksimum 5 nəfərlik komanda ilə iştirak edə bilərlər.",
+      "en": "High-school students aged 14–18 worldwide, including students in Azerbaijan, may participate individually or in teams of up to five."
+    },
+    "eligibility": {
+      "az": [
+        "İştirakçı qeydiyyat zamanı 14–18 yaş arasında olmalıdır.",
+        "İştirakçı yuxarı sinif şagirdi olmalıdır.",
+        "Fərdi iştirak mümkündür.",
+        "Komandalar maksimum 5 şagirddən ibarət ola bilər.",
+        "Bütün komanda üzvləri ayrıca qeydiyyatdan keçməlidirlər.",
+        "Müsabiqə dünya üzrə şagirdlər üçün açıqdır və Azərbaycan məktəblərindən də əvvəlki iştirakçılar olub."
+      ],
+      "en": [
+        "Participants must be aged 14–18 at the time of registration.",
+        "Participants must be high-school students.",
+        "Individual participation is permitted.",
+        "Teams may contain a maximum of five students.",
+        "All team members must register.",
+        "The competition is open worldwide and Azerbaijani schools have participated previously."
+      ]
+    },
+    "organizer": "Blue Ocean Student Entrepreneurs Corporation",
+    "officialUrl": "https://blueoceancompetition.org/register/",
+    "officialCta": {
+      "az": "Qeydiyyat səhifəsinə keç",
+      "en": "Visit registration page"
+    },
+    "dateAdded": "2026-09-01",
+    "lastVerified": "2026-09-01"
+  },
   {
     "slug": "lsesu-economics-society-essay-competition-2026",
     "title": {
@@ -391,31 +374,6 @@
     "title": {
       "az": "Immerse Education Essay Competition 2027",
       "en": "Immerse Education Essay Competition 2027"
-<<<<<<< HEAD
-    }
-  },
-  "dateAdded": "2026-08-28",
-  "lastVerified": "2026-09-03",
-  "featured": false,
-  "isDemo": false
-},
-{
-  "slug": "wharton-investment-competition-2026-27",
-  "title": {
-    "az": "Wharton Global High School Investment Competition 2026–27",
-    "en": "Wharton Global High School Investment Competition 2026–27"
-  },
-  "summary": {
-    "az": "9–12-ci sinif şagirdləri üçün Wharton School tərəfindən təşkil olunan ödənişsiz beynəlxalq investisiya müsabiqəsində komandalar real müştəri ssenarisi əsasında investisiya strategiyası hazırlayırlar.",
-    "en": "In this free international investment competition organized by the Wharton School, teams of students in grades 9–12 develop an investment strategy based on a real-world client scenario."
-  },
-  "description": {
-    "az": [
-      "Wharton Global High School Investment Competition University of Pennsylvania-nın Wharton School nəzdində fəaliyyət göstərən Wharton Global Youth Program tərəfindən təşkil olunur.",
-      "Müsabiqə 9–12-ci sinif şagirdləri üçün nəzərdə tutulub və iştirakçılar müəllim və ya məktəb məsləhətçisinin rəhbərliyi altında komanda şəklində iştirak edirlər.",
-      "Komandalar verilmiş müştəri ssenarisi əsasında investisiya strategiyası hazırlayır, şirkət və sənaye sahələrini araşdırır, risk və diversifikasiya kimi anlayışları tətbiq edir və investisiya simulyatorunda portfel qərarlarını sınaqdan keçirirlər.",
-      "Müsabiqədə iştirak ödənişsizdir və dünyanın müxtəlif ölkələrindən məktəb komandaları iştirak edə bilər.",
-      "Qeydiyyat komandanın müəllim və ya uyğun məktəb məsləhətçisi tərəfindən həyata keçirilməlidir."
     },
     "summary": {
       "az": "13–18 yaşlı şagirdlər üçün ödənişsiz beynəlxalq esse müsabiqəsində iştirakçılar 500 sözlük akademik esse təqdim edərək Immerse Education proqramları üçün 100%-dək təqaüd qazana bilərlər.",
@@ -443,6 +401,13 @@
       "International"
     ],
     "deadline": "2026-10-25",
+    "image": {
+      "src": "/images/immerse-education-essay-competition-2027.png",
+      "alt": {
+        "az": "Immerse Education Essay Competition 2027",
+        "en": "Immerse Education Essay Competition 2027"
+      }
+    },
     "imagePosition": "center center",
     "detailFacts": [
       {
@@ -499,13 +464,6 @@
     "officialCta": {
       "az": "Rəsmi müsabiqə səhifəsinə keç ↗",
       "en": "Visit official competition page ↗"
-    },
-    "image": {
-      "src": "/images/immerse-education-essay-competition-2027.png",
-      "alt": {
-        "az": "Immerse Education Essay Competition 2027",
-        "en": "Immerse Education Essay Competition 2027"
-      }
     },
     "dateAdded": "2026-08-28",
     "lastVerified": "2026-08-28",
@@ -635,12 +593,8 @@
         "Participants under 18 should review the parent or legal guardian rules. Before applying, confirm all participation requirements on the official registration page."
       ]
     },
-
-    "categories": ["Hackathon", "STEM", "Space", "Technology"],
-    "deadline": "2026-11-15",
-
     "categories": [ "Hackathon", "STEM", "Space", "Technology" ],
-
+    "deadline": "2026-11-15",
     "imagePosition": "center top",
     "detailFacts": [
       {
@@ -790,173 +744,138 @@
     "lastVerified": "2026-08-27",
     "featured": false,
     "isDemo": false
+  },
+  {
+    "slug": "world-of-8-billion-student-video-contest-2026-2027",
+    "title": {
+      "az": "World of 8 Billion Student Video Contest 2026-2027",
+      "en": "World of 8 Billion Student Video Contest 2026-2027"
+    },
+    "summary": {
+      "az": "Dünyanın müxtəlif ölkələrindən 6-12-ci sinif şagirdləri əhali artımını Şəhər Planlaşdırılması, Şirin Su İstifadəsi və ya Ekstremal Hava Şəraiti mövzularından biri ilə əlaqələndirən bir dəqiqəlik video hazırlayaraq $1,200-dək pul mükafatları qazana bilərlər.",
+      "en": "Students in grades 6-12 worldwide can create a one-minute video connecting population growth to City Planning, Fresh Water Use, or Extreme Weather, with a sustainable solution, for a chance to win cash prizes of up to $1,200."
+    },
+    "description": {
+      "az": [
+        "World of 8 Billion Student Video Contest, Population Connection təşkilatının Population Education proqramı tərəfindən keçirilən illik beynəlxalq video müsabiqəsidir. Müsabiqə əvvəllər World of 7 Billion adlanıb və artıq 15-ci ildir davam edir.",
+        "2026-2027 müsabiqəsi 2 sentyabr 2026-cı ildə açılıb və müraciətlər 3 mart 2027-ci il saat 23:59-a (EST) qədər davamlı əsasda qəbul edilir.",
+        "İştirakçılar bu ilin üç qlobal mövzusundan — Şəhər Planlaşdırılması, Şirin Su İstifadəsi və Ekstremal Hava Şəraiti — birini seçib, əhali artımının həmin mövzuya təsirini izah edən və davamlı həll yolu təklif edən maksimum bir dəqiqəlik video hazırlamalıdırlar.",
+        "Şagirdlər fərdi və ya kiçik qruplarda iştirak edə bilər; müsabiqə dövlət, özəl və evdə təhsil alan şagirdlər üçün açıqdır və 100-dən çox ölkədən iştirakçıları cəlb edib.",
+        "Videolar mövzu üzrə orta məktəb (9-12-ci sinif) və yuxarı orta məktəb (6-8-ci sinif) kateqoriyalarında qiymətləndirilir. Qaliblər may 2027-ci ildə elan olunacaq."
+      ],
+      "en": [
+        "The World of 8 Billion Student Video Contest is an annual international video competition run by Population Education, a program of Population Connection. Formerly called World of 7 Billion, the contest is now in its 16th year.",
+        "The 2026-2027 contest opened on September 2, 2026, and entries are accepted on a rolling basis until the final deadline of March 3, 2027.",
+        "Entrants choose one of this year's three global topics — City Planning, Fresh Water Use, or Extreme Weather — and create a video of no more than one minute that connects human population growth to that topic and proposes a sustainable solution.",
+        "Students may participate individually or in small groups; the contest is open to public school, private school, and homeschool students and has drawn entrants from more than 100 countries.",
+        "Videos are judged by topic within Middle School (grades 6-8) and High School (grades 9-12) categories. Winners will be announced in May 2027."
+      ]
+    },
+    "categories": [
+      "Video",
+      "Environment",
+      "International",
+      "Middle & High School"
+    ],
+    "deadline": "2027-03-03",
+    "image": {
+      "src": "/images/world-of-8-billion-student-video-contest-2026-2027.png",
+      "alt": {
+        "az": "World of 8 Billion Student Video Contest 2026-2027 üçün AB vizualı",
+        "en": "AB visual for the World of 8 Billion Student Video Contest 2026-2027"
+      }
+    },
+    "imageFit": "cover",
+    "imagePosition": "center center",
+    "detailFacts": [
+      {
+        "label": {
+          "az": "Format",
+          "en": "Format"
+        },
+        "value": {
+          "az": "Onlayn video təqdimatı",
+          "en": "Online video submission"
+        }
+      },
+      {
+        "label": {
+          "az": "Video",
+          "en": "Video"
+        },
+        "value": {
+          "az": "Maksimum 1 dəqiqə",
+          "en": "Maximum 1 minute"
+        }
+      },
+      {
+        "label": {
+          "az": "Ödəniş",
+          "en": "Cost"
+        },
+        "value": {
+          "az": "Pulsuz",
+          "en": "Free"
+        }
+      },
+      {
+        "label": {
+          "az": "Mövzular",
+          "en": "Topics"
+        },
+        "value": {
+          "az": "3 mövzudan 1-i seçilir",
+          "en": "Choose 1 of 3 topics"
+        }
+      },
+      {
+        "label": {
+          "az": "Mükafat",
+          "en": "Top prize"
+        },
+        "value": {
+          "az": "$1,200-dək",
+          "en": "Up to $1,200"
+        }
+      },
+      {
+        "label": {
+          "az": "Son tarix",
+          "en": "Deadline"
+        },
+        "value": {
+          "az": "3 mart 2027, 23:59 (EST)",
+          "en": "March 3, 2027, 23:59 EST"
+        }
+      }
+    ],
+    "eligibilitySummary": {
+      "az": "Dünyanın müxtəlif ölkələrindən 6-12-ci sinif (və beynəlxalq ekvivalent) şagirdləri fərdi və ya qrup şəklində iştirak edə bilər.",
+      "en": "Students in grades 6-12 (or international equivalents) worldwide may participate individually or in groups."
+    },
+    "eligibility": {
+      "az": [
+        "İştirakçılar dünyanın istənilən ölkəsindən ola bilər.",
+        "Müsabiqə 6-12-ci sinif (və beynəlxalq ekvivalent) şagirdləri üçün nəzərdə tutulub.",
+        "Dövlət, özəl və evdə təhsil alan şagirdlər iştirak edə bilər.",
+        "Şagirdlər fərdi və ya kiçik qruplar şəklində bir video təqdim edə bilər.",
+        "Video ən çox 1 dəqiqə uzunluğunda olmalı və seçilmiş mövzu üzrə davamlı həll yolu təklif etməlidir."
+      ],
+      "en": [
+        "Participants may come from any country in the world.",
+        "The contest is open to students in grades 6-12 (or international equivalents).",
+        "Public school, private school, and homeschool students may all participate.",
+        "Students may submit one video individually or as part of a small group.",
+        "The video must be no more than 1 minute long and propose a sustainable solution on the chosen topic."
+      ]
+    },
+    "organizer": "Population Education (Population Connection)",
+    "officialUrl": "https://www.worldof8billion.org/video-contest/",
+    "officialCta": {
+      "az": "Rəsmi müsabiqə səhifəsinə keç",
+      "en": "Visit official competition page"
+    },
+    "dateAdded": "2026-09-05",
+    "lastVerified": "2026-09-05"
   }
-
-  {
-  "slug"
-  :
-  "world-of-8-billion-student-video-contest-2026-2027",
-  "title"
-  :
-  {
-    "az": "World of 8 Billion Student Video Contest 2026-2027",
-    "en": "World of 8 Billion Student Video Contest 2026-2027"
-  },
-  "summary"
-  :
-  {
-    "az": "Dünyanın müxtəlif ölkələrindən 6-12-ci sinif şagirdləri əhali artımını Şəhər Planlaşdırılması, Şirin Su İstifadəsi və ya Ekstremal Hava Şəraiti mövzularından biri ilə əlaqələndirən bir dəqiqəlik video hazırlayaraq $1,200-dək pul mükafatları qazana bilərlər.",
-    "en": "Students in grades 6-12 worldwide can create a one-minute video connecting population growth to City Planning, Fresh Water Use, or Extreme Weather, with a sustainable solution, for a chance to win cash prizes of up to $1,200."
-  },
-  "description"
-  :
-  {
-    "az": [
-      "World of 8 Billion Student Video Contest, Population Connection təşkilatının Population Education proqramı tərəfindən keçirilən illik beynəlxalq video müsabiqəsidir. Müsabiqə əvvəllər World of 7 Billion adlanıb və artıq 15-ci ildir davam edir.",
-      "2026-2027 müsabiqəsi 2 sentyabr 2026-cı ildə açılıb və müraciətlər 3 mart 2027-ci il saat 23:59-a (EST) qədər davamlı əsasda qəbul edilir.",
-      "İştirakçılar bu ilin üç qlobal mövzusundan — Şəhər Planlaşdırılması, Şirin Su İstifadəsi və Ekstremal Hava Şəraiti — birini seçib, əhali artımının həmin mövzuya təsirini izah edən və davamlı həll yolu təklif edən maksimum bir dəqiqəlik video hazırlamalıdırlar.",
-      "Şagirdlər fərdi və ya kiçik qruplarda iştirak edə bilər; müsabiqə dövlət, özəl və evdə təhsil alan şagirdlər üçün açıqdır və 100-dən çox ölkədən iştirakçıları cəlb edib.",
-      "Videolar mövzu üzrə orta məktəb (9-12-ci sinif) və yuxarı orta məktəb (6-8-ci sinif) kateqoriyalarında qiymətləndirilir. Qaliblər may 2027-ci ildə elan olunacaq."
-    ],
-    "en": [
-      "The World of 8 Billion Student Video Contest is an annual international video competition run by Population Education, a program of Population Connection. Formerly called World of 7 Billion, the contest is now in its 16th year.",
-      "The 2026-2027 contest opened on September 2, 2026, and entries are accepted on a rolling basis until the final deadline of March 3, 2027.",
-      "Entrants choose one of this year's three global topics — City Planning, Fresh Water Use, or Extreme Weather — and create a video of no more than one minute that connects human population growth to that topic and proposes a sustainable solution.",
-      "Students may participate individually or in small groups; the contest is open to public school, private school, and homeschool students and has drawn entrants from more than 100 countries.",
-      "Videos are judged by topic within Middle School (grades 6-8) and High School (grades 9-12) categories. Winners will be announced in May 2027."
-    ]
-  },
-  "categories"
-  :
-  [
-    "Video",
-    "Environment",
-    "International",
-    "Middle & High School"
-  ],
-  "deadline"
-  :
-  "2027-03-03",
-  "image"
-  :
-  {
-    "src": "/images/world-of-8-billion-student-video-contest-2026-2027.png",
-    "alt": {
-      "az": "World of 8 Billion Student Video Contest 2026-2027 üçün AB vizualı",
-      "en": "AB visual for the World of 8 Billion Student Video Contest 2026-2027"
-    }
-  },
-  "imageFit"
-  :
-  "cover",
-  "imagePosition"
-  :
-  "center center",
-  "detailFacts"
-  :
-  [
-    {
-      "label": {
-        "az": "Format",
-        "en": "Format"
-      },
-      "value": {
-        "az": "Onlayn video təqdimatı",
-        "en": "Online video submission"
-      }
-    },
-    {
-      "label": {
-        "az": "Video",
-        "en": "Video"
-      },
-      "value": {
-        "az": "Maksimum 1 dəqiqə",
-        "en": "Maximum 1 minute"
-      }
-    },
-    {
-      "label": {
-        "az": "Ödəniş",
-        "en": "Cost"
-      },
-      "value": {
-        "az": "Pulsuz",
-        "en": "Free"
-      }
-    },
-    {
-      "label": {
-        "az": "Mövzular",
-        "en": "Topics"
-      },
-      "value": {
-        "az": "3 mövzudan 1-i seçilir",
-        "en": "Choose 1 of 3 topics"
-      }
-    },
-    {
-      "label": {
-        "az": "Mükafat",
-        "en": "Top prize"
-      },
-      "value": {
-        "az": "$1,200-dək",
-        "en": "Up to $1,200"
-      }
-    },
-    {
-      "label": {
-        "az": "Son tarix",
-        "en": "Deadline"
-      },
-      "value": {
-        "az": "3 mart 2027, 23:59 (EST)",
-        "en": "March 3, 2027, 23:59 EST"
-      }
-    }
-  ],
-  "eligibilitySummary"
-  :
-  {
-    "az": "Dünyanın müxtəlif ölkələrindən 6-12-ci sinif (və beynəlxalq ekvivalent) şagirdləri fərdi və ya qrup şəklində iştirak edə bilər.",
-    "en": "Students in grades 6-12 (or international equivalents) worldwide may participate individually or in groups."
-  },
-  "eligibility"
-  :
-  {
-    "az": [
-      "İştirakçılar dünyanın istənilən ölkəsindən ola bilər.",
-      "Müsabiqə 6-12-ci sinif (və beynəlxalq ekvivalent) şagirdləri üçün nəzərdə tutulub.",
-      "Dövlət, özəl və evdə təhsil alan şagirdlər iştirak edə bilər.",
-      "Şagirdlər fərdi və ya kiçik qruplar şəklində bir video təqdim edə bilər.",
-      "Video ən çox 1 dəqiqə uzunluğunda olmalı və seçilmiş mövzu üzrə davamlı həll yolu təklif etməlidir."
-    ],
-    "en": [
-      "Participants may come from any country in the world.",
-      "The contest is open to students in grades 6-12 (or international equivalents).",
-      "Public school, private school, and homeschool students may all participate.",
-      "Students may submit one video individually or as part of a small group.",
-      "The video must be no more than 1 minute long and propose a sustainable solution on the chosen topic."
-    ]
-  },
-  "organizer"
-  :
-  "Population Education (Population Connection)",
-  "officialUrl"
-  :
-  "https://www.worldof8billion.org/video-contest/",
-  "officialCta"
-  :
-  {
-    "az": "Rəsmi müsabiqə səhifəsinə keç",
-    "en": "Visit official competition page"
-  },
-  "dateAdded"
-  :
-  "2026-09-05",
-  "lastVerified"
-  :
-  "2026-09-05"
-  },
 ]
