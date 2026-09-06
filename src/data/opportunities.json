@@ -1,4 +1,98 @@
-[
+[ {
+  "slug": "copernicus-physics-astronomy-azerbaijan-2026-2027",
+  "title": {
+    "az": "Copernicus Physics & Astronomy 2026–2027 — Azərbaycan seçim turu",
+    "en": "Copernicus Physics & Astronomy 2026–2027 — Azerbaijan Selection Round"
+  },
+  "summary": {
+    "az": "7–12-ci sinif şagirdləri Copernicus Physics & Astronomy 2026–2027 olimpiadasının 27 sentyabrda Bakı və Naxçıvanda keçiriləcək Azərbaycan seçim turunda fizika və ya astronomiya istiqaməti üzrə iştirak edə bilərlər.",
+    "en": "Students in grades 7–12 can enter the Azerbaijan selection round of Copernicus Physics & Astronomy 2026–2027 in Physics or Astronomy, taking place on September 27 in Baku and Nakhchivan."
+  },
+  "description": {
+    "az": [
+      "Copernicus Physics & Astronomy 2026–2027 üzrə Azərbaycan seçim turu 27 sentyabr 2026-cı ildə saat 11:00-da keçiriləcək. Olimpiada 7–12-ci sinif şagirdləri üçün nəzərdə tutulub.",
+      "İştirakçılar qeydiyyat zamanı Fizika və ya Astronomiya istiqamətini seçirlər. Seçim turunda 20 çoxvariantlı sual təqdim olunur, imtahan 75 dəqiqə davam edir və maksimum nəticə 100 baldır.",
+      "Şagirdlər 7–8, 9–10 və 11–12-ci siniflər olmaqla üç kateqoriya üzrə yarışırlar. Bakı üzrə dəqiq imtahan məkanı iştirakçının şəxsi kabinetində imtahana təxminən bir həftə qalmış göstəriləcək; Naxçıvan mərhələsi NDU Beynəlxalq Məktəbində nəzərdə tutulub.",
+      "Seçim turunda uğurlu nəticə göstərən iştirakçılar 2027-ci ilin yanvarında ABŞ-nin Hyuston şəhərində, Rice Universitetində keçiriləcəyi bildirilən qlobal final mərhələsinə qeydiyyat hüququ əldə edə bilərlər. Bu, final səfərinin və ya qeydiyyatının maliyyələşdirilməsi demək deyil.",
+      "Yerli seçim turu ödənişlidir, lakin GOC-un açıq məlumat səhifəsində cari iştirak haqqının məbləği göstərilmir. Rəsmi səhifədə ayrıca qeydiyyat son tarixi də göstərilmədiyi üçün 27 sentyabr bu entry-də fürsətin son məlum tarixi kimi istifadə olunur; qeydiyyatdan əvvəl şəxsi kabinetdə aktual şərtlər yoxlanmalıdır."
+    ],
+    "en": [
+      "The Azerbaijan selection round of Copernicus Physics & Astronomy 2026–2027 will take place on September 27, 2026 at 11:00. The competition is intended for students in grades 7–12.",
+      "Participants choose either Physics or Astronomy when registering. The selection round consists of 20 multiple-choice questions, lasts 75 minutes, and is scored out of 100 points.",
+      "Students compete in three grade categories: grades 7–8, 9–10, and 11–12. The exact Baku venue is expected to appear in each participant's account around one week before the exam; the Nakhchivan round is listed at NDU International School.",
+      "High-performing participants may earn the right to register for the global final, which GOC says will be held in January 2027 at Rice University in Houston, USA. Qualification does not mean that final-round registration, travel, or accommodation is funded.",
+      "The Azerbaijan selection round requires payment, but GOC's public information page does not currently state the participation-fee amount. It also does not list a separate registration deadline, so September 27 is used here as the latest known opportunity date; applicants should recheck the current terms in their account before registering."
+    ]
+  },
+  "categories": [
+    "STEM",
+    "Olympiad",
+    "Physics"
+  ],
+  "deadline": "2026-09-27",
+  "image": {
+    "src": "/images/copernicus-physics-astronomy-2026-2027.png",
+    "alt": {
+      "az": "Copernicus 2026–2027 Fizika və Astronomiya Azərbaycan seçim turunun rəsmi GOC vizualı",
+      "en": "Official GOC visual for the Copernicus 2026–2027 Physics and Astronomy Azerbaijan selection round"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {"az": "Sinif", "en": "Grades"},
+      "value": {"az": "7–12-ci siniflər", "en": "Grades 7–12"}
+    },
+    {
+      "label": {"az": "Tarix", "en": "Date"},
+      "value": {"az": "27 sentyabr 2026, saat 11:00", "en": "September 27, 2026 at 11:00"}
+    },
+    {
+      "label": {"az": "İstiqamətlər", "en": "Tracks"},
+      "value": {"az": "Fizika və ya Astronomiya", "en": "Physics or Astronomy"}
+    },
+    {
+      "label": {"az": "Məkan", "en": "Location"},
+      "value": {"az": "Bakı və Naxçıvan", "en": "Baku and Nakhchivan"}
+    },
+    {
+      "label": {"az": "Ödəniş", "en": "Cost"},
+      "value": {
+        "az": "Ödənişlidir; məbləğ açıq məlumat səhifəsində göstərilmir",
+        "en": "Paid; the amount is not listed on the public information page"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Azərbaycanda 7–12-ci sinifdə oxuyan şagirdlər Fizika və ya Astronomiya istiqamətini seçərək iştirak edə bilərlər.",
+    "en": "Students in Azerbaijan in grades 7–12 may participate by choosing either the Physics or Astronomy track."
+  },
+  "eligibility": {
+    "az": [
+      "İştirakçı 7–12-ci sinif şagirdi olmalıdır.",
+      "Qeydiyyat zamanı Fizika və ya Astronomiya istiqaməti seçilməlidir.",
+      "Kateqoriyalar 7–8, 9–10 və 11–12-ci siniflər üzrə ayrılır.",
+      "İmtahan əyani formatda keçirilir və iştirakçı qeydiyyat zamanı uyğun mərkəzi seçməlidir.",
+      "Qeydiyyat və ödəniş tamamlanmalıdır; ödənilmiş məbləğin geri qaytarılmadığı rəsmi qaydalarda qeyd olunur."
+    ],
+    "en": [
+      "Participants must be students in grades 7–12.",
+      "Applicants must choose either Physics or Astronomy when registering.",
+      "Grade categories are 7–8, 9–10, and 11–12.",
+      "The selection round is held in person, and participants must choose an available center during registration.",
+      "Registration and payment must be completed; the official rules state that payments are non-refundable."
+    ]
+  },
+  "organizer": "Global Olympiad Center (GOC) — Copernicus Olympiad",
+  "officialUrl": "https://www.goc.edu.az/olympic-and-competition/27/2026/beynelxalq-kopernik-olimpidasi-fizika-ve-astronomiya-fenni-uzre",
+  "officialCta": {
+    "az": "Rəsmi səhifəyə keç",
+    "en": "Visit official page"
+  },
+  "dateAdded": "2026-09-06",
+  "lastVerified": "2026-09-06"
+},
   {
     "slug": "blue-ocean-student-entrepreneur-competition-2027",
     "title": {
