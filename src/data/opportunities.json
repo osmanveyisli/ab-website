@@ -1,4 +1,126 @@
-[ {
+[{
+  "slug": "the-earth-prize-2027",
+  "title": {
+    "az": "The Earth Prize 2027",
+    "en": "The Earth Prize 2027"
+  },
+  "summary": {
+    "az": "13–19 yaşlı şagirdlər dünyanın istənilən yerindən The Earth Prize 2027-yə pulsuz qeydiyyatdan keçərək ekoloji problemlərə innovativ həllər hazırlaya, mentorluq və təlim resurslarından yararlana və qaliblər üçün nəzərdə tutulan 100,000 ABŞ dollarlıq ümumi maliyyələşdirmə fondu uğrunda yarışa bilərlər.",
+    "en": "Students aged 13–19 worldwide can register free for The Earth Prize 2027, develop innovative solutions to environmental challenges, access mentoring and learning resources, and compete for a shared $100,000 funding pool for winners."
+  },
+  "description": {
+    "az": [
+      "The Earth Prize, The Earth Foundation tərəfindən təşkil olunan və gəncləri real ekoloji problemlərə innovativ və praktik həllər hazırlamağa təşviq edən qlobal ekoloji davamlılıq müsabiqəsidir.",
+      "The Earth Prize 2027 üçün qeydiyyat hazırda açıqdır. Müsabiqə dünyanın müxtəlif ölkələrindən 13–19 yaşlı şagirdlər üçün nəzərdə tutulub və Azərbaycandan olan uyğun şagirdlər də iştirak edə bilərlər.",
+      "İştirakçılar ətraf mühit və davamlılıqla bağlı real problem müəyyənləşdirərək ona yönəlmiş həll ideyası hazırlayırlar. Qeydiyyatdan keçən şagirdlər The Earth Prize-in təlim materiallarına, beynəlxalq icmasına və mentorluq imkanlarına çıxış əldə edə bilirlər.",
+      "The Earth Prize qaliblər üçün ümumilikdə 100,000 ABŞ dolları həcmində illik ortaq maliyyələşdirmə fondu təqdim etdiyini bildirir. Bu məbləğ bir iştirakçıya verilən tək 100,000 dollarlıq mükafat deyil; maliyyələşdirmə qaliblər arasında bölüşdürülür.",
+      "Təşkilatçı 2027-ci il üçün qeydiyyatı açsa da, cari 2027 son müraciət tarixini, tam mərhələ cədvəlini və maliyyələşdirmənin qaliblər arasında dəqiq bölgüsünü hələ rəsmi olaraq dərc etməyib. AB bu məlumatlar açıqlanan kimi səhifəni yeniləyəcək."
+    ],
+    "en": [
+      "The Earth Prize is a global environmental sustainability competition organized by The Earth Foundation that encourages young people to develop innovative and practical solutions to real environmental challenges.",
+      "Registration for The Earth Prize 2027 is currently open. The competition is intended for students aged 13–19 worldwide, and eligible students from Azerbaijan may participate.",
+      "Participants identify a real environmental or sustainability problem and develop a solution addressing it. Registered students can access The Earth Prize learning resources, international community and mentoring opportunities.",
+      "The Earth Prize advertises a shared annual funding pool of $100,000 for winners. This is not a single $100,000 award given to one participant; the funding is distributed among winning teams or participants.",
+      "Although registration for the 2027 competition is open, the organizer has not yet officially published the 2027 closing date, full competition timeline or exact allocation of funding among winners. AB will update this page when those details are released."
+    ]
+  },
+  "categories": [
+    "Sustainability",
+    "Competition",
+    "Innovation"
+  ],
+  "deadline": null,
+  "image": {
+    "src": "/images/the-earth-prize-2027.png",
+    "alt": {
+      "az": "Yaşıl meşədən keçən çayın havadan görünüşü üzərində The Earth Prize 2027 vizualı",
+      "en": "The Earth Prize 2027 visual over an aerial view of a river winding through a green forest"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Yaş",
+        "en": "Age"
+      },
+      "value": {
+        "az": "13–19 yaş",
+        "en": "Ages 13–19"
+      }
+    },
+    {
+      "label": {
+        "az": "İştirak",
+        "en": "Participation"
+      },
+      "value": {
+        "az": "Dünya üzrə",
+        "en": "Worldwide"
+      }
+    },
+    {
+      "label": {
+        "az": "Ödəniş",
+        "en": "Cost"
+      },
+      "value": {
+        "az": "Pulsuz",
+        "en": "Free"
+      }
+    },
+    {
+      "label": {
+        "az": "Maliyyələşdirmə",
+        "en": "Funding"
+      },
+      "value": {
+        "az": "$100,000 ümumi ortaq fond",
+        "en": "$100,000 shared funding pool"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "2027 üzrə hələ açıqlanmayıb",
+        "en": "2027 deadline not yet published"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Dünyanın müxtəlif ölkələrindən, o cümlədən Azərbaycandan 13–19 yaşlı şagirdlər The Earth Prize 2027 üçün qeydiyyatdan keçə bilərlər.",
+    "en": "Students aged 13–19 worldwide, including students from Azerbaijan, may register for The Earth Prize 2027."
+  },
+  "eligibility": {
+    "az": [
+      "İştirakçılar 13–19 yaş arasında olmalıdırlar.",
+      "Müsabiqə dünya üzrə şagirdlər üçün açıqdır.",
+      "İştirakçı ekoloji və ya davamlılıq problemi üçün həll ideyası üzərində işləməlidir.",
+      "2027 müsabiqəsi üçün qeydiyyat hazırda açıqdır.",
+      "Komanda strukturu, təqdimetmə tələbləri və digər detallı 2027 qaydaları rəsmi olaraq yeniləndikdə həmin şərtlər tətbiq olunacaq."
+    ],
+    "en": [
+      "Participants must be between 13 and 19 years old.",
+      "The competition is open to students worldwide.",
+      "Participants should develop an idea addressing an environmental or sustainability challenge.",
+      "Registration for the 2027 competition is currently open.",
+      "The official 2027 rules will govern team structure, submission requirements and other detailed participation conditions once they are published."
+    ]
+  },
+  "organizer": "The Earth Foundation — The Earth Prize",
+  "officialUrl": "https://www.theearthprize.org/registration?type=student",
+  "officialCta": {
+    "az": "Rəsmi qeydiyyat səhifəsinə keç",
+    "en": "Visit official registration page"
+  },
+  "dateAdded": "2026-09-06",
+  "lastVerified": "2026-09-06"
+},
+ {
   "slug": "copernicus-physics-astronomy-azerbaijan-2026-2027",
   "title": {
     "az": "Copernicus Physics & Astronomy 2026–2027 — Azərbaycan seçim turu",
