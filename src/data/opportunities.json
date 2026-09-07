@@ -1,220 +1,248 @@
-[{
-  "slug": "the-earth-prize-2027",
-  "title": {
-    "az": "The Earth Prize 2027",
-    "en": "The Earth Prize 2027"
-  },
-  "summary": {
-    "az": "13–19 yaşlı şagirdlər dünyanın istənilən yerindən The Earth Prize 2027-yə pulsuz qeydiyyatdan keçərək ekoloji problemlərə innovativ həllər hazırlaya, mentorluq və təlim resurslarından yararlana və qaliblər üçün nəzərdə tutulan 100,000 ABŞ dollarlıq ümumi maliyyələşdirmə fondu uğrunda yarışa bilərlər.",
-    "en": "Students aged 13–19 worldwide can register free for The Earth Prize 2027, develop innovative solutions to environmental challenges, access mentoring and learning resources, and compete for a shared $100,000 funding pool for winners."
-  },
-  "description": {
-    "az": [
-      "The Earth Prize, The Earth Foundation tərəfindən təşkil olunan və gəncləri real ekoloji problemlərə innovativ və praktik həllər hazırlamağa təşviq edən qlobal ekoloji davamlılıq müsabiqəsidir.",
-      "The Earth Prize 2027 üçün qeydiyyat hazırda açıqdır. Müsabiqə dünyanın müxtəlif ölkələrindən 13–19 yaşlı şagirdlər üçün nəzərdə tutulub və Azərbaycandan olan uyğun şagirdlər də iştirak edə bilərlər.",
-      "İştirakçılar ətraf mühit və davamlılıqla bağlı real problem müəyyənləşdirərək ona yönəlmiş həll ideyası hazırlayırlar. Qeydiyyatdan keçən şagirdlər The Earth Prize-in təlim materiallarına, beynəlxalq icmasına və mentorluq imkanlarına çıxış əldə edə bilirlər.",
-      "The Earth Prize qaliblər üçün ümumilikdə 100,000 ABŞ dolları həcmində illik ortaq maliyyələşdirmə fondu təqdim etdiyini bildirir. Bu məbləğ bir iştirakçıya verilən tək 100,000 dollarlıq mükafat deyil; maliyyələşdirmə qaliblər arasında bölüşdürülür.",
-      "Təşkilatçı 2027-ci il üçün qeydiyyatı açsa da, cari 2027 son müraciət tarixini, tam mərhələ cədvəlini və maliyyələşdirmənin qaliblər arasında dəqiq bölgüsünü hələ rəsmi olaraq dərc etməyib. AB bu məlumatlar açıqlanan kimi səhifəni yeniləyəcək."
+[
+  {
+    "slug": "the-earth-prize-2027",
+    "title": {
+      "az": "The Earth Prize 2027",
+      "en": "The Earth Prize 2027"
+    },
+    "summary": {
+      "az": "13–19 yaşlı şagirdlər dünyanın istənilən yerindən The Earth Prize 2027-yə pulsuz qeydiyyatdan keçərək ekoloji problemlərə innovativ həllər hazırlaya, mentorluq və təlim resurslarından yararlana və qaliblər üçün nəzərdə tutulan 100,000 ABŞ dollarlıq ümumi maliyyələşdirmə fondu uğrunda yarışa bilərlər.",
+      "en": "Students aged 13–19 worldwide can register free for The Earth Prize 2027, develop innovative solutions to environmental challenges, access mentoring and learning resources, and compete for a shared $100,000 funding pool for winners."
+    },
+    "description": {
+      "az": [
+        "The Earth Prize, The Earth Foundation tərəfindən təşkil olunan və gəncləri real ekoloji problemlərə innovativ və praktik həllər hazırlamağa təşviq edən qlobal ekoloji davamlılıq müsabiqəsidir.",
+        "The Earth Prize 2027 üçün qeydiyyat hazırda açıqdır. Müsabiqə dünyanın müxtəlif ölkələrindən 13–19 yaşlı şagirdlər üçün nəzərdə tutulub və Azərbaycandan olan uyğun şagirdlər də iştirak edə bilərlər.",
+        "İştirakçılar ətraf mühit və davamlılıqla bağlı real problem müəyyənləşdirərək ona yönəlmiş həll ideyası hazırlayırlar. Qeydiyyatdan keçən şagirdlər The Earth Prize-in təlim materiallarına, beynəlxalq icmasına və mentorluq imkanlarına çıxış əldə edə bilirlər.",
+        "The Earth Prize qaliblər üçün ümumilikdə 100,000 ABŞ dolları həcmində illik ortaq maliyyələşdirmə fondu təqdim etdiyini bildirir. Bu məbləğ bir iştirakçıya verilən tək 100,000 dollarlıq mükafat deyil; maliyyələşdirmə qaliblər arasında bölüşdürülür.",
+        "Təşkilatçı 2027-ci il üçün qeydiyyatı açsa da, cari 2027 son müraciət tarixini, tam mərhələ cədvəlini və maliyyələşdirmənin qaliblər arasında dəqiq bölgüsünü hələ rəsmi olaraq dərc etməyib. AB bu məlumatlar açıqlanan kimi səhifəni yeniləyəcək."
+      ],
+      "en": [
+        "The Earth Prize is a global environmental sustainability competition organized by The Earth Foundation that encourages young people to develop innovative and practical solutions to real environmental challenges.",
+        "Registration for The Earth Prize 2027 is currently open. The competition is intended for students aged 13–19 worldwide, and eligible students from Azerbaijan may participate.",
+        "Participants identify a real environmental or sustainability problem and develop a solution addressing it. Registered students can access The Earth Prize learning resources, international community and mentoring opportunities.",
+        "The Earth Prize advertises a shared annual funding pool of $100,000 for winners. This is not a single $100,000 award given to one participant; the funding is distributed among winning teams or participants.",
+        "Although registration for the 2027 competition is open, the organizer has not yet officially published the 2027 closing date, full competition timeline or exact allocation of funding among winners. AB will update this page when those details are released."
+      ]
+    },
+    "categories": [
+      "Sustainability",
+      "Competition",
+      "Innovation"
     ],
-    "en": [
-      "The Earth Prize is a global environmental sustainability competition organized by The Earth Foundation that encourages young people to develop innovative and practical solutions to real environmental challenges.",
-      "Registration for The Earth Prize 2027 is currently open. The competition is intended for students aged 13–19 worldwide, and eligible students from Azerbaijan may participate.",
-      "Participants identify a real environmental or sustainability problem and develop a solution addressing it. Registered students can access The Earth Prize learning resources, international community and mentoring opportunities.",
-      "The Earth Prize advertises a shared annual funding pool of $100,000 for winners. This is not a single $100,000 award given to one participant; the funding is distributed among winning teams or participants.",
-      "Although registration for the 2027 competition is open, the organizer has not yet officially published the 2027 closing date, full competition timeline or exact allocation of funding among winners. AB will update this page when those details are released."
-    ]
-  },
-  "categories": [
-    "Sustainability",
-    "Competition",
-    "Innovation"
-  ],
-  "deadline": null,
-  "image": {
-    "src": "/images/the-earth-prize-2027.png",
-    "alt": {
-      "az": "Yaşıl meşədən keçən çayın havadan görünüşü üzərində The Earth Prize 2027 vizualı",
-      "en": "The Earth Prize 2027 visual over an aerial view of a river winding through a green forest"
-    }
-  },
-  "imageFit": "cover",
-  "imagePosition": "center center",
-  "detailFacts": [
-    {
-      "label": {
-        "az": "Yaş",
-        "en": "Age"
-      },
-      "value": {
-        "az": "13–19 yaş",
-        "en": "Ages 13–19"
+    "deadline": null,
+    "image": {
+      "src": "/images/the-earth-prize-2027.png",
+      "alt": {
+        "az": "Yaşıl meşədən keçən çayın havadan görünüşü üzərində The Earth Prize 2027 vizualı",
+        "en": "The Earth Prize 2027 visual over an aerial view of a river winding through a green forest"
       }
     },
-    {
-      "label": {
-        "az": "İştirak",
-        "en": "Participation"
+    "imageFit": "cover",
+    "imagePosition": "center center",
+    "detailFacts": [
+      {
+        "label": {
+          "az": "Yaş",
+          "en": "Age"
+        },
+        "value": {
+          "az": "13–19 yaş",
+          "en": "Ages 13–19"
+        }
       },
-      "value": {
-        "az": "Dünya üzrə",
-        "en": "Worldwide"
-      }
-    },
-    {
-      "label": {
-        "az": "Ödəniş",
-        "en": "Cost"
+      {
+        "label": {
+          "az": "İştirak",
+          "en": "Participation"
+        },
+        "value": {
+          "az": "Dünya üzrə",
+          "en": "Worldwide"
+        }
       },
-      "value": {
-        "az": "Pulsuz",
-        "en": "Free"
-      }
-    },
-    {
-      "label": {
-        "az": "Maliyyələşdirmə",
-        "en": "Funding"
+      {
+        "label": {
+          "az": "Ödəniş",
+          "en": "Cost"
+        },
+        "value": {
+          "az": "Pulsuz",
+          "en": "Free"
+        }
       },
-      "value": {
-        "az": "$100,000 ümumi ortaq fond",
-        "en": "$100,000 shared funding pool"
-      }
-    },
-    {
-      "label": {
-        "az": "Son tarix",
-        "en": "Deadline"
+      {
+        "label": {
+          "az": "Maliyyələşdirmə",
+          "en": "Funding"
+        },
+        "value": {
+          "az": "$100,000 ümumi ortaq fond",
+          "en": "$100,000 shared funding pool"
+        }
       },
-      "value": {
-        "az": "2027 üzrə hələ açıqlanmayıb",
-        "en": "2027 deadline not yet published"
+      {
+        "label": {
+          "az": "Son tarix",
+          "en": "Deadline"
+        },
+        "value": {
+          "az": "2027 üzrə hələ açıqlanmayıb",
+          "en": "2027 deadline not yet published"
+        }
       }
-    }
-  ],
-  "eligibilitySummary": {
-    "az": "Dünyanın müxtəlif ölkələrindən, o cümlədən Azərbaycandan 13–19 yaşlı şagirdlər The Earth Prize 2027 üçün qeydiyyatdan keçə bilərlər.",
-    "en": "Students aged 13–19 worldwide, including students from Azerbaijan, may register for The Earth Prize 2027."
-  },
-  "eligibility": {
-    "az": [
-      "İştirakçılar 13–19 yaş arasında olmalıdırlar.",
-      "Müsabiqə dünya üzrə şagirdlər üçün açıqdır.",
-      "İştirakçı ekoloji və ya davamlılıq problemi üçün həll ideyası üzərində işləməlidir.",
-      "2027 müsabiqəsi üçün qeydiyyat hazırda açıqdır.",
-      "Komanda strukturu, təqdimetmə tələbləri və digər detallı 2027 qaydaları rəsmi olaraq yeniləndikdə həmin şərtlər tətbiq olunacaq."
     ],
-    "en": [
-      "Participants must be between 13 and 19 years old.",
-      "The competition is open to students worldwide.",
-      "Participants should develop an idea addressing an environmental or sustainability challenge.",
-      "Registration for the 2027 competition is currently open.",
-      "The official 2027 rules will govern team structure, submission requirements and other detailed participation conditions once they are published."
-    ]
+    "eligibilitySummary": {
+      "az": "Dünyanın müxtəlif ölkələrindən, o cümlədən Azərbaycandan 13–19 yaşlı şagirdlər The Earth Prize 2027 üçün qeydiyyatdan keçə bilərlər.",
+      "en": "Students aged 13–19 worldwide, including students from Azerbaijan, may register for The Earth Prize 2027."
+    },
+    "eligibility": {
+      "az": [
+        "İştirakçılar 13–19 yaş arasında olmalıdırlar.",
+        "Müsabiqə dünya üzrə şagirdlər üçün açıqdır.",
+        "İştirakçı ekoloji və ya davamlılıq problemi üçün həll ideyası üzərində işləməlidir.",
+        "2027 müsabiqəsi üçün qeydiyyat hazırda açıqdır.",
+        "Komanda strukturu, təqdimetmə tələbləri və digər detallı 2027 qaydaları rəsmi olaraq yeniləndikdə həmin şərtlər tətbiq olunacaq."
+      ],
+      "en": [
+        "Participants must be between 13 and 19 years old.",
+        "The competition is open to students worldwide.",
+        "Participants should develop an idea addressing an environmental or sustainability challenge.",
+        "Registration for the 2027 competition is currently open.",
+        "The official 2027 rules will govern team structure, submission requirements and other detailed participation conditions once they are published."
+      ]
+    },
+    "organizer": "The Earth Foundation — The Earth Prize",
+    "officialUrl": "https://www.theearthprize.org/registration?type=student",
+    "officialCta": {
+      "az": "Rəsmi qeydiyyat səhifəsinə keç",
+      "en": "Visit official registration page"
+    },
+    "dateAdded": "2026-09-06",
+    "lastVerified": "2026-09-06"
   },
-  "organizer": "The Earth Foundation — The Earth Prize",
-  "officialUrl": "https://www.theearthprize.org/registration?type=student",
-  "officialCta": {
-    "az": "Rəsmi qeydiyyat səhifəsinə keç",
-    "en": "Visit official registration page"
-  },
-  "dateAdded": "2026-09-06",
-  "lastVerified": "2026-09-06"
-},
- {
-  "slug": "copernicus-physics-astronomy-azerbaijan-2026-2027",
-  "title": {
-    "az": "Copernicus Physics & Astronomy 2026–2027 — Azərbaycan seçim turu",
-    "en": "Copernicus Physics & Astronomy 2026–2027 — Azerbaijan Selection Round"
-  },
-  "summary": {
-    "az": "7–12-ci sinif şagirdləri Copernicus Physics & Astronomy 2026–2027 olimpiadasının 27 sentyabrda Bakı və Naxçıvanda keçiriləcək Azərbaycan seçim turunda fizika və ya astronomiya istiqaməti üzrə iştirak edə bilərlər.",
-    "en": "Students in grades 7–12 can enter the Azerbaijan selection round of Copernicus Physics & Astronomy 2026–2027 in Physics or Astronomy, taking place on September 27 in Baku and Nakhchivan."
-  },
-  "description": {
-    "az": [
-      "Copernicus Physics & Astronomy 2026–2027 üzrə Azərbaycan seçim turu 27 sentyabr 2026-cı ildə saat 11:00-da keçiriləcək. Olimpiada 7–12-ci sinif şagirdləri üçün nəzərdə tutulub.",
-      "İştirakçılar qeydiyyat zamanı Fizika və ya Astronomiya istiqamətini seçirlər. Seçim turunda 20 çoxvariantlı sual təqdim olunur, imtahan 75 dəqiqə davam edir və maksimum nəticə 100 baldır.",
-      "Şagirdlər 7–8, 9–10 və 11–12-ci siniflər olmaqla üç kateqoriya üzrə yarışırlar. Bakı üzrə dəqiq imtahan məkanı iştirakçının şəxsi kabinetində imtahana təxminən bir həftə qalmış göstəriləcək; Naxçıvan mərhələsi NDU Beynəlxalq Məktəbində nəzərdə tutulub.",
-      "Seçim turunda uğurlu nəticə göstərən iştirakçılar 2027-ci ilin yanvarında ABŞ-nin Hyuston şəhərində, Rice Universitetində keçiriləcəyi bildirilən qlobal final mərhələsinə qeydiyyat hüququ əldə edə bilərlər. Bu, final səfərinin və ya qeydiyyatının maliyyələşdirilməsi demək deyil.",
-      "Yerli seçim turu ödənişlidir, lakin GOC-un açıq məlumat səhifəsində cari iştirak haqqının məbləği göstərilmir. Rəsmi səhifədə ayrıca qeydiyyat son tarixi də göstərilmədiyi üçün 27 sentyabr bu entry-də fürsətin son məlum tarixi kimi istifadə olunur; qeydiyyatdan əvvəl şəxsi kabinetdə aktual şərtlər yoxlanmalıdır."
+  {
+    "slug": "copernicus-physics-astronomy-azerbaijan-2026-2027",
+    "title": {
+      "az": "Copernicus Physics & Astronomy 2026–2027 — Azərbaycan seçim turu",
+      "en": "Copernicus Physics & Astronomy 2026–2027 — Azerbaijan Selection Round"
+    },
+    "summary": {
+      "az": "7–12-ci sinif şagirdləri Copernicus Physics & Astronomy 2026–2027 olimpiadasının 27 sentyabrda Bakı və Naxçıvanda keçiriləcək Azərbaycan seçim turunda fizika və ya astronomiya istiqaməti üzrə iştirak edə bilərlər.",
+      "en": "Students in grades 7–12 can enter the Azerbaijan selection round of Copernicus Physics & Astronomy 2026–2027 in Physics or Astronomy, taking place on September 27 in Baku and Nakhchivan."
+    },
+    "description": {
+      "az": [
+        "Copernicus Physics & Astronomy 2026–2027 üzrə Azərbaycan seçim turu 27 sentyabr 2026-cı ildə saat 11:00-da keçiriləcək. Olimpiada 7–12-ci sinif şagirdləri üçün nəzərdə tutulub.",
+        "İştirakçılar qeydiyyat zamanı Fizika və ya Astronomiya istiqamətini seçirlər. Seçim turunda 20 çoxvariantlı sual təqdim olunur, imtahan 75 dəqiqə davam edir və maksimum nəticə 100 baldır.",
+        "Şagirdlər 7–8, 9–10 və 11–12-ci siniflər olmaqla üç kateqoriya üzrə yarışırlar. Bakı üzrə dəqiq imtahan məkanı iştirakçının şəxsi kabinetində imtahana təxminən bir həftə qalmış göstəriləcək; Naxçıvan mərhələsi NDU Beynəlxalq Məktəbində nəzərdə tutulub.",
+        "Seçim turunda uğurlu nəticə göstərən iştirakçılar 2027-ci ilin yanvarında ABŞ-nin Hyuston şəhərində, Rice Universitetində keçiriləcəyi bildirilən qlobal final mərhələsinə qeydiyyat hüququ əldə edə bilərlər. Bu, final səfərinin və ya qeydiyyatının maliyyələşdirilməsi demək deyil.",
+        "Yerli seçim turu ödənişlidir, lakin GOC-un açıq məlumat səhifəsində cari iştirak haqqının məbləği göstərilmir. Rəsmi səhifədə ayrıca qeydiyyat son tarixi də göstərilmədiyi üçün 27 sentyabr bu entry-də fürsətin son məlum tarixi kimi istifadə olunur; qeydiyyatdan əvvəl şəxsi kabinetdə aktual şərtlər yoxlanmalıdır."
+      ],
+      "en": [
+        "The Azerbaijan selection round of Copernicus Physics & Astronomy 2026–2027 will take place on September 27, 2026 at 11:00. The competition is intended for students in grades 7–12.",
+        "Participants choose either Physics or Astronomy when registering. The selection round consists of 20 multiple-choice questions, lasts 75 minutes, and is scored out of 100 points.",
+        "Students compete in three grade categories: grades 7–8, 9–10, and 11–12. The exact Baku venue is expected to appear in each participant's account around one week before the exam; the Nakhchivan round is listed at NDU International School.",
+        "High-performing participants may earn the right to register for the global final, which GOC says will be held in January 2027 at Rice University in Houston, USA. Qualification does not mean that final-round registration, travel, or accommodation is funded.",
+        "The Azerbaijan selection round requires payment, but GOC's public information page does not currently state the participation-fee amount. It also does not list a separate registration deadline, so September 27 is used here as the latest known opportunity date; applicants should recheck the current terms in their account before registering."
+      ]
+    },
+    "categories": [
+      "STEM",
+      "Olympiad",
+      "Physics"
     ],
-    "en": [
-      "The Azerbaijan selection round of Copernicus Physics & Astronomy 2026–2027 will take place on September 27, 2026 at 11:00. The competition is intended for students in grades 7–12.",
-      "Participants choose either Physics or Astronomy when registering. The selection round consists of 20 multiple-choice questions, lasts 75 minutes, and is scored out of 100 points.",
-      "Students compete in three grade categories: grades 7–8, 9–10, and 11–12. The exact Baku venue is expected to appear in each participant's account around one week before the exam; the Nakhchivan round is listed at NDU International School.",
-      "High-performing participants may earn the right to register for the global final, which GOC says will be held in January 2027 at Rice University in Houston, USA. Qualification does not mean that final-round registration, travel, or accommodation is funded.",
-      "The Azerbaijan selection round requires payment, but GOC's public information page does not currently state the participation-fee amount. It also does not list a separate registration deadline, so September 27 is used here as the latest known opportunity date; applicants should recheck the current terms in their account before registering."
-    ]
-  },
-  "categories": [
-    "STEM",
-    "Olympiad",
-    "Physics"
-  ],
-  "deadline": "2026-09-27",
-  "image": {
-    "src": "/images/copernicus-physics-astronomy-2026-2027.png",
-    "alt": {
-      "az": "Copernicus 2026–2027 Fizika və Astronomiya Azərbaycan seçim turunun rəsmi GOC vizualı",
-      "en": "Official GOC visual for the Copernicus 2026–2027 Physics and Astronomy Azerbaijan selection round"
-    }
-  },
-  "imageFit": "cover",
-  "imagePosition": "center center",
-  "detailFacts": [
-    {
-      "label": {"az": "Sinif", "en": "Grades"},
-      "value": {"az": "7–12-ci siniflər", "en": "Grades 7–12"}
-    },
-    {
-      "label": {"az": "Tarix", "en": "Date"},
-      "value": {"az": "27 sentyabr 2026, saat 11:00", "en": "September 27, 2026 at 11:00"}
-    },
-    {
-      "label": {"az": "İstiqamətlər", "en": "Tracks"},
-      "value": {"az": "Fizika və ya Astronomiya", "en": "Physics or Astronomy"}
-    },
-    {
-      "label": {"az": "Məkan", "en": "Location"},
-      "value": {"az": "Bakı və Naxçıvan", "en": "Baku and Nakhchivan"}
-    },
-    {
-      "label": {"az": "Ödəniş", "en": "Cost"},
-      "value": {
-        "az": "Ödənişlidir; məbləğ açıq məlumat səhifəsində göstərilmir",
-        "en": "Paid; the amount is not listed on the public information page"
+    "deadline": "2026-09-27",
+    "image": {
+      "src": "/images/copernicus-physics-astronomy-2026-2027.png",
+      "alt": {
+        "az": "Copernicus 2026–2027 Fizika və Astronomiya Azərbaycan seçim turunun rəsmi GOC vizualı",
+        "en": "Official GOC visual for the Copernicus 2026–2027 Physics and Astronomy Azerbaijan selection round"
       }
-    }
-  ],
-  "eligibilitySummary": {
-    "az": "Azərbaycanda 7–12-ci sinifdə oxuyan şagirdlər Fizika və ya Astronomiya istiqamətini seçərək iştirak edə bilərlər.",
-    "en": "Students in Azerbaijan in grades 7–12 may participate by choosing either the Physics or Astronomy track."
-  },
-  "eligibility": {
-    "az": [
-      "İştirakçı 7–12-ci sinif şagirdi olmalıdır.",
-      "Qeydiyyat zamanı Fizika və ya Astronomiya istiqaməti seçilməlidir.",
-      "Kateqoriyalar 7–8, 9–10 və 11–12-ci siniflər üzrə ayrılır.",
-      "İmtahan əyani formatda keçirilir və iştirakçı qeydiyyat zamanı uyğun mərkəzi seçməlidir.",
-      "Qeydiyyat və ödəniş tamamlanmalıdır; ödənilmiş məbləğin geri qaytarılmadığı rəsmi qaydalarda qeyd olunur."
+    },
+    "imageFit": "cover",
+    "imagePosition": "center center",
+    "detailFacts": [
+      {
+        "label": {
+          "az": "Sinif",
+          "en": "Grades"
+        },
+        "value": {
+          "az": "7–12-ci siniflər",
+          "en": "Grades 7–12"
+        }
+      },
+      {
+        "label": {
+          "az": "Tarix",
+          "en": "Date"
+        },
+        "value": {
+          "az": "27 sentyabr 2026, saat 11:00",
+          "en": "September 27, 2026 at 11:00"
+        }
+      },
+      {
+        "label": {
+          "az": "İstiqamətlər",
+          "en": "Tracks"
+        },
+        "value": {
+          "az": "Fizika və ya Astronomiya",
+          "en": "Physics or Astronomy"
+        }
+      },
+      {
+        "label": {
+          "az": "Məkan",
+          "en": "Location"
+        },
+        "value": {
+          "az": "Bakı və Naxçıvan",
+          "en": "Baku and Nakhchivan"
+        }
+      },
+      {
+        "label": {
+          "az": "Ödəniş",
+          "en": "Cost"
+        },
+        "value": {
+          "az": "Ödənişlidir; məbləğ açıq məlumat səhifəsində göstərilmir",
+          "en": "Paid; the amount is not listed on the public information page"
+        }
+      }
     ],
-    "en": [
-      "Participants must be students in grades 7–12.",
-      "Applicants must choose either Physics or Astronomy when registering.",
-      "Grade categories are 7–8, 9–10, and 11–12.",
-      "The selection round is held in person, and participants must choose an available center during registration.",
-      "Registration and payment must be completed; the official rules state that payments are non-refundable."
-    ]
+    "eligibilitySummary": {
+      "az": "Azərbaycanda 7–12-ci sinifdə oxuyan şagirdlər Fizika və ya Astronomiya istiqamətini seçərək iştirak edə bilərlər.",
+      "en": "Students in Azerbaijan in grades 7–12 may participate by choosing either the Physics or Astronomy track."
+    },
+    "eligibility": {
+      "az": [
+        "İştirakçı 7–12-ci sinif şagirdi olmalıdır.",
+        "Qeydiyyat zamanı Fizika və ya Astronomiya istiqaməti seçilməlidir.",
+        "Kateqoriyalar 7–8, 9–10 və 11–12-ci siniflər üzrə ayrılır.",
+        "İmtahan əyani formatda keçirilir və iştirakçı qeydiyyat zamanı uyğun mərkəzi seçməlidir.",
+        "Qeydiyyat və ödəniş tamamlanmalıdır; ödənilmiş məbləğin geri qaytarılmadığı rəsmi qaydalarda qeyd olunur."
+      ],
+      "en": [
+        "Participants must be students in grades 7–12.",
+        "Applicants must choose either Physics or Astronomy when registering.",
+        "Grade categories are 7–8, 9–10, and 11–12.",
+        "The selection round is held in person, and participants must choose an available center during registration.",
+        "Registration and payment must be completed; the official rules state that payments are non-refundable."
+      ]
+    },
+    "organizer": "Global Olympiad Center (GOC) — Copernicus Olympiad",
+    "officialUrl": "https://www.goc.edu.az/olympic-and-competition/27/2026/beynelxalq-kopernik-olimpidasi-fizika-ve-astronomiya-fenni-uzre",
+    "officialCta": {
+      "az": "Rəsmi səhifəyə keç",
+      "en": "Visit official page"
+    },
+    "dateAdded": "2026-09-06",
+    "lastVerified": "2026-09-06"
   },
-  "organizer": "Global Olympiad Center (GOC) — Copernicus Olympiad",
-  "officialUrl": "https://www.goc.edu.az/olympic-and-competition/27/2026/beynelxalq-kopernik-olimpidasi-fizika-ve-astronomiya-fenni-uzre",
-  "officialCta": {
-    "az": "Rəsmi səhifəyə keç",
-    "en": "Visit official page"
-  },
-  "dateAdded": "2026-09-06",
-  "lastVerified": "2026-09-06"
-},
   {
     "slug": "blue-ocean-student-entrepreneur-competition-2027",
     "title": {
@@ -1099,5 +1127,130 @@
     },
     "dateAdded": "2026-09-05",
     "lastVerified": "2026-09-05"
+  },
+
+  {
+    "slug": "steam-training-groups-september-2026",
+    "title": {
+      "az": "STEAM Mərkəzlərində yeni təlim qruplarına qeydiyyat",
+      "en": "Registration for New Training Groups at STEAM Centers"
+    },
+    "summary": {
+      "az": "Məktəblilər STEAM Mərkəzlərində süni intellekt, robototexnika, proqramlaşdırma, CAD, CNC, dron texnologiyaları və digər praktiki STEM təlimlərinə qeydiyyatdan keçə bilərlər. Son qeydiyyat tarixi 10 sentyabr 2026-cı ildir.",
+      "en": "School students can register for practical STEM training at STEAM Centers in artificial intelligence, robotics, programming, CAD, CNC, drone technologies and other fields. Registration closes on September 10, 2026."
+    },
+    "description": {
+      "az": [
+        "STEAM Azerbaijan STEAM Mərkəzlərində yeni təlim qruplarına qeydiyyat elan edib. Təlimlər şagirdlərə texnologiya, mühəndislik, proqramlaşdırma və yaradıcılıq sahələrində praktiki bacarıqlar əldə etmək imkanı yaradır.",
+        "Mövcud modullar arasında Kodlaşdırma laboratoriyası, Yaradıcılıq və incəsənət laboratoriyası, Məntiqi labirintlər, Proqramlaşdırılan sistemlər, CAD texnologiyaları, CNC texnologiyaları, Süni intellekt, Mexatronika və robototexnika, Dron texnologiyaları və RoboChallenge var.",
+        "Yaş tələbi seçilən proqramdan asılıdır. Məsələn, Süni intellekt proqramı 14–17, CAD və CNC proqramları 13–15, Mexatronika və robototexnika, Dron texnologiyaları və Proqramlaşdırılan sistemlər isə əsasən 10–16 yaşlı şagirdlər üçün nəzərdə tutulub.",
+        "Təlimlər STEAM Mərkəzlərində real layihələr və praktiki fəaliyyətlər əsasında həyata keçirilir. STEAM Azerbaijan ölkənin müxtəlif şəhər və rayonlarında STEAM Mərkəzləri fəaliyyət göstərir.",
+        "Son qeydiyyat tarixi 10 sentyabr 2026-cı ildir. Rəsmi qeydiyyat forması STEAM Azerbaijan saytında aktivdir. Cari elanda iştirak haqqı barədə məlumat göstərilmir."
+      ],
+      "en": [
+        "STEAM Azerbaijan has opened registration for new training groups at its STEAM Centers. The programs are designed to give students practical experience in technology, engineering, programming and creative fields.",
+        "Available modules include CodeLab, ArtLab, Logical Mazes, Programmable Systems, CAD Technologies, CNC Technologies, Artificial Intelligence, Mechatronics and Robotics, Drone Technologies and RoboChallenge.",
+        "Age requirements depend on the selected program. For example, Artificial Intelligence is designed for students aged 14–17, CAD and CNC for ages 13–15, while Mechatronics and Robotics, Drone Technologies and Programmable Systems mainly include students aged 10–16.",
+        "Training takes place at STEAM Centers and emphasizes real projects and practical learning. STEAM Azerbaijan operates centers across multiple cities and regions of Azerbaijan.",
+        "The registration deadline is September 10, 2026. The official registration form is active on the STEAM Azerbaijan website. The current announcement does not state a participation fee."
+      ]
+    },
+    "categories": [
+      "STEM",
+      "Technology",
+      "Training"
+    ],
+    "deadline": "2026-09-10",
+    "image": {
+      "src": "/images/steamtelim.png",
+      "alt": {
+        "az": "STEAM Mərkəzlərində praktiki texnologiya və mühəndislik fəaliyyəti ilə məşğul olan şagirdlər",
+        "en": "Students taking part in practical technology and engineering activities at a STEAM Center"
+      }
+    },
+    "imageFit": "cover",
+    "imagePosition": "center center",
+    "detailFacts": [
+      {
+        "label": {
+          "az": "Yaş",
+          "en": "Age"
+        },
+        "value": {
+          "az": "Proqramdan asılı olaraq 8–17 yaş",
+          "en": "Ages 8–17 depending on program"
+        }
+      },
+      {
+        "label": {
+          "az": "İstiqamətlər",
+          "en": "Programs"
+        },
+        "value": {
+          "az": "AI, robototexnika, proqramlaşdırma, CAD/CNC, dronlar və daha çox",
+          "en": "AI, robotics, programming, CAD/CNC, drones and more"
+        }
+      },
+      {
+        "label": {
+          "az": "Format",
+          "en": "Format"
+        },
+        "value": {
+          "az": "STEAM Mərkəzlərində praktiki təlim",
+          "en": "Practical training at STEAM Centers"
+        }
+      },
+      {
+        "label": {
+          "az": "Ödəniş",
+          "en": "Cost"
+        },
+        "value": {
+          "az": "Cari rəsmi elanda göstərilmir",
+          "en": "Not stated in the current official announcement"
+        }
+      },
+      {
+        "label": {
+          "az": "Son tarix",
+          "en": "Deadline"
+        },
+        "value": {
+          "az": "10 sentyabr 2026",
+          "en": "September 10, 2026"
+        }
+      }
+    ],
+    "eligibilitySummary": {
+      "az": "Müxtəlif STEAM təlim proqramlarına uyğun yaş qrupunda olan məktəblilər qeydiyyatdan keçə bilərlər.",
+      "en": "School students who meet the age requirement of their selected STEAM training program may register."
+    },
+    "eligibility": {
+      "az": [
+        "İştirakçı Azərbaycanda təhsil alan məktəbli olmalıdır.",
+        "Yaş tələbi seçilən proqramdan asılı olaraq dəyişir (təxminən 8–17 yaş aralığı).",
+        "Süni intellekt proqramı üçün yaş aralığı 14–17-dir.",
+        "CAD və CNC texnologiyaları proqramları üçün yaş aralığı 13–15-dir.",
+        "Mexatronika və robototexnika, Dron texnologiyaları və Proqramlaşdırılan sistemlər proqramları əsasən 10–16 yaşlı şagirdlər üçün nəzərdə tutulub.",
+        "Qeydiyyat rəsmi STEAM Azerbaijan saytındakı forma vasitəsilə həyata keçirilir."
+      ],
+      "en": [
+        "Participants must be school students in Azerbaijan.",
+        "The age requirement varies by selected program (roughly ages 8–17 overall).",
+        "The Artificial Intelligence program is for ages 14–17.",
+        "The CAD and CNC Technologies programs are for ages 13–15.",
+        "The Mechatronics and Robotics, Drone Technologies, and Programmable Systems programs are mainly for students aged 10–16.",
+        "Registration is completed through the official form on the STEAM Azerbaijan website."
+      ]
+    },
+    "organizer": "STEAM Azerbaijan",
+    "officialUrl": "https://steam.edu.az/az/registration",
+    "officialCta": {
+      "az": "Rəsmi qeydiyyat səhifəsinə keç",
+      "en": "Visit official registration page"
+    },
+    "dateAdded": "2026-09-06",
+    "lastVerified": "2026-09-06"
   }
 ]
