@@ -877,5 +877,131 @@
     },
     "dateAdded": "2026-09-05",
     "lastVerified": "2026-09-05"
+  },
+
+  {
+    "slug": "steam-training-groups-september-2026",
+    "title": {
+      "az": "STEAM Mərkəzlərində yeni təlim qruplarına qeydiyyat",
+      "en": "Registration for New Training Groups at STEAM Centers"
+    },
+    "summary": {
+      "az": "Məktəblilər STEAM Mərkəzlərində süni intellekt, robototexnika, proqramlaşdırma, CAD, CNC, dron texnologiyaları və digər praktiki STEM təlimlərinə qeydiyyatdan keçə bilərlər. Son qeydiyyat tarixi 10 sentyabr 2026-cı ildir.",
+      "en": "School students can register for practical STEM training at STEAM Centers in artificial intelligence, robotics, programming, CAD, CNC, drone technologies and other fields. Registration closes on September 10, 2026."
+    },
+    "description": {
+      "az": [
+        "STEAM Azerbaijan STEAM Mərkəzlərində yeni təlim qruplarına qeydiyyat elan edib. Təlimlər şagirdlərə texnologiya, mühəndislik, proqramlaşdırma və yaradıcılıq sahələrində praktiki bacarıqlar əldə etmək imkanı yaradır.",
+        "Mövcud modullar arasında Kodlaşdırma laboratoriyası, Yaradıcılıq və incəsənət laboratoriyası, Məntiqi labirintlər, Proqramlaşdırılan sistemlər, CAD texnologiyaları, CNC texnologiyaları, Süni intellekt, Mexatronika və robototexnika, Dron texnologiyaları və RoboChallenge var.",
+        "Yaş tələbi seçilən proqramdan asılıdır. Məsələn, Süni intellekt proqramı 14–17, CAD və CNC proqramları 13–15, Mexatronika və robototexnika, Dron texnologiyaları və Proqramlaşdırılan sistemlər isə əsasən 10–16 yaşlı şagirdlər üçün nəzərdə tutulub.",
+        "Təlimlər STEAM Mərkəzlərində real layihələr və praktiki fəaliyyətlər əsasında həyata keçirilir. STEAM Azerbaijan ölkənin müxtəlif şəhər və rayonlarında STEAM Mərkəzləri fəaliyyət göstərir.",
+        "Son qeydiyyat tarixi 10 sentyabr 2026-cı ildir. Rəsmi qeydiyyat forması STEAM Azerbaijan saytında aktivdir. Cari elanda iştirak haqqı barədə məlumat göstərilmir."
+      ],
+      "en": [
+        "STEAM Azerbaijan has opened registration for new training groups at its STEAM Centers. The programs are designed to give students practical experience in technology, engineering, programming and creative fields.",
+        "Available modules include CodeLab, ArtLab, Logical Mazes, Programmable Systems, CAD Technologies, CNC Technologies, Artificial Intelligence, Mechatronics and Robotics, Drone Technologies and RoboChallenge.",
+        "Age requirements depend on the selected program. For example, Artificial Intelligence is designed for students aged 14–17, CAD and CNC for ages 13–15, while Mechatronics and Robotics, Drone Technologies and Programmable Systems mainly include students aged 10–16.",
+        "Training takes place at STEAM Centers and emphasizes real projects and practical learning. STEAM Azerbaijan operates centers across multiple cities and regions of Azerbaijan.",
+        "The registration deadline is September 10, 2026. The official registration form is active on the STEAM Azerbaijan website. The current announcement does not state a participation fee."
+      ]
+    },
+    "categories": [
+      "STEM",
+      "Technology",
+      "Training"
+    ],
+    "deadline": "2026-09-10",
+    "image": {
+      "src": "/images/steamtelim.png",
+      "alt": {
+        "az": "STEAM Mərkəzlərində praktiki texnologiya və mühəndislik fəaliyyəti ilə məşğul olan şagirdlər",
+        "en": "Students taking part in practical technology and engineering activities at a STEAM Center"
+      }
+    },
+    "imageFit": "cover",
+    "imagePosition": "center center",
+    "detailFacts": [
+      {
+        "label": {
+          "az": "Yaş",
+          "en": "Age"
+        },
+        "value": {
+          "az": "Proqramdan asılı olaraq 8–17 yaş",
+          "en": "Ages 8–17 depending on program"
+        }
+      },
+      {
+        "label": {
+          "az": "İstiqamətlər",
+          "en": "Programs"
+        },
+        "value": {
+          "az": "AI, robototexnika, proqramlaşdırma, CAD/CNC, dronlar və daha çox",
+          "en": "AI, robotics, programming, CAD/CNC, drones and more"
+        }
+      },
+      {
+        "label": {
+          "az": "Format",
+          "en": "Format"
+        },
+        "value": {
+          "az": "STEAM Mərkəzlərində praktiki təlim",
+          "en": "Practical training at STEAM Centers"
+        }
+      },
+      {
+        "label": {
+          "az": "Ödəniş",
+          "en": "Cost"
+        },
+        "value": {
+          "az": "Cari rəsmi elanda göstərilmir",
+          "en": "Not stated in the current official announcement"
+        }
+      },
+      {
+        "label": {
+          "az": "Son tarix",
+          "en": "Deadline"
+        },
+        "value": {
+          "az": "10 sentyabr 2026",
+          "en": "September 10, 2026"
+        }
+      }
+    ],
+    "eligibilitySummary": {
+      "az": "Müxtəlif STEAM təlim proqramlarına uyğun yaş qrupunda olan məktəblilər qeydiyyatdan keçə bilərlər.",
+      "en": "School students who meet the age requirement of their selected STEAM training program may register."
+    },
+    "eligibility": {
+      "az": [
+        "İştirakçı Azərbaycanda təhsil alan məktəbli olmalıdır.",
+        "Yaş tələbi seçilən proqramdan asılı olaraq dəyişir (təxminən 8–17 yaş aralığı).",
+        "Süni intellekt proqramı üçün yaş aralığı 14–17-dir.",
+        "CAD və CNC texnologiyaları proqramları üçün yaş aralığı 13–15-dir.",
+        "Mexatronika və robototexnika, Dron texnologiyaları və Proqramlaşdırılan sistemlər proqramları əsasən 10–16 yaşlı şagirdlər üçün nəzərdə tutulub.",
+        "Qeydiyyat rəsmi STEAM Azerbaijan saytındakı forma vasitəsilə həyata keçirilir."
+      ],
+      "en": [
+        "Participants must be school students in Azerbaijan.",
+        "The age requirement varies by selected program (roughly ages 8–17 overall).",
+        "The Artificial Intelligence program is for ages 14–17.",
+        "The CAD and CNC Technologies programs are for ages 13–15.",
+        "The Mechatronics and Robotics, Drone Technologies, and Programmable Systems programs are mainly for students aged 10–16.",
+        "Registration is completed through the official form on the STEAM Azerbaijan website."
+      ]
+    },
+    "organizer": "STEAM Azerbaijan",
+    "officialUrl": "https://steam.edu.az/az/registration",
+    "officialCta": {
+      "az": "Rəsmi qeydiyyat səhifəsinə keç",
+      "en": "Visit official registration page"
+    },
+    "dateAdded": "2026-09-06",
+    "lastVerified": "2026-09-06"
   }
+
 ]
