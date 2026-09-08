@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "AB Azerbaijani Fallback";
+  src: url("/fonts/ab-az-fallback-regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+00C7, U+00D6, U+00DC, U+00E7, U+00F6, U+00FC, U+011E-011F, U+0130-0131, U+015E-015F, U+018F, U+0259;
+}
+
+@font-face {
+  font-family: "AB Azerbaijani Fallback";
+  src: url("/fonts/ab-az-fallback-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700 900;
+  font-display: swap;
+  unicode-range: U+00C7, U+00D6, U+00DC, U+00E7, U+00F6, U+00FC, U+011E-011F, U+0130-0131, U+015E-015F, U+018F, U+0259;
+}
+
+@font-face {
+  font-family: "AB Azerbaijani Fallback";
+  src: url("/fonts/ab-az-fallback-italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+00C7, U+00D6, U+00DC, U+00E7, U+00F6, U+00FC, U+011E-011F, U+0130-0131, U+015E-015F, U+018F, U+0259;
+}
+
+@font-face {
+  font-family: "AB Azerbaijani Fallback";
+  src: url("/fonts/ab-az-fallback-bold-italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700 900;
+  font-display: swap;
+  unicode-range: U+00C7, U+00D6, U+00DC, U+00E7, U+00F6, U+00FC, U+011E-011F, U+0130-0131, U+015E-015F, U+018F, U+0259;
+}
+
 :root {
   color-scheme: light;
   --ink: #0b1526;
@@ -14,7 +50,7 @@
   --red: #b94834;
   --shadow: 0 8px 18px rgba(8, 20, 38, 0.06);
   --radius: 6px;
-  --font-primary: Arial, Helvetica, sans-serif;
+  --font-primary: "AB Azerbaijani Fallback", Arial, Helvetica, sans-serif;
 }
 
 * {
