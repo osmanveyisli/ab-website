@@ -1,4 +1,58 @@
 [{
+  "slug": "pisa-2025-azerbaijan-results",
+  "title": {
+    "az": "PISA 2025 nəticələri: Azərbaycan üzrə genişmiqyaslı iştirakın nəticələri açıqlanıb",
+    "en": "PISA 2025 results: Azerbaijan's nationwide-scale participation results released"
+  },
+  "summary": {
+    "az": "PISA 2025-də Azərbaycan 241 məktəbdən 7 432 şagirdlə ilk dəfə ölkə üzrə genişmiqyaslı iştirak edib. Nazirlik əvvəlki dövrlə müqayisədə riyaziyyat, təbiət elmləri və oxu üzrə böyük artım açıqlayıb; əvvəlki 2018 və 2022 iştiraklarının yalnız Bakını əhatə etməsi müqayisədə nəzərə alınmalıdır.",
+    "en": "Azerbaijan participated in PISA 2025 on a nationwide scale for the first time, with 7,432 students from 241 schools. The Ministry reported large gains in mathematics, science and reading compared with the previous cycle, while noting that the 2018 and 2022 samples covered only Baku."
+  },
+  "body": {
+    "az": [
+      "Elm və Təhsil Nazirliyinin məlumatına görə, PISA 2025-də 91 ölkə üzrə təxminən 760 min şagird iştirak edib. Azərbaycan 241 məktəbdən 7 432 15 yaşlı şagirdlə tədqiqatda təmsil olunub.",
+      "Nazirlik əvvəlki qiymətləndirmə dövrü ilə müqayisədə riyaziyyat üzrə 63, təbiət elmləri üzrə 60 və oxu üzrə 40 ballıq artım olduğunu və Azərbaycanın hər üç istiqamət üzrə ən böyük irəliləyiş göstərən ölkələr arasında 2-ci yerdə olduğunu bildirib.",
+      "Bu müqayisəni şərh edərkən mühüm metodoloji qeyd var: 2018 və 2022 PISA iştirakları yalnız Bakı şəhərini əhatə edirdi, 2025-ci ildə isə ilk dəfə ölkənin müxtəlif regionlarındakı şəhər və kənd məktəbləri genişmiqyaslı şəkildə cəlb olunub.",
+      "OECD-nin Azərbaycan üzrə ölkə qeydi də 2018 və 2022-də yalnız Bakının iştirak etdiyini vurğulayır. OECD-yə görə, 2025-ci ilin Azərbaycan üzrə orta nəticələri 2009-cu illə müqayisədə riyaziyyat və oxu üzrə təxminən eyni, təbiət elmləri üzrə isə daha yüksək olub.",
+      "PISA 15 yaşlı şagirdlərin riyaziyyat, oxu və təbiət elmləri üzrə bilik və bacarıqlarını real həyat situasiyalarında tətbiq etmək qabiliyyətini beynəlxalq müqayisədə qiymətləndirir."
+    ],
+    "en": [
+      "According to Azerbaijan's Ministry of Science and Education, around 760,000 students across 91 countries took part in PISA 2025. Azerbaijan was represented by 7,432 15-year-old students from 241 schools.",
+      "The Ministry reported gains of 63 points in mathematics, 60 in science and 40 in reading compared with the previous assessment cycle, saying Azerbaijan ranked second among countries showing the largest improvement across all three areas.",
+      "There is an important methodological caveat when interpreting that comparison: Azerbaijan's 2018 and 2022 PISA participation covered only Baku, while the 2025 cycle included urban and rural schools across the country on a nationwide scale for the first time.",
+      "The OECD country note for Azerbaijan also stresses that only Baku participated in 2018 and 2022. OECD says Azerbaijan's 2025 national averages were about the same as in 2009 for mathematics and reading, and higher than in 2009 for science.",
+      "PISA is an international assessment of how well 15-year-old students can apply knowledge and skills in mathematics, reading and science to real-life situations."
+    ]
+  },
+  "publishedDate": "2026-09-08",
+  "sourceName": "Elm və Təhsil Nazirliyi və OECD",
+  "sourceUrl": "https://edu.gov.az/az/announcements/23290-1",
+  "image": {
+    "src": "/images/pisa-2025-azerbaijan-results.png",
+    "alt": {
+      "az": "PISA 2025 üzrə Azərbaycanın nəticələrini göstərən məlumat qrafiki",
+      "en": "Information graphic showing Azerbaijan's PISA 2025 results"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "tags": {
+    "az": [
+      "PISA",
+      "Təhsil",
+      "Azərbaycan",
+      "OECD"
+    ],
+    "en": [
+      "PISA",
+      "Education",
+      "Azerbaijan",
+      "OECD"
+    ]
+  },
+  "isDemo": false
+},
+{
   "slug": "qarabag-university-itu-engineering-cooperation-2026",
   "title": {
     "az": "Qarabağ Universiteti ilə İstanbul Texniki Universiteti mühəndislik əməkdaşlığını genişləndirir",
