@@ -1,4 +1,60 @@
 [{
+  "slug": "dim-2027-university-entrance-exam-programs",
+  "title": {
+    "az": "DİM 2027-ci il qəbul imtahanlarının proqramlarını açıqlayıb",
+    "en": "SEC releases the 2027 university entrance examination programs"
+  },
+  "summary": {
+    "az": "DİM 2027-ci il ali təhsil müəssisələrinə qəbul imtahanlarının ikinci mərhələsi üçün proqramları yayımlayıb və 2026-cı ildə tətbiq olunan imtahan modelinin 2027-ci ildə də qüvvədə qalacağını açıqlayıb.",
+    "en": "Azerbaijan's State Examination Center has published the programs for the second stage of the 2027 university entrance examinations and confirmed that the 2026 exam model will remain in use."
+  },
+  "body": {
+    "az": [
+      "Dövlət İmtahan Mərkəzi 2027-ci ildə ali təhsil müəssisələrinə qəbul imtahanlarının ikinci mərhələsi üçün Azərbaycan və rus bölmələri üzrə rəsmi proqramları yayımlayıb.",
+      "DİM bildirib ki, 2027-ci il qəbul imtahanlarında 2026-cı ildə tətbiq olunan imtahan modeli saxlanılacaq.",
+      "Test bloklarına 22 qapalı tipli, 5 açıq — cavabı kodlaşdırıla bilən, seçim, hesablama və uyğunluğu müəyyən etmə tipli — tapşırıq daxil ediləcək.",
+      "Müvafiq ixtisas qrupları və fənlər üzrə əlavə olaraq cavabı yazılı şəkildə ifadə olunan 3 açıq tipli tapşırıq veriləcək. I ixtisas qrupu üzrə riyaziyyat fənnində bu tapşırıqlardan biri isbatla bağlı olacaq.",
+      "DİM qeyd edir ki, proqramlarda əsas ədəbiyyat kimi ümumtəhsil müəssisələrində hazırda istifadə olunan dərsliklər göstərilir və dərslikdən kənar mövzular qəbul proqramına daxil edilməyib.",
+      "2027-ci ildə qəbul imtahanına hazırlaşan abituriyentlər müvafiq ixtisas qrupu və fənlər üzrə yeni rəsmi proqramları yoxlamalı və hazırlıq planlarını həmin proqramlarla uyğunlaşdırmalıdırlar."
+    ],
+    "en": [
+      "Azerbaijan's State Examination Center has released the official Azerbaijani- and Russian-language programs for the second stage of the 2027 university entrance examinations.",
+      "The SEC confirmed that the examination model used in 2026 will remain in place for the 2027 admissions cycle.",
+      "Test blocks will include 22 closed-format questions and five open questions involving coded responses, selection, calculation or matching.",
+      "Relevant subject groups will also include three open-ended tasks requiring written answers. In Group I mathematics, one of these tasks will involve a proof.",
+      "The SEC states that the main reference materials listed in the programs are textbooks currently used in Azerbaijani schools and that no topics outside the textbooks have been added.",
+      "Students preparing for the 2027 entrance examinations should review the new official programs for their subject group and align their preparation accordingly."
+    ]
+  },
+  "publishedDate": "2026-09-10",
+  "sourceName": "Dövlət İmtahan Mərkəzi",
+  "sourceUrl": "https://www.dim.gov.az/az/metbuat/xeberler/abituriyentlerin-nezerine-6",
+  "image": {
+    "src": "/images/dim-2027-qebul-proqramlari.png",
+    "alt": {
+      "az": "DİM-in 2027-ci il qəbul imtahanı proqramları haqqında elan",
+      "en": "SEC announcement about the 2027 university entrance examination programs"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "tags": {
+    "az": [
+      "DİM",
+      "Qəbul",
+      "Abituriyent",
+      "İmtahan"
+    ],
+    "en": [
+      "SEC",
+      "Admissions",
+      "Applicants",
+      "Exam"
+    ]
+  },
+  "isDemo": false
+},
+{
   "slug": "pisa-2025-azerbaijan-results",
   "title": {
     "az": "PISA 2025 nəticələri: Azərbaycan üzrə genişmiqyaslı iştirakın nəticələri açıqlanıb",

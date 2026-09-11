@@ -1,4 +1,126 @@
 [{
+  "slug": "hult-future-leaders-challenge-2026",
+  "title": {
+    "az": "Hult Future Leaders Challenge 2026 — LEGO",
+    "en": "Hult Future Leaders Challenge 2026 — LEGO"
+  },
+  "summary": {
+    "az": "16–18 yaşlı məktəblilər 4–6 nəfərlik komandalarla LEGO tərəfindən təqdim olunan real biznes çağırışı üzərində işləyərək Hult Future Leaders Challenge 2026 müsabiqəsində pulsuz iştirak edə bilərlər.",
+    "en": "High-school students aged 16–18 can form teams of 4–6 and take part for free in the Hult Future Leaders Challenge 2026, solving a real business challenge set by LEGO."
+  },
+  "description": {
+    "az": [
+      "Hult Future Leaders Challenge Hult International Business School tərəfindən məktəblilər üçün təşkil olunan beynəlxalq biznes və liderlik müsabiqəsidir. 2026-cı ilin çağırışı LEGO tərəfindən təqdim olunur.",
+      "Müsabiqə 11 həftə davam edir. Komandalar LEGO-nun təqdim etdiyi real biznes problemi üzərində işləyərək ideya hazırlayır, təqdimat bacarıqlarını inkişaf etdirir və müxtəlif mərhələlərdə layihələrini müdafiə edirlər.",
+      "İştirak üçün komanda 16–18 yaşlı 4–6 məktəblidən ibarət olmalıdır. Hər komandaya məktəbdən müəllim və ya counselor rəhbərlik etməlidir.",
+      "Qeydiyyat və iştirak tamamilə ödənişsizdir. Qeydiyyat 25 sentyabr 2026-cı ildə başa çatır və müsabiqə 30 sentyabrda rəsmi olaraq başlayır.",
+      "Ən yaxşı komandalar regional təqdimat mərhələlərindən keçərək qlobal finala yüksələ bilərlər. Qalib komandaya Hult International Business School-da təhsil üçün təqaüd təqdim olunur. 2026-cı il üzrə təqaüdün dəqiq məbləği hazırkı rəsmi səhifədə göstərilmir."
+    ],
+    "en": [
+      "The Hult Future Leaders Challenge is an international business and leadership competition for high-school students organized by Hult International Business School. The 2026 challenge is set by LEGO.",
+      "The challenge runs for 11 weeks. Teams work on a real LEGO business problem, develop solutions, build presentation skills and defend their ideas through multiple stages.",
+      "Teams must consist of 4–6 high-school students aged 16–18 and must be led by a teacher or counselor from their school.",
+      "Registration and participation are completely free. Registration closes on September 25, 2026, and the challenge officially launches on September 30.",
+      "Top teams may progress through regional presentation stages to the global final. The winning team receives a scholarship to study at Hult International Business School. The official 2026 page does not currently state the scholarship amount."
+    ]
+  },
+  "categories": [
+    "Business",
+    "Competition",
+    "Leadership"
+  ],
+  "deadline": "2026-09-25",
+  "image": {
+    "src": "/images/hult-future-leaders-challenge-2026.png",
+    "alt": {
+      "az": "Hult Future Leaders Challenge müsabiqəsində iştirak edən məktəbli komandası",
+      "en": "High-school team participating in the Hult Future Leaders Challenge"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Yaş",
+        "en": "Age"
+      },
+      "value": {
+        "az": "16–18 yaş",
+        "en": "Ages 16–18"
+      }
+    },
+    {
+      "label": {
+        "az": "Komanda",
+        "en": "Team"
+      },
+      "value": {
+        "az": "4–6 şagird + müəllim/counselor",
+        "en": "4–6 students + teacher/counselor"
+      }
+    },
+    {
+      "label": {
+        "az": "Format",
+        "en": "Format"
+      },
+      "value": {
+        "az": "11 həftəlik beynəlxalq komanda müsabiqəsi",
+        "en": "11-week international team challenge"
+      }
+    },
+    {
+      "label": {
+        "az": "Ödəniş",
+        "en": "Cost"
+      },
+      "value": {
+        "az": "Pulsuz",
+        "en": "Free"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "25 sentyabr 2026",
+        "en": "September 25, 2026"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Dünya üzrə 16–18 yaşlı məktəblilər 4–6 nəfərlik komanda və məktəbdən müəllim və ya counselor rəhbərliyi ilə iştirak edə bilərlər.",
+    "en": "High-school students aged 16–18 worldwide may participate in teams of 4–6 led by a teacher or counselor from their school."
+  },
+  "eligibility": {
+    "az": [
+      "İştirakçılar 16–18 yaşlı məktəblilər olmalıdır.",
+      "Komanda 4–6 şagirddən ibarət olmalıdır.",
+      "Komandaya məktəbdən müəllim və ya counselor rəhbərlik etməlidir.",
+      "Tam komanda qeydiyyat zamanı göstərilməlidir.",
+      "Əvvəlcədən biznes təcrübəsi tələb olunmur."
+    ],
+    "en": [
+      "Participants must be high-school students aged 16–18.",
+      "Teams must consist of 4–6 students.",
+      "Each team must be led by a teacher or counselor from the school.",
+      "The full team must be provided during registration.",
+      "No prior business experience is required."
+    ]
+  },
+  "organizer": "Hult International Business School",
+  "officialUrl": "https://www.hult.edu/hflc/",
+  "officialCta": {
+    "az": "Rəsmi səhifəyə keç",
+    "en": "Visit official page"
+  },
+  "dateAdded": "2026-09-11",
+  "lastVerified": "2026-09-11"
+},
+{
   "slug": "assist-scholarships-2027-2028",
   "title": {
     "az": "ASSIST 2027–2028 məktəb təqaüdləri",
