@@ -1,4 +1,126 @@
-[
+[{
+  "slug": "assist-scholarships-2027-2028",
+  "title": {
+    "az": "ASSIST 2027–2028 məktəb təqaüdləri",
+    "en": "ASSIST 2027–2028 School Scholarships"
+  },
+  "summary": {
+    "az": "Azərbaycandan uyğun şagirdlər ASSIST vasitəsilə ABŞ-da aparıcı özəl məktəblərdən birində bir tədris ili üçün təqaüd proqramına müraciət edə bilərlər. 2027–2028 müraciətləri açıqdır və əsas son tarix 1 dekabr 2026-dır.",
+    "en": "Eligible students from Azerbaijan can apply through ASSIST for a one-academic-year scholarship placement at a leading U.S. private school. Applications for 2027–2028 are open, with a main deadline of December 1, 2026."
+  },
+  "description": {
+    "az": [
+      "ASSIST Scholars beynəlxalq şagirdləri ABŞ-dakı aparıcı özəl məktəblərlə uyğunlaşdıran bir illik təhsil və mədəni mübadilə proqramıdır. Azərbaycan üçün ayrıca yerli nümayəndəlik göstərilməsə də, ASSIST-in “All Other Countries” qaydasına əsasən belə ölkələrdən olan uyğun şagirdlər ABŞ ofisi vasitəsilə müraciət edə bilərlər.",
+      "2027–2028 dövrü üçün müraciətlər açıqdır. Əsasən hazırda ABŞ sistemində 9, 10 və ya 11-ci sinfə ekvivalent səviyyədə oxuyan, ingilis dilində yaxşı ünsiyyət qura bilən, yüksək akademik nəticələri və məktəb/icma fəallığı olan şagirdlər axtarılır. Yerləşdirmələr əsasən ABŞ-da 10 və 11-ci siniflər üçün nəzərdə tutulur; 12-ci sinif və post-graduate səviyyəsi üçün məhdud sayda imkan var.",
+      "Müraciət paketinə onlayn ərizə, akademik transkript, üç müəllim tövsiyəsi, qeyri-rəsmi fotolar, qısa şəxsi təqdimat videosu və valideyn/qəyyum bəyanatı daxildir. Materiallar 1 dekabr 2026-dək təqdim edilməlidir və müraciətin göndərilməsi üçün 35 ABŞ dolları ödəniş tələb olunur.",
+      "Sanderson Scholarship məktəb təhsil haqqını və internat məktəbində otaq-yeməyi, yaxud gündüz məktəbində təhsil haqqını və könüllü host ailə ilə yaşayışı əhatə edir. Bununla belə, ailələr ASSIST proqram haqqı ödəyirlər: “All Other Countries” səhifəsində Sanderson üçün 15,000 ABŞ dolları göstərilir və uyğun ailələr üçün ehtiyaca əsaslanan endirimlərin bəzən mümkün olduğu bildirilir.",
+      "Lindfors Scholarship qismən təhsil və yaşayış dəstəyi verir və “All Other Countries” üçün 37,500 ABŞ dolları proqram haqqı göstərilir. Səyahət, sığorta, viza və bəzi əlavə məktəb xərcləri ayrıca ailənin məsuliyyətində qala bilər."
+    ],
+    "en": [
+      "ASSIST Scholars is a one-year education and cultural exchange program that matches international students with leading U.S. private schools. Azerbaijan is not listed with a dedicated local office, but ASSIST states that eligible students from countries without local representation may apply through its U.S. office under the “All Other Countries” route.",
+      "Applications for 2027–2028 are open. ASSIST primarily seeks students currently in the equivalent of U.S. grades 9, 10 or 11 who communicate proficiently in English, have a strong academic record and are active members of their school or community. Placements are mainly for U.S. grades 10 and 11, with limited opportunities for grade 12 or postgraduate positions.",
+      "The application package includes the online application, academic transcript, three teacher recommendations, informal photos, a short personal introduction video and a parent or guardian statement. Materials are due by December 1, 2026, and a $35 application fee is required to submit the application.",
+      "The Sanderson Scholarship covers school tuition and room and board at a boarding school, or full tuition plus housing with a volunteer host family at a day school. Families still pay an ASSIST program fee: the “All Other Countries” page lists $15,000 for Sanderson and says need-based fee reductions are sometimes available.",
+      "The Lindfors Scholarship provides partial tuition and room-and-board support and carries a listed $37,500 program fee for “All Other Countries.” Travel, insurance, visa and certain additional school expenses can remain the family’s responsibility."
+    ]
+  },
+  "categories": [
+    "Scholarship",
+    "Exchange",
+    "High School"
+  ],
+  "deadline": "2026-12-01",
+  "image": {
+    "src": "/images/assist-scholarships-2027-2028.png",
+    "alt": {
+      "az": "ASSIST Scholars vasitəsilə ABŞ-da özəl məktəbdə təhsil imkanını göstərən şagirdlər",
+      "en": "Students representing an ASSIST Scholars opportunity to study at a U.S. private school"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Müddət",
+        "en": "Duration"
+      },
+      "value": {
+        "az": "1 tədris ili",
+        "en": "1 academic year"
+      }
+    },
+    {
+      "label": {
+        "az": "Sinif",
+        "en": "Grade"
+      },
+      "value": {
+        "az": "Əsasən ABŞ 10–11-ci sinif yerləşdirmələri",
+        "en": "Primarily U.S. grade 10–11 placements"
+      }
+    },
+    {
+      "label": {
+        "az": "Müraciət haqqı",
+        "en": "Application fee"
+      },
+      "value": {
+        "az": "35 ABŞ dolları",
+        "en": "$35 USD"
+      }
+    },
+    {
+      "label": {
+        "az": "Sanderson proqram haqqı",
+        "en": "Sanderson program fee"
+      },
+      "value": {
+        "az": "15,000 ABŞ dolları; ehtiyaca əsaslanan endirim mümkün ola bilər",
+        "en": "$15,000; need-based reductions may be available"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "1 dekabr 2026",
+        "en": "December 1, 2026"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "ABŞ-dan kənar ölkələrdən yüksək nəticəli, ingilis dilində yaxşı ünsiyyət quran və əsasən ABŞ sistemində 9–11-ci sinfə ekvivalent səviyyədə oxuyan şagirdlər müraciət edə bilərlər; Azərbaycan “All Other Countries” marşrutu ilə əhatə olunur.",
+    "en": "High-achieving students from countries outside the U.S. who communicate proficiently in English and are generally in the equivalent of U.S. grades 9–11 may apply; Azerbaijan is covered through the “All Other Countries” route."
+  },
+  "eligibility": {
+    "az": [
+      "Namizəd ABŞ-dan kənar ölkədən olmalıdır.",
+      "Əsas hədəf qrup hazırda ABŞ sistemində 9, 10 və ya 11-ci sinfə ekvivalent səviyyədə oxuyan şagirdlərdir.",
+      "İngilis dilində yaxşı ünsiyyət bacarığı tələb olunur.",
+      "Güclü akademik nəticələr və məktəb/icma fəaliyyətində iştirak gözlənilir.",
+      "Şagird ABŞ-da təxminən 10 aylıq tədris ilini keçirməyə və proqramdan sonra öz ölkəsinə qayıtmağa hazır olmalıdır."
+    ],
+    "en": [
+      "The applicant must be from a country outside the United States.",
+      "The primary target group is students currently in the equivalent of U.S. grades 9, 10 or 11.",
+      "Applicants should be able to communicate proficiently in English.",
+      "A strong academic record and engagement in school or community life are expected.",
+      "Students must be able to spend the approximately 10-month academic year in the U.S. and return to their home country afterward."
+    ]
+  },
+  "organizer": "ASSIST Scholars",
+  "officialUrl": "https://www.assistscholars.org/en/location/other-countries/",
+  "officialCta": {
+    "az": "Rəsmi səhifəyə keç",
+    "en": "Visit official page"
+  },
+  "dateAdded": "2026-09-10",
+  "lastVerified": "2026-09-10"
+},
+
   {
     "slug": "the-earth-prize-2027",
     "title": {
