@@ -1,4 +1,250 @@
 [{
+  "slug": "diamond-challenge-2027",
+  "title": {
+    "az": "Diamond Challenge 2027",
+    "en": "Diamond Challenge 2027"
+  },
+  "summary": {
+    "az": "14–18 yaşlı şagirdlər 2–4 nəfərlik komandalarla biznes və ya sosial innovasiya ideyası hazırlayaraq University of Delaware tərəfindən təşkil olunan Diamond Challenge 2027-də $100,000-lıq ümumi mükafat fondu uğrunda yarışa bilərlər.",
+    "en": "Students aged 14–18 can form teams of 2–4 and develop a business or social innovation concept for the University of Delaware's Diamond Challenge 2027, competing for a $100,000 overall prize pool."
+  },
+  "description": {
+    "az": [
+      "Diamond Challenge University of Delaware nəzdində fəaliyyət göstərən Horn Entrepreneurship tərəfindən təşkil olunan beynəlxalq sahibkarlıq və innovasiya müsabiqəsidir. Müsabiqə dünyanın müxtəlif ölkələrindən məktəblilərə real problemlər üçün biznes və ya sosial innovasiya ideyaları hazırlamaq imkanı verir.",
+      "2027 mövsümünün müraciət pəncərəsi 16 sentyabr 2026-cı ildə açılır. İlkin təqdimat üçün son tarix 14 yanvar 2027-ci il saat 17:00 EST-dir.",
+      "Komandalar 14–18 yaşlı 2–4 məktəblidən ibarət olmalıdır. Hər komandada ən azı 21 yaşlı bir adult advisor olmalıdır. Komandalar Business Innovation və ya Social Innovation istiqamətlərindən birini seçirlər.",
+      "İlkin mərhələdə komandalar ingilis dilində 3–5 səhifəlik concept narrative və maksimum 60 saniyəlik təqdimat videosu hazırlamalıdırlar.",
+      "Növbəti pitch mərhələsində komandalar canlı tədbirdə iştirak edə və ya virtual/pre-recorded formatı seçə bilərlər. Finala yüksələn komandalar 29–30 aprel 2027 tarixlərində Limitless World Summit-də yarışırlar və finalda ən azı bir komanda üzvünün şəxsən iştirakı tələb olunur.",
+      "2027 Diamond Challenge üçün ümumi mükafat fondu $100,000-dır."
+    ],
+    "en": [
+      "The Diamond Challenge is an international entrepreneurship and innovation competition run by Horn Entrepreneurship at the University of Delaware. It enables high-school students worldwide to develop business or social innovation ideas addressing real-world problems.",
+      "The 2027 submission window opens on September 16, 2026. The initial submission deadline is January 14, 2027 at 5:00 PM EST.",
+      "Teams must consist of 2–4 high-school students aged 14–18. Each team must have at least one adult advisor aged 21 or older. Teams select either the Business Innovation or Social Innovation track.",
+      "The initial submission requires a 3–5 page concept narrative in English and an introductory video of no more than 60 seconds.",
+      "During the pitching round, teams may participate at a live pitch event or choose a virtual/pre-recorded format. Finalists advance to the Limitless World Summit on April 29–30, 2027, where at least one team member must attend in person.",
+      "The 2027 Diamond Challenge offers an overall prize pool of $100,000."
+    ]
+  },
+  "categories": [
+    "Entrepreneurship",
+    "Competition",
+    "Innovation"
+  ],
+  "deadline": "2027-01-14",
+  "image": {
+    "src": "/images/diamond-challenge-2027.png",
+    "alt": {
+      "az": "Diamond Challenge beynəlxalq şagird sahibkarlıq müsabiqəsinin iştirakçıları",
+      "en": "Participants in the Diamond Challenge international student entrepreneurship competition"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Yaş",
+        "en": "Age"
+      },
+      "value": {
+        "az": "14–18 yaş",
+        "en": "Ages 14–18"
+      }
+    },
+    {
+      "label": {
+        "az": "Komanda",
+        "en": "Team"
+      },
+      "value": {
+        "az": "2–4 şagird + 21+ advisor",
+        "en": "2–4 students + a 21+ advisor"
+      }
+    },
+    {
+      "label": {
+        "az": "İstiqamətlər",
+        "en": "Tracks"
+      },
+      "value": {
+        "az": "Business Innovation və Social Innovation",
+        "en": "Business Innovation and Social Innovation"
+      }
+    },
+    {
+      "label": {
+        "az": "Mükafat fondu",
+        "en": "Prize pool"
+      },
+      "value": {
+        "az": "$100,000",
+        "en": "$100,000"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "14 yanvar 2027",
+        "en": "January 14, 2027"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Dünyanın müxtəlif ölkələrindən 14–18 yaşlı məktəblilər 2–4 nəfərlik komanda və 21 yaşdan yuxarı advisor ilə iştirak edə bilərlər.",
+    "en": "High-school students aged 14–18 worldwide may participate in teams of 2–4 with an advisor aged 21 or older."
+  },
+  "eligibility": {
+    "az": [
+      "İştirakçılar müraciətin son tarixində 14–18 yaş arasında olan məktəblilər olmalıdır.",
+      "Komanda 2–4 şagirddən ibarət olmalıdır.",
+      "Hər komandada ən azı 21 yaşlı bir adult advisor olmalıdır.",
+      "Hər şagird yalnız bir komandada iştirak edə və bir layihə təqdim edə bilər.",
+      "İlkin yazılı təqdimat ingilis dilində hazırlanmalıdır."
+    ],
+    "en": [
+      "Participants must be high-school students aged 14–18 at the submission deadline.",
+      "Teams must consist of 2–4 students.",
+      "Each team must have at least one adult advisor aged 21 or older.",
+      "Each student may participate on only one team and submit one concept.",
+      "The initial written submission must be prepared in English."
+    ]
+  },
+  "organizer": "University of Delaware — Horn Entrepreneurship",
+  "officialUrl": "https://diamondchallenge.org/competition/",
+  "officialCta": {
+    "az": "Rəsmi müsabiqə səhifəsinə keç",
+    "en": "Visit official competition page"
+  },
+  "dateAdded": "2026-09-14",
+  "lastVerified": "2026-09-14"
+},
+{
+  "slug": "global-korea-scholarship-2027-azerbaijan",
+  "title": {
+    "az": "Global Korea Scholarship 2027 — bakalavr təqaüdü",
+    "en": "Global Korea Scholarship 2027 — Undergraduate Scholarship"
+  },
+  "summary": {
+    "az": "Azərbaycan vətəndaşları Cənubi Koreya hökumətinin 2027 Global Korea Scholarship proqramı vasitəsilə bakalavr təhsili üçün təhsil haqqı, aviabilet, Koreya dili hazırlığı və aylıq yaşayış dəstəyi daxil olmaqla geniş maliyyələşdirməyə müraciət edə bilərlər.",
+    "en": "Azerbaijani citizens can apply for the South Korean government's 2027 Global Korea Scholarship for undergraduate study, with support including tuition, airfare, Korean-language training and monthly allowances."
+  },
+  "description": {
+    "az": [
+      "Global Korea Scholarship (GKS) Cənubi Koreya hökumətinin beynəlxalq tələbələr üçün həyata keçirdiyi dövlət təqaüd proqramıdır. 2027-ci il bakalavr proqramı üçün rəsmi qaydalar artıq yayımlanıb.",
+      "Azərbaycan vətəndaşları üçün Embassy Track üzrə onlayn müraciətlər 15 sentyabr 2026-cı il saat 06:00-da başlayır və 30 sentyabr saat 13:00-da başa çatır. Müraciət Study in Korea sistemi vasitəsilə həyata keçirilir.",
+      "GKS bakalavr proqramı adətən bir illik Koreya dili hazırlığı və daha sonra bakalavr təhsilini əhatə edir. Təqaüd çərçivəsində aviabilet, təhsil haqqı, Koreya dili hazırlığı və aylıq yaşayış müavinəti daxil olmaqla müxtəlif maliyyə dəstəkləri təqdim olunur.",
+      "Ümumi uyğunluq qaydalarına əsasən, namizəd müvafiq il üzrə 25 yaşdan aşağı olmalı, bakalavr proqramına qəbul üçün orta məktəbi bitirmiş və ya bitirmək üzrə olmalı və tələb olunan akademik göstəricilərə cavab verməlidir.",
+      "Akademik meyar adətən ümumi nəticənin minimum 80 faiz olması, sinif üzrə ilk 20 faizdə yer almaq və ya GKS qaydalarında göstərilən uyğun CGPA həddinə çatmaqla təmin edilə bilər. Namizəd və hər iki valideyn Koreya vətəndaşı olmamalıdır."
+    ],
+    "en": [
+      "The Global Korea Scholarship (GKS) is a South Korean government scholarship program for international students. Official guidelines for the 2027 undergraduate program have now been released.",
+      "For Azerbaijani citizens, online Embassy Track applications open at 06:00 Baku time on September 15, 2026 and close at 13:00 on September 30. Applications are submitted through the Study in Korea system.",
+      "The undergraduate GKS normally includes one year of Korean-language training followed by the bachelor's degree program. Scholarship support includes airfare, tuition, Korean-language training fees and monthly allowances, among other benefits.",
+      "Under the general eligibility rules, applicants must be under 25 in the applicable year, have graduated or be expected to graduate from high school for bachelor's admission, and satisfy the required academic-performance standard.",
+      "The academic requirement can generally be met through an overall score of at least 80 percent, ranking within the top 20 percent of the class, or meeting the specified GKS CGPA threshold. The applicant and both parents must not hold Korean citizenship."
+    ]
+  },
+  "categories": [
+    "Scholarship",
+    "Undergraduate",
+    "International"
+  ],
+  "deadline": "2026-09-30",
+  "image": {
+    "src": "/images/global-korea-scholarship-2027-azerbaijan.png",
+    "alt": {
+      "az": "Global Korea Scholarship 2027 bakalavr təqaüdü",
+      "en": "Global Korea Scholarship 2027 undergraduate scholarship"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Səviyyə",
+        "en": "Level"
+      },
+      "value": {
+        "az": "Bakalavr",
+        "en": "Undergraduate"
+      }
+    },
+    {
+      "label": {
+        "az": "Yaş",
+        "en": "Age"
+      },
+      "value": {
+        "az": "25 yaşdan aşağı",
+        "en": "Under 25"
+      }
+    },
+    {
+      "label": {
+        "az": "Maliyyələşdirmə",
+        "en": "Funding"
+      },
+      "value": {
+        "az": "Təhsil haqqı, aviabilet, dil hazırlığı, aylıq müavinət və digər dəstək",
+        "en": "Tuition, airfare, language training, monthly allowance and other support"
+      }
+    },
+    {
+      "label": {
+        "az": "Müraciət dövrü",
+        "en": "Application period"
+      },
+      "value": {
+        "az": "15–30 sentyabr 2026",
+        "en": "September 15–30, 2026"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "30 sentyabr 2026, saat 13:00",
+        "en": "September 30, 2026 at 13:00 Baku time"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Azərbaycandan uyğun akademik göstəricilərə malik, bakalavr təhsilinə başlayacaq və müvafiq yaş tələbini ödəyən namizədlər müraciət edə bilərlər.",
+    "en": "Eligible Azerbaijani applicants entering undergraduate study who meet the age and academic requirements may apply."
+  },
+  "eligibility": {
+    "az": [
+      "Azərbaycan vətəndaşları Embassy Track üzrə müraciət edə bilərlər.",
+      "Namizəd müvafiq il üzrə 25 yaşdan aşağı olmalıdır.",
+      "Bakalavr üçün orta məktəbi bitirmiş və ya bitirmək üzrə olmalıdır.",
+      "Namizəd və hər iki valideyn Koreya vətəndaşı olmamalıdır.",
+      "Namizəd GKS-in akademik göstərici tələblərindən ən azı birinə cavab verməlidir."
+    ],
+    "en": [
+      "Azerbaijani citizens may apply through the Embassy Track.",
+      "Applicants must be under 25 in the applicable year.",
+      "Bachelor's applicants must have graduated or be expected to graduate from high school.",
+      "The applicant and both parents must not hold Korean citizenship.",
+      "Applicants must meet at least one of the GKS academic-performance standards."
+    ]
+  },
+  "organizer": "National Institute for International Education — Republic of Korea",
+  "officialUrl": "OFFICIAL_GKS_NOTICE_URL",
+  "officialCta": {
+    "az": "Rəsmi GKS elanına keç",
+    "en": "Visit the official GKS announcement"
+  },
+  "dateAdded": "2026-09-14",
+  "lastVerified": "2026-09-14"
+},
+{
   "slug": "hult-future-leaders-challenge-2026",
   "title": {
     "az": "Hult Future Leaders Challenge 2026 — LEGO",
