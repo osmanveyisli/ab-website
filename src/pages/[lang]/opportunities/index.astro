@@ -176,3 +176,30 @@ const copy = pageCopy[lang];
     }
   </script>
 </BaseLayout>
+
+<style>
+  /* Flow in DOM order down each column, without shared grid-row heights. */
+  [data-opportunity-list] {
+    display: block;
+    column-count: 3;
+    column-gap: 14px;
+  }
+
+  [data-opportunity-list] > :global(.opportunity-card) {
+    break-inside: avoid;
+    grid-template-rows: auto auto;
+    margin-bottom: 14px;
+  }
+
+  @media (max-width: 1080px) {
+    [data-opportunity-list] {
+      column-count: 2;
+    }
+  }
+
+  @media (max-width: 460px) {
+    [data-opportunity-list] {
+      column-count: 1;
+    }
+  }
+</style>
