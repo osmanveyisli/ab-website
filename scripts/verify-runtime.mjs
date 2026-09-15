@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { chromium } from "playwright";
 
 const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4321";
-const siteIdentity = "AB — Abituriyentlər Birliyi";
+const siteIdentity = "AB — Abituriyent Birliyi";
 const instagramUrl = "https://www.instagram.com/abituriyentbirliyi/";
 const whatsappUrl = "https://chat.whatsapp.com/EbOAbI1r3VRGeXNoS4hTSO";
 const viewports = [
@@ -17,7 +17,7 @@ const languages = {
     opportunities: "İmkanlar",
     news: "Xəbərlər",
     materials: "Tezliklə.",
-    about: "AB — Abituriyentlər Birliyi",
+    about: "AB — Abituriyent Birliyi",
     searchTerm: "kosmik",
     categoryLabel: "Kateqoriya",
     statusLabel: "Status",
@@ -41,7 +41,7 @@ const languages = {
     opportunities: "Opportunities",
     news: "News",
     materials: "Coming soon.",
-    about: "AB — Abituriyentlər Birliyi",
+    about: "AB — Abituriyent Birliyi",
     searchTerm: "space apps",
     categoryLabel: "Category",
     statusLabel: "Status",
@@ -113,11 +113,11 @@ async function verifyBranding(page, lang) {
   await page.goto(`${baseUrl}/${lang}/`, { waitUntil: "networkidle" });
   const header = page.locator(".site-header");
   await header.getByText("AB", { exact: true }).waitFor();
-  await header.getByText("Abituriyentlər Birliyi", { exact: true }).waitFor();
+  await header.getByText("Abituriyent Birliyi", { exact: true }).waitFor();
 
   const footer = page.locator(".site-footer");
-  await footer.getByText("AB — Abituriyentlər Birliyi", { exact: true }).waitFor();
-  await footer.getByText("© 2026 AB — Abituriyentlər Birliyi", { exact: true }).waitFor();
+  await footer.getByText("AB — Abituriyent Birliyi", { exact: true }).waitFor();
+  await footer.getByText("© 2026 AB — Abituriyent Birliyi", { exact: true }).waitFor();
 }
 
 async function verifyMainNavigation(page, lang) {
