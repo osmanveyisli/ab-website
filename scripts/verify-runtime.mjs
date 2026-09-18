@@ -197,14 +197,35 @@ async function verifyDetailAndAnalytics(browser, viewport, lang) {
     await assertNoOverflow(page, `${lang}: opportunity detail`);
     const officialLinks = page.locator("[data-official-opportunity-link]");
     assert((await officialLinks.count()) === 2, `${lang}: detail page should have inline and sidebar official CTAs`);
-    for (let index = 0; index < 2; index += 1) {
+    const inlineCta = page.locator(".detail-source-inline [data-official-opportunity-link]");
+    const sidebarCta = page.locator(".detail-sidebar [data-official-opportunity-link]");
+    assert(await inlineCta.isVisible(), `${lang}: inline official CTA should be visible`);
+    const sidebarVisible = await sidebarCta.isVisible();
+    assert(
+      sidebarVisible === (viewport.name !== "mobile"),
+      `${lang}/${viewport.name}: sidebar CTA visibility does not match the responsive layout`,
+    );
+
+    const visibleOfficialLinks = page.locator("[data-official-opportunity-link]:visible");
+    const expectedVisibleCtas = sidebarVisible ? 2 : 1;
+    assert(
+      (await visibleOfficialLinks.count()) === expectedVisibleCtas,
+      `${lang}/${viewport.name}: expected ${expectedVisibleCtas} visible official CTA${expectedVisibleCtas === 1 ? "" : "s"}`,
+    );
+
+    for (let index = 0; index < expectedVisibleCtas; index += 1) {
+      const eventCountBeforeClick = await page.evaluate(() => window.__abAnalyticsEvents.length);
       const popupPromise = page.waitForEvent("popup");
-      await officialLinks.nth(index).click();
+      await visibleOfficialLinks.nth(index).click();
       const popup = await popupPromise;
       await popup.close();
+      assert(
+        (await page.evaluate(() => window.__abAnalyticsEvents.length)) === eventCountBeforeClick + 1,
+        `${lang}/${viewport.name}: each visible official CTA click should emit exactly one analytics event`,
+      );
     }
     const events = await page.evaluate(() => window.__abAnalyticsEvents);
-    assert(events.length === 2, `${lang}: each official CTA click should emit one analytics event`);
+    assert(events.length === expectedVisibleCtas, `${lang}/${viewport.name}: official CTA event count is incorrect`);
     for (const event of events) {
       const payload = event[1];
       assert(event[0] === "event" && payload?.name === "opportunity_official_click", `${lang}: incorrect official CTA event name`);
