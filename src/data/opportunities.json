@@ -1,4 +1,244 @@
 [{
+  "slug": "global-virtual-hackathon-2026",
+  "title": {
+    "az": "Global Virtual Hackathon 2026",
+    "en": "Global Virtual Hackathon 2026"
+  },
+  "summary": {
+    "az": "14–18 yaşlı şagirdlər 2–4 nəfərlik komandalarla dünyanın istənilən yerindən pulsuz, tam onlayn Global Virtual Hackathon 2026-da iştirak edə bilərlər.",
+    "en": "Students aged 14–18 can enter the free, fully online Global Virtual Hackathon 2026 in teams of 2–4 from anywhere in the world."
+  },
+  "description": {
+    "az": [
+      "Global Virtual Hackathon 2026 Canadian International School, Singapore tərəfindən təşkil olunan beynəlxalq və tam onlayn proqramlaşdırma yarışmasıdır.",
+      "Qeydiyyat 22 sentyabr 2026-cı ildə başlayır və 13 noyabr 2026-dək davam edir. Yarış 14–18 yaşlı şagirdlər üçün açıqdır və iştirak pulsuzdur.",
+      "Komandalar 2–4 şagirddən ibarət olur və hər komanda üzvü üçün məktəbdən nəzarətçi müəllim göstərilməlidir. Valideyn və ya qanuni nümayəndənin razılığı da tələb olunur.",
+      "Müsabiqənin konkret tapşırığı 19 noyabrda açılır. Komandalara işlək layihə hazırlamaq, açıq mənbə kodunu təqdim etmək, demo videosu hazırlamaq və öz kodları barədə fərdiləşdirilmiş müsahibədə iştirak etmək tələb olunur.",
+      "İki yaş bölməsinin hər birində birinci yer üçün 1,000 ABŞ dolları, iki ikinci yer üçün isə 250 ABŞ dolları mükafat nəzərdə tutulur."
+    ],
+    "en": [
+      "The Global Virtual Hackathon 2026 is a fully online international coding competition hosted by Canadian International School, Singapore.",
+      "Registration opens on September 22, 2026 and closes on November 13, 2026. The event is free and open to students aged 14–18 worldwide.",
+      "Teams contain 2–4 students and must name a supervising teacher from a member's school. Parent or guardian consent is also required.",
+      "The specific challenge is revealed on November 19. Teams must build a working project, publish their source code, create a demo video, and complete a personalised interview about their own code.",
+      "Each age division offers a US$1,000 first prize and two US$250 runner-up prizes."
+    ]
+  },
+  "categories": [
+    "Computer Science",
+    "Hackathon",
+    "Technology"
+  ],
+  "deadline": "2026-11-13",
+  "image": {
+    "src": "/images/global-virtual-hackathon-2026.png",
+    "alt": {
+      "az": "Global Virtual Hackathon 2026-da iştirak edən şagird komandası",
+      "en": "Student team participating in the Global Virtual Hackathon 2026"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Yaş",
+        "en": "Age"
+      },
+      "value": {
+        "az": "14–18 yaş",
+        "en": "Ages 14–18"
+      }
+    },
+    {
+      "label": {
+        "az": "Komanda",
+        "en": "Team"
+      },
+      "value": {
+        "az": "2–4 şagird",
+        "en": "2–4 students"
+      }
+    },
+    {
+      "label": {
+        "az": "Format",
+        "en": "Format"
+      },
+      "value": {
+        "az": "Tam onlayn",
+        "en": "Fully online"
+      }
+    },
+    {
+      "label": {
+        "az": "Ödəniş",
+        "en": "Cost"
+      },
+      "value": {
+        "az": "Pulsuz",
+        "en": "Free"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "13 noyabr 2026",
+        "en": "November 13, 2026"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Dünyanın istənilən ölkəsindən 14–18 yaşlı şagirdlər 2–4 nəfərlik komandalarla iştirak edə bilərlər.",
+    "en": "Students aged 14–18 from anywhere in the world may participate in teams of 2–4."
+  },
+  "eligibility": {
+    "az": [
+      "İştirakçılar 14–18 yaş arasında olmalıdır.",
+      "Komanda 2–4 şagirddən ibarət olmalıdır.",
+      "Hər komanda məktəbdən nəzarətçi müəllim göstərməlidir.",
+      "Hər iştirakçı üçün valideyn və ya qanuni nümayəndənin razılığı tələb olunur."
+    ],
+    "en": [
+      "Participants must be aged 14–18.",
+      "Teams must consist of 2–4 students.",
+      "Each team must name a supervising teacher from a member's school.",
+      "Parent or guardian consent is required for every participant."
+    ]
+  },
+  "organizer": "Canadian International School, Singapore",
+  "officialUrl": "https://gvhackathon.com",
+  "officialCta": {
+    "az": "Rəsmi səhifəyə keç",
+    "en": "Visit official page"
+  },
+  "dateAdded": "2026-09-18",
+  "lastVerified": "2026-09-18"
+},
+{
+  "slug": "international-public-policy-forum-2026-2027",
+  "title": {
+    "az": "International Public Policy Forum 2026–2027",
+    "en": "International Public Policy Forum 2026–2027"
+  },
+  "summary": {
+    "az": "9–12-cu sinif şagirdlərindən ibarət 3–6 nəfərlik komandalar qlobal International Public Policy Forum yarışmasında iştirak edərək ictimai siyasət mövzusunda tədqiqata əsaslanan esse yaza və beynəlxalq debat mərhələlərində mübarizə apara bilərlər.",
+    "en": "Teams of 3–6 high school students can enter the global International Public Policy Forum, research a public-policy topic, submit an evidence-based essay, and advance through international written and oral debate rounds."
+  },
+  "description": {
+    "az": [
+      "International Public Policy Forum (IPPF) dünya üzrə orta məktəb şagirdləri üçün təşkil olunan beynəlxalq yazılı və şifahi debat yarışmasıdır. 2026–2027 mövsümündə komandalar BMT ilə bağlı verilmiş qətnamə üzrə araşdırma apararaq öz mövqelərini müdafiə edirlər.",
+      "2026–2027 mövsümü üçün ümumi qeydiyyat 13 oktyabr 2026-cı ilədək açıqdır. Komandalar 3–6 tam-zamanlı orta məktəb şagirdindən ibarət olmalıdır.",
+      "İlkin mərhələdə komandalar maksimum 3,000 sözlük, sübuta əsaslanan esse təqdim edirlər. Ən yaxşı 64 komanda yazılı, mərhələli debat turnirinə keçir.",
+      "Final səkkizliyi Nyu-York şəhərində NYU School of Law-da keçirilən final mərhələsinə tam maliyyələşdirilən səfər qazanır. Dünya çempionu komandaya 10,000 ABŞ dolları mükafat verilir.",
+      "Cari qeydiyyat səhifəsində bir komanda üçün 25 ABŞ dolları qeydiyyat haqqı göstərilir."
+    ],
+    "en": [
+      "The International Public Policy Forum (IPPF) is a global written and oral debate competition for high school students. In the 2026–2027 season, teams research and debate a resolution concerning the United Nations.",
+      "General registration for the 2026–2027 season is open until October 13, 2026. Teams must contain 3–6 full-time high school students.",
+      "Teams submit a maximum 3,000-word evidence-based qualifying essay. The top 64 teams advance to the written elimination tournament.",
+      "The final eight teams receive an all-expenses-paid trip to New York City for the finals at NYU School of Law. The World Champion receives a US$10,000 prize.",
+      "The current registration page lists a US$25 registration fee per team."
+    ]
+  },
+  "categories": [
+    "Debate",
+    "Research",
+    "Competition"
+  ],
+  "deadline": "2026-10-13",
+  "image": {
+    "src": "/images/international-public-policy-forum-2026-2027.png",
+    "alt": {
+      "az": "International Public Policy Forum debat yarışmasında çıxış edən şagirdlər",
+      "en": "Students debating at the International Public Policy Forum"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Yaş / Sinif",
+        "en": "Grade"
+      },
+      "value": {
+        "az": "9–12-ci sinif və beynəlxalq ekvivalenti",
+        "en": "Grades 9–12 or international equivalent"
+      }
+    },
+    {
+      "label": {
+        "az": "Komanda",
+        "en": "Team"
+      },
+      "value": {
+        "az": "3–6 şagird",
+        "en": "3–6 students"
+      }
+    },
+    {
+      "label": {
+        "az": "Format",
+        "en": "Format"
+      },
+      "value": {
+        "az": "Onlayn yazılı mərhələlər + Nyu-York finalı",
+        "en": "Online written rounds + New York finals"
+      }
+    },
+    {
+      "label": {
+        "az": "Ödəniş",
+        "en": "Cost"
+      },
+      "value": {
+        "az": "25 ABŞ dolları / komanda",
+        "en": "US$25 / team"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "13 oktyabr 2026",
+        "en": "October 13, 2026"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Dünyanın müxtəlif ölkələrindən tam-zamanlı orta məktəb şagirdləri 3–6 nəfərlik komandalarla iştirak edə bilərlər.",
+    "en": "Full-time high school students worldwide can participate in teams of 3–6."
+  },
+  "eligibility": {
+    "az": [
+      "İştirakçılar 9–12-ci sinifdə və ya beynəlxalq ekvivalentində tam-zamanlı orta məktəb şagirdi olmalıdır.",
+      "Komanda 3–6 şagirddən ibarət olmalıdır.",
+      "Komanda eyni orta məktəbdən və ya uyğun məktəbdənkənar proqramdan formalaşdırılmalıdır.",
+      "Qeydiyyat zamanı komanda məşqçisi və komanda əlaqə şəxsi göstərilməlidir."
+    ],
+    "en": [
+      "Participants must be full-time high school students in grades 9–12 or an international equivalent.",
+      "Teams must contain 3–6 students.",
+      "Teams should come from the same high school or qualifying after-school program.",
+      "A team coach and primary contact must be provided during registration."
+    ]
+  },
+  "organizer": "International Public Policy Forum — Brewer Foundation / New York University",
+  "officialUrl": "https://www.ippfdebate.com/register",
+  "officialCta": {
+    "az": "Rəsmi qeydiyyat səhifəsinə keç",
+    "en": "Visit the official registration page"
+  },
+  "dateAdded": "2026-09-18",
+  "lastVerified": "2026-09-18"
+},
+{
   "slug": "diamond-challenge-2027",
   "title": {
     "az": "Diamond Challenge 2027",
