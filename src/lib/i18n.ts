@@ -1,4 +1,4 @@
-import type { Lang, LocalizedString, OpportunityStatus } from "./types";
+import type { Lang, LocalizedString, OpportunityCategory, OpportunityStatus } from "./types";
 
 export const languages: Lang[] = ["az", "en"];
 export const defaultLang: Lang = "az";
@@ -15,7 +15,7 @@ export function localized(value: LocalizedString, lang: Lang) {
   return value[lang] || value.az || value.en;
 }
 
-export const categoryLabels: Record<string, LocalizedString> = {
+export const categoryLabels: Record<OpportunityCategory, LocalizedString> = {
   STEM: { az: "STEM", en: "STEM" },
   Competition: { az: "Müsabiqə", en: "Competition" },
   Olympiad: { az: "Olimpiada", en: "Olympiad" },
@@ -23,16 +23,20 @@ export const categoryLabels: Record<string, LocalizedString> = {
   Internship: { az: "Təcrübə", en: "Internship" },
   Research: { az: "Tədqiqat", en: "Research" },
   Hackathon: { az: "Hakaton", en: "Hackathon" },
+  Entrepreneurship: { az: "Sahibkarlıq", en: "Entrepreneurship" },
+  Debate: { az: "Debat", en: "Debate" },
+  Essay: { az: "Esse", en: "Essay" },
   Space: { az: "Kosmos", en: "Space" },
   Technology: { az: "Texnologiya", en: "Technology" },
   University: { az: "Universitet", en: "University" },
   Exchange: { az: "Mübadilə", en: "Exchange" },
+  Program: { az: "Proqram", en: "Program" },
   Event: { az: "Tədbir", en: "Event" },
   Other: { az: "Digər", en: "Other" },
 };
 
-export function categoryLabel(category: string, lang: Lang) {
-  return localized(categoryLabels[category] || { az: category, en: category }, lang);
+export function categoryLabel(category: OpportunityCategory, lang: Lang) {
+  return localized(categoryLabels[category], lang);
 }
 
 export const ui = {

@@ -1,16 +1,21 @@
 import opportunitiesData from "@data/opportunities.json";
 import newsData from "@data/news.json";
+import categories from "@data/categories.json";
 import { categoryLabel, localized, statusLabel as localizedStatusLabel } from "./i18n";
 import type { Lang } from "./types";
+import { getOpportunityStatus } from "./opportunityStatus";
 import type { NewsArticle, Opportunity, OpportunityStatus } from "./types";
 
 export const opportunities = opportunitiesData as Opportunity[];
 export const newsArticles = newsData as NewsArticle[];
+const categorySet = new Set<string>(categories);
 
-const DAY_IN_MS = 24 * 60 * 60 * 1000;
-
-function normalizeDateOnly(date: Date) {
-  return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+for (const opportunity of opportunities) {
+  for (const category of opportunity.categories) {
+    if (!categorySet.has(category)) {
+      throw new Error(`Opportunity ${opportunity.slug} uses non-canonical category: ${category}`);
+    }
+  }
 }
 
 function parseLocalDate(dateString: string) {
@@ -18,20 +23,7 @@ function parseLocalDate(dateString: string) {
   return new Date(year, month - 1, day);
 }
 
-export function getOpportunityStatus(
-  deadline: string | null,
-  referenceDate = new Date(),
-): OpportunityStatus {
-  if (!deadline) return "no-deadline";
-
-  const today = normalizeDateOnly(referenceDate);
-  const deadlineDate = parseLocalDate(deadline);
-  const daysUntilDeadline = Math.floor((deadlineDate.getTime() - today.getTime()) / DAY_IN_MS);
-
-  if (daysUntilDeadline < 0) return "expired";
-  if (daysUntilDeadline <= 7) return "closing-soon";
-  return "open";
-}
+export { getOpportunityStatus } from "./opportunityStatus";
 
 export function isActiveOpportunity(opportunity: Opportunity, referenceDate = new Date()) {
   return getOpportunityStatus(opportunity.deadline, referenceDate) !== "expired";

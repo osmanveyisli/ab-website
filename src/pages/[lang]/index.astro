@@ -32,7 +32,7 @@ const intro = {
     eyebrow: "Azərbaycanlı şagirdlər üçün",
     title: "Azərbaycanlı şagirdlər üçün imkanları bir yerdə tap",
     description:
-      "AB müsabiqələr, təqaüdlər, olimpiadalar, proqramlar, təcrübələr və vacib təhsil xəbərlərini aydın formada paylaşır",
+      "Azərbaycanlı şagirdlər üçün təsdiqlənmiş müsabiqə, təqaüd və proqramlar — son tarixlər və rəsmi müraciət linkləri ilə.",
     cta: "İmkanlara bax",
     secondary: "Xəbərləri oxu",
   },
@@ -40,7 +40,7 @@ const intro = {
     eyebrow: "For Azerbaijani students",
     title: "Find opportunities for Azerbaijani students in one place",
     description:
-      "AB publishes competitions, scholarships, olympiads, programs, internships, and important education news in a clear format",
+      "Verified competitions, scholarships, and programs for Azerbaijani students — with deadlines and official application links.",
     cta: "Browse opportunities",
     secondary: "Read news",
   },
@@ -73,7 +73,7 @@ const stripFinalPeriod = (value: string) => (value.endsWith(".") && !value.endsW
 
   {
     featuredPrimary && (
-      <section class="section featured-section">
+      <section class="section featured-section" data-featured-section>
         <div class="container">
           <div class="section-heading">
             <div>
@@ -84,7 +84,7 @@ const stripFinalPeriod = (value: string) => (value.endsWith(".") && !value.endsW
           </div>
 
           <div class="featured-layout">
-            <article class="featured-primary">
+            <article class="featured-primary" data-featured-opportunity data-deadline={featuredPrimary.deadline || ""}>
               <a class="featured-media" href={`/${lang}/opportunities/${featuredPrimary.slug}/`} aria-label={localized(featuredPrimary.title, lang)}>
                 {
                   featuredPrimaryHasImage && featuredPrimary.image ? (
@@ -101,7 +101,7 @@ const stripFinalPeriod = (value: string) => (value.endsWith(".") && !value.endsW
               </a>
               <div class="featured-copy">
                 <div class="deadline-summary">
-                  {featuredPrimaryStatus === "expired" && <StatusBadge status={featuredPrimaryStatus} deadline={featuredPrimary.deadline} lang={lang} />}
+                  <StatusBadge status={featuredPrimaryStatus || "open"} deadline={featuredPrimary.deadline} lang={lang} />
                   <span>{featuredPrimary.deadline ? formatDate(featuredPrimary.deadline, lang) : localized(ui.noFixedDeadline, lang)}</span>
                 </div>
                 <h3>
@@ -191,4 +191,15 @@ const stripFinalPeriod = (value: string) => (value.endsWith(".") && !value.endsW
       }
     </div>
   </section>
+
+  <script>
+    import { getOpportunityStatus } from "@lib/opportunityStatus";
+
+    document.querySelectorAll<HTMLElement>("[data-featured-opportunity]").forEach((featured) => {
+      const section = featured.closest<HTMLElement>("[data-featured-section]");
+      if (getOpportunityStatus(featured.dataset.deadline) === "expired") {
+        section?.setAttribute("hidden", "");
+      }
+    });
+  </script>
 </BaseLayout>

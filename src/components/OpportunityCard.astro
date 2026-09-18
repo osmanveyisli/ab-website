@@ -54,7 +54,7 @@ const hasImage = hasContentImage(opportunity.image);
   <div class="card-body">
     <h3><a href={`/${lang}/opportunities/${opportunity.slug}/`}>{title}</a></h3>
     <div class="deadline-summary">
-      {status === "expired" && <StatusBadge status={status} deadline={opportunity.deadline} lang={lang} />}
+      <StatusBadge status={status} deadline={opportunity.deadline} lang={lang} />
       <span>{deadlineText}</span>
     </div>
     <p class="card-eligibility">{eligibilitySummary}</p>

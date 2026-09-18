@@ -20,12 +20,31 @@ export type LocalizedStringList = {
   en: string[];
 };
 
+export type OpportunityCategory =
+  | "STEM"
+  | "Competition"
+  | "Olympiad"
+  | "Scholarship"
+  | "Internship"
+  | "Research"
+  | "Hackathon"
+  | "Entrepreneurship"
+  | "Debate"
+  | "Essay"
+  | "University"
+  | "Exchange"
+  | "Program"
+  | "Event"
+  | "Space"
+  | "Technology"
+  | "Other";
+
 export type Opportunity = {
   slug: string;
   title: LocalizedString;
   summary: LocalizedString;
   description: LocalizedParagraphs;
-  categories: string[];
+  categories: OpportunityCategory[];
   deadline: string | null;
   imagePosition?: string;
   detailFacts?: {

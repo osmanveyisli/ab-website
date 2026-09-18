@@ -4,7 +4,7 @@ import categories from "@data/categories.json";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { opportunities, sortOpportunities, statusLabel } from "@lib/content";
 import { categoryLabel, languages, localized, ui } from "@lib/i18n";
-import type { Lang } from "@lib/types";
+import type { Lang, OpportunityCategory } from "@lib/types";
 
 export function getStaticPaths() {
   return languages.map((lang) => ({
@@ -37,7 +37,7 @@ const copy = pageCopy[lang];
   canonicalPath={`/${lang}/opportunities/`}
 >
   <section class="page-hero opportunities-hero">
-    <div class="container narrow">
+    <div class="container">
       <p class="eyebrow">{copy.eyebrow}</p>
       <h1>{localized(ui.opportunities, lang)}</h1>
       <p>{copy.description}</p>
@@ -66,7 +66,7 @@ const copy = pageCopy[lang];
           <span>{localized(ui.category, lang)}</span>
           <select name="category">
             <option value="">{localized(ui.allCategories, lang)}</option>
-            {categories.map((category) => <option value={category}>{categoryLabel(category, lang)}</option>)}
+            {categories.map((category) => <option value={category}>{categoryLabel(category as OpportunityCategory, lang)}</option>)}
           </select>
         </label>
         <label>
@@ -99,8 +99,8 @@ const copy = pageCopy[lang];
   </section>
 
   <script>
-    const DAY_IN_MS = 24 * 60 * 60 * 1000;
-    type OpportunityStatus = "open" | "closing-soon" | "expired" | "no-deadline";
+    import { getOpportunityStatus, opportunityStatusLabel, updateOpportunityStatusElements } from "@lib/opportunityStatus";
+    import type { OpportunityStatus } from "@lib/types";
 
     const filters = document.querySelector<HTMLFormElement>("[data-opportunity-filters]");
     const cards = Array.from(document.querySelectorAll<HTMLElement>("[data-opportunity-card]"));
@@ -108,28 +108,8 @@ const copy = pageCopy[lang];
     const resultsCount = document.querySelector<HTMLElement>("[data-results-count]");
     const pageLang = document.documentElement.lang || "az";
 
-    function normalizeDateOnly(date: Date) {
-      return new Date(date.getFullYear(), date.getMonth(), date.getDate());
-    }
-
-    function parseLocalDate(value: string) {
-      const [year, month, day] = value.split("-").map(Number);
-      return new Date(year, month - 1, day);
-    }
-
-    function getStatus(deadline: string): OpportunityStatus {
-      if (!deadline) return "no-deadline";
-      const today = normalizeDateOnly(new Date());
-      const deadlineDate = parseLocalDate(deadline);
-      const daysUntilDeadline = Math.floor((deadlineDate.getTime() - today.getTime()) / DAY_IN_MS);
-      if (daysUntilDeadline < 0) return "expired";
-      if (daysUntilDeadline <= 7) return "closing-soon";
-      return "open";
-    }
-
     function labelForStatus(status: OpportunityStatus) {
-      if (!filters) return status;
-      return filters.dataset[`label${status.replace(/(^|-)([a-z])/g, (_, _dash, letter) => letter.toUpperCase())}`] || status;
+      return opportunityStatusLabel(status, pageLang === "en" ? "en" : "az");
     }
 
     function applyFilters() {
@@ -142,7 +122,7 @@ const copy = pageCopy[lang];
       let visibleCount = 0;
 
       cards.forEach((card) => {
-        const status = getStatus(card.dataset.deadline || "");
+        const status = getOpportunityStatus(card.dataset.deadline);
         card.dataset.status = status;
         const badge = card.querySelector<HTMLElement>("[data-status-label]");
         if (badge) {
@@ -170,6 +150,7 @@ const copy = pageCopy[lang];
     }
 
     if (filters) {
+      updateOpportunityStatusElements();
       applyFilters();
       filters.addEventListener("input", applyFilters);
       filters.addEventListener("change", applyFilters);

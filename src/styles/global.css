@@ -735,6 +735,14 @@ h3 {
   color: #20375f;
 }
 
+/* Cards keep their existing quiet date treatment, except when action is needed. */
+.opportunity-card .status-open,
+.opportunity-card .status-no-deadline,
+.featured-primary .status-open,
+.featured-primary .status-no-deadline {
+  display: none;
+}
+
 .demo-note {
   color: var(--red);
   font-size: 0.78rem;

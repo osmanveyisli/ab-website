@@ -25,7 +25,6 @@
     ]
   },
   "categories": [
-    "Computer Science",
     "Hackathon",
     "Technology"
   ],
@@ -268,8 +267,7 @@
   },
   "categories": [
     "Entrepreneurship",
-    "Competition",
-    "Innovation"
+    "Competition"
   ],
   "deadline": "2027-01-14",
   "image": {
@@ -389,9 +387,7 @@
     ]
   },
   "categories": [
-    "Scholarship",
-    "Undergraduate",
-    "International"
+    "Scholarship"
   ],
   "deadline": "2026-09-30",
   "image": {
@@ -511,9 +507,8 @@
     ]
   },
   "categories": [
-    "Business",
     "Competition",
-    "Leadership"
+    "Scholarship"
   ],
   "deadline": "2026-09-25",
   "image": {
@@ -634,8 +629,7 @@
   },
   "categories": [
     "Scholarship",
-    "Exchange",
-    "High School"
+    "Exchange"
   ],
   "deadline": "2026-12-01",
   "image": {
@@ -756,9 +750,7 @@
       ]
     },
     "categories": [
-      "Sustainability",
-      "Competition",
-      "Innovation"
+      "Competition"
     ],
     "deadline": null,
     "image": {
@@ -879,8 +871,7 @@
     },
     "categories": [
       "STEM",
-      "Olympiad",
-      "Physics"
+      "Olympiad"
     ],
     "deadline": "2026-09-27",
     "image": {
@@ -1003,8 +994,7 @@
     },
     "categories": [
       "Entrepreneurship",
-      "Competition",
-      "Business"
+      "Competition"
     ],
     "deadline": "2027-02-21",
     "image": {
@@ -1127,8 +1117,7 @@
     },
     "categories": [
       "Essay",
-      "Economics",
-      "International"
+      "Competition"
     ],
     "deadline": "2026-09-01",
     "image": {
@@ -1249,8 +1238,7 @@
     },
     "categories": [
       "STEM",
-      "Competition",
-      "Innovation"
+      "Competition"
     ],
     "deadline": "2026-10-30",
     "image": {
@@ -1370,9 +1358,9 @@
       ]
     },
     "categories": [
+      "Essay",
       "Competition",
-      "Scholarship",
-      "International"
+      "Scholarship"
     ],
     "deadline": "2026-10-25",
     "image": {
@@ -1471,9 +1459,7 @@
       ]
     },
     "categories": [
-      "Business",
-      "Competition",
-      "International"
+      "Competition"
     ],
     "deadline": "2026-09-11",
     "imagePosition": "center center",
@@ -1746,10 +1732,7 @@
       ]
     },
     "categories": [
-      "Video",
-      "Environment",
-      "International",
-      "Middle & High School"
+      "Competition"
     ],
     "deadline": "2027-03-03",
     "image": {
@@ -1888,7 +1871,7 @@
     "categories": [
       "STEM",
       "Technology",
-      "Training"
+      "Program"
     ],
     "deadline": "2026-09-10",
     "image": {

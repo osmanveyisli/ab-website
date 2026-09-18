@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/az/",
+      "permanent": true
+    }
+  ]
+}

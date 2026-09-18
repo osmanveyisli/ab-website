@@ -59,7 +59,15 @@ const officialCta = opportunity.officialCta ? localized(opportunity.officialCta,
         <div class="detail-source-inline">
           {
             opportunity.officialUrl ? (
-              <a class="button primary" href={opportunity.officialUrl} target="_blank" rel="noopener noreferrer">
+              <a
+                class="button primary"
+                href={opportunity.officialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-official-opportunity-link
+                data-opportunity-slug={opportunity.slug}
+                data-opportunity-lang={lang}
+              >
                 {officialCta}
               </a>
             ) : (
@@ -104,7 +112,15 @@ const officialCta = opportunity.officialCta ? localized(opportunity.officialCta,
       <aside class="detail-sidebar" aria-label={localized(ui.officialSource, lang)}>
         {
           opportunity.officialUrl ? (
-            <a class="button primary full-width" href={opportunity.officialUrl} target="_blank" rel="noopener noreferrer">
+            <a
+              class="button primary full-width"
+              href={opportunity.officialUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-official-opportunity-link
+              data-opportunity-slug={opportunity.slug}
+              data-opportunity-lang={lang}
+            >
               {officialCta}
             </a>
           ) : (
@@ -147,4 +163,17 @@ const officialCta = opportunity.officialCta ? localized(opportunity.officialCta,
       </section>
     </div>
   </article>
+
+  <script>
+    import { track } from "@vercel/analytics";
+
+    document.querySelectorAll<HTMLAnchorElement>("[data-official-opportunity-link]").forEach((link) => {
+      link.addEventListener("click", () => {
+        track("opportunity_official_click", {
+          slug: link.dataset.opportunitySlug,
+          language: link.dataset.opportunityLang,
+        });
+      });
+    });
+  </script>
 </BaseLayout>

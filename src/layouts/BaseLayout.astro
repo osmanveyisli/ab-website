@@ -58,55 +58,9 @@ const alternateUrls = languages.map((language) => ({
     </main>
     <SiteFooter lang={lang} />
     <script>
-      (() => {
-        const DAY_IN_MS = 24 * 60 * 60 * 1000;
+      import { updateOpportunityStatusElements } from "@lib/opportunityStatus";
 
-        function normalizeDateOnly(date: Date) {
-          return new Date(date.getFullYear(), date.getMonth(), date.getDate());
-        }
-
-        function parseLocalDate(value: string) {
-          const [year, month, day] = value.split("-").map(Number);
-          return new Date(year, month - 1, day);
-        }
-
-        function getStatus(deadline: string) {
-          if (!deadline) return "no-deadline";
-
-          const today = normalizeDateOnly(new Date());
-          const deadlineDate = parseLocalDate(deadline);
-          const daysUntilDeadline = Math.floor((deadlineDate.getTime() - today.getTime()) / DAY_IN_MS);
-
-          if (daysUntilDeadline < 0) return "expired";
-          if (daysUntilDeadline <= 7) return "closing-soon";
-          return "open";
-        }
-
-        function labelForStatus(status: string, lang: string) {
-          const labels: Record<string, Record<string, string>> = {
-            az: {
-              open: "Açıqdır",
-              "closing-soon": "Son günlər",
-              expired: "Müddəti bitib",
-              "no-deadline": "Sabit son tarix yoxdur",
-            },
-            en: {
-              open: "Open",
-              "closing-soon": "Closing soon",
-              expired: "Expired",
-              "no-deadline": "No fixed deadline",
-            },
-          };
-
-          return labels[lang]?.[status] || labels.az.open;
-        }
-
-        document.querySelectorAll<HTMLElement>("[data-status-deadline]").forEach((badge) => {
-          const status = getStatus(badge.dataset.statusDeadline || "");
-          badge.textContent = labelForStatus(status, badge.dataset.statusLang || "az");
-          badge.className = `status-badge status-${status}`;
-        });
-      })();
+      updateOpportunityStatusElements();
     </script>
   </body>
 </html>
