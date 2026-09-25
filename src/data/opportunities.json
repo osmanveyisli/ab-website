@@ -1,4 +1,117 @@
 [{
+  "slug": "transporttech-hackathon-2026",
+  "title": {
+    "az": "TransportTech Hakatonu 2026",
+    "en": "TransportTech Hackathon 2026"
+  },
+  "summary": {
+    "az": "3–4 nəfərlik komandalar nəqliyyat sektorundakı real problemlərə AYNA tərəfindən təqdim olunan data əsasında innovativ həllər hazırlaya bilərlər.",
+    "en": "Teams of 3–4 can develop innovative solutions to real transportation challenges using data provided by AYNA."
+  },
+  "description": {
+    "az": [
+      "TransportTech Hakatonu İRİA və AYNA-nın birgə təşkilatçılığı ilə “Openwave” açıq innovasiya proqramı çərçivəsində keçirilir.",
+      "İştirakçılar AYNA tərəfindən təqdim olunan data ilə işləyərək nəqliyyat sektorunda aktual problemlərə innovativ texnoloji həllər hazırlayacaqlar.",
+      "Hakaton 17–18 oktyabr tarixlərində 2 gün ərzində keçiriləcək. İştirakçılar müxtəlif istiqamətlər üzrə mentor dəstəyi alacaq, prototiplərini hazırlayacaq və həllərini münsiflər heyətinə təqdim edəcəklər.",
+      "Ən yaxşı 3 komanda seçiləcək və hər qalib komandaya 1 ədəd MacBook M5 Pro təqdim olunacaq."
+    ],
+    "en": [
+      "The TransportTech Hackathon is organized jointly by IRIA and AYNA as part of the Openwave open innovation program.",
+      "Participants will work with data provided by AYNA to develop innovative technological solutions to current challenges in the transportation sector.",
+      "The 2-day hackathon will take place on October 17–18. Participants will receive mentorship, develop prototypes, and present their solutions to a jury.",
+      "The top 3 teams will be selected, with each winning team receiving one MacBook M5 Pro."
+    ]
+  },
+  "categories": [
+    "Hackathon",
+    "Technology"
+  ],
+  "deadline": "2026-10-12",
+  "image": {
+    "src": "/images/transporttech-hackathon-2026.png",
+    "alt": {
+      "az": "TransportTech Hakatonu 2026",
+      "en": "TransportTech Hackathon 2026"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Komanda",
+        "en": "Team"
+      },
+      "value": {
+        "az": "3–4 nəfər",
+        "en": "3–4 people"
+      }
+    },
+    {
+      "label": {
+        "az": "Format",
+        "en": "Format"
+      },
+      "value": {
+        "az": "2 günlük, əyani",
+        "en": "2-day, in-person"
+      }
+    },
+    {
+      "label": {
+        "az": "Mükafat",
+        "en": "Prize"
+      },
+      "value": {
+        "az": "MacBook M5 Pro",
+        "en": "MacBook M5 Pro"
+      }
+    },
+    {
+      "label": {
+        "az": "Məkan",
+        "en": "Location"
+      },
+      "value": {
+        "az": "Azərbaycan İnnovasiya Mərkəzi",
+        "en": "Azerbaijan Innovation Center"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "12 oktyabr 2026",
+        "en": "October 12, 2026"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Müraciətlər 3 və ya 4 nəfərlik komandalar şəklində qəbul olunur.",
+    "en": "Applications must be submitted in teams of 3 or 4."
+  },
+  "eligibility": {
+    "az": [
+      "Komanda 3 və ya 4 nəfərdən ibarət olmalıdır.",
+      "İştirakçılar 17–18 oktyabr tarixlərində hakatonda iştirak etməlidirlər."
+    ],
+    "en": [
+      "Teams must consist of 3 or 4 people.",
+      "Participants must be available to attend the hackathon on October 17–18."
+    ]
+  },
+  "organizer": "İRİA & AYNA",
+  "officialUrl": "https://forms.cloud.microsoft/r/yEVc0VAf6Y",
+  "officialCta": {
+    "az": "Rəsmi səhifəyə keç",
+    "en": "Visit official page"
+  },
+  "dateAdded": "2026-09-25",
+  "lastVerified": "2026-09-25"
+},
+{
   "slug": "global-virtual-hackathon-2026",
   "title": {
     "az": "Global Virtual Hackathon 2026",
