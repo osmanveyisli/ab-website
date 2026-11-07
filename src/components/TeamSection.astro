@@ -1,0 +1,64 @@
+---
+import { teamMembers } from "@data/team";
+import { localized, ui } from "@lib/i18n";
+import type { Lang } from "@lib/types";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+// Resolve availability at build time to avoid broken requests or client JavaScript.
+const photos = import.meta.glob("/public/images/team/*.webp");
+---
+
+<section class="team-section" aria-labelledby="team-heading">
+  <h2 id="team-heading">{localized(ui.team, lang)}</h2>
+  <ul class="team-grid" role="list">
+    {teamMembers.map((member) => {
+      const photo = `/images/team/${member.id}.webp`;
+      const hasPhoto = `/public${photo}` in photos;
+      return (
+        <li class="team-card">
+          <img src={hasPhoto ? photo : "/images/team/avatar.svg"}
+            alt={hasPhoto ? member.name : `${member.name} — ${localized(ui.teamAvatar, lang)}`}
+            width="400" height="400" loading="lazy" decoding="async" />
+          <h3>{member.name}</h3>
+          <p>{localized(member.role, lang)}</p>
+        </li>
+      );
+    })}
+  </ul>
+</section>
+
+<style>
+  .team-section { margin-block: 24px; }
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .team-card {
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    text-align: center;
+  }
+  .team-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: var(--radius);
+  }
+  .team-card h3 { margin: 16px 0 8px; }
+  .team-card p { font-size: 0.9rem; }
+  @media (max-width: 860px) {
+    .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 460px) {
+    .team-grid { grid-template-columns: minmax(0, 1fr); }
+  }
+</style>

@@ -40,6 +40,8 @@ export function categoryLabel(category: OpportunityCategory, lang: Lang) {
 }
 
 export const ui = {
+  team: { az: "Komandamız", en: "Meet Our Team" },
+  teamAvatar: { az: "Profil şəkli əvəzinə avatar", en: "Placeholder avatar" },
   skipToContent: { az: "Məzmuna keç", en: "Skip to content" },
   home: { az: "Ana səhifə", en: "Home" },
   opportunities: { az: "İmkanlar", en: "Opportunities" },
