@@ -12,7 +12,7 @@ export const teamMembers: TeamMember[] = [
   { id: "ayhan", name: "Ayhan Qədimov", role: { az: "Həmtəsisçi", en: "Co-founder" } },
   { id: "ehad", name: "Əhəd Dilanov", role: { az: "Texniki rəhbər", en: "Tech Lead" } },
   { id: "atilla", name: "Atilla Mustafa", role: { az: "Texniki rəhbər", en: "Tech Lead" } },
-  { id: "tofiq", name: "Tofiq Fərəcli", role: { az: "Analitika", en: "Analytics" } },
+  { id: "tofiq", name: "Tofiq Fərəcli", role: { az: "Analitika üzrə rəhbər", en: "Analytics lead" } },
   // Provisional role: update both translations here when confirmed.
-  { id: "imran", name: "İmran Hidayətzadə", role: { az: "Komanda üzvü", en: "Team Member" } },
+  { id: "imran", name: "İmran Hidayətzadə", role: { az: "Marketinq rəhbəri", en: "Marketing lead" } },
 ];
