@@ -2,6 +2,7 @@
 import StatusBadge from "@components/StatusBadge.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { formatDate, getOpportunityStatus, opportunities } from "@lib/content";
+import { resolveDeadlineFacts } from "@lib/opportunityMetadata";
 import { hasContentImage, imageObjectPosition } from "@lib/contentImages";
 import { categoryLabel, languages, localized, ui } from "@lib/i18n";
 import type { Lang, Opportunity } from "@lib/types";
@@ -22,7 +23,7 @@ const summary = localized(opportunity.summary, lang);
 const description = opportunity.description[lang];
 const eligibility = localized(opportunity.eligibility, lang);
 const categoryList = opportunity.categories.map((category) => categoryLabel(category, lang)).join(", ");
-const detailFacts = opportunity.detailFacts || [];
+const { primaryDeadline, detailFacts } = resolveDeadlineFacts(opportunity.deadline, opportunity.detailFacts);
 const hasImage = hasContentImage(opportunity.image);
 const officialCta = opportunity.officialCta ? localized(opportunity.officialCta, lang) : localized(ui.visitOfficialSource, lang);
 ---
@@ -83,8 +84,8 @@ const officialCta = opportunity.officialCta ? localized(opportunity.officialCta,
 
         <dl class="detail-keyfacts">
           <div>
-            <dt>{localized(ui.deadline, lang)}</dt>
-            <dd>{opportunity.deadline ? formatDate(opportunity.deadline, lang) : localized(ui.noFixedDeadline, lang)}</dd>
+            <dt>{localized(primaryDeadline?.label ?? ui.deadline, lang)}</dt>
+            <dd>{primaryDeadline ? localized(primaryDeadline.value, lang) : opportunity.deadline ? formatDate(opportunity.deadline, lang) : localized(ui.noFixedDeadline, lang)}</dd>
           </div>
           <div>
             <dt>{localized(ui.eligibilityShort, lang)}</dt>
