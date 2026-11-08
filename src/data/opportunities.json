@@ -1,4 +1,148 @@
 [
+{
+  "slug": "teens-in-ai-baku-1-2027",
+  "title": {
+    "az": "Teens in AI Azerbaijan — Bakı 1 Hakatonu 2027",
+    "en": "Teens in AI Azerbaijan — Baku 1 Hackathon 2027"
+  },
+  "summary": {
+    "az": "13–18 yaşlı şagirdlər 30–31 yanvarda Bakıda komanda ilə işləyərək süni intellekt vasitəsilə real sosial problemlərə həll hazırlaya bilərlər.",
+    "en": "Students aged 13–18 can work in teams to develop AI-powered solutions to real social problems in Baku on January 30–31."
+  },
+  "description": {
+    "az": [
+      "Teens in AI Azerbaijan — Bakı 1 hakatonu LuneX, Entreset və GoUp icmalarının birgə təşkilatçılığı ilə 30–31 yanvar 2027-ci il tarixlərində Holberton School Azerbaijan-da keçiriləcək.",
+      "İştirakçılar “AI for Social Good” istiqaməti üzrə cəmiyyətdə mövcud olan real bir problemi seçəcək və süni intellektin həllin əsas hissəsi olduğu layihə hazırlayacaqlar.",
+      "Qoşulmaq üçün ekspert olmaq tələb olunmur. Süni intellektə marağı və komanda ilə işləməyə həvəsi olan 13–18 yaşlı şagirdlər müraciət edə bilərlər.",
+      "Layihə hakaton müddətində hazırlanmalıdır; əvvəlcədən hazır olan layihələr qəbul edilmir. Hər komanda problemi, təklif etdiyi həlli və süni intellektdən necə istifadə etdiyini izah edən təqdimat slaydları — pitch deck hazırlamalı və layihəsini münsiflər heyətinə təqdim etməlidir.",
+      "Qiymətləndirmədə layihənin işləməsi və istifadəçi yönümlü olması, sosial təsiri, ideyanın yeniliyi, potensialı və təqdimatın keyfiyyəti nəzərə alınır.",
+      "Qeydiyyat zamanı “Baku 1” seçimini edin. Komandanız yoxdursa, Ocaq platformasında komanda yoldaşı axtarmaq üçün elan yerləşdirə bilərsiniz."
+    ],
+    "en": [
+      "The Teens in AI Azerbaijan — Baku 1 Hackathon is jointly organized by the LuneX, Entreset and GoUp communities and will take place at Holberton School Azerbaijan on January 30–31, 2027.",
+      "Participants will choose a real social problem under the “AI for Social Good” theme and develop a project in which artificial intelligence forms a central part of the solution.",
+      "Expert knowledge is not required. Students aged 13–18 with an interest in AI and a willingness to collaborate can apply.",
+      "Projects must be developed during the hackathon; pre-built projects are not accepted. Each team must prepare a pitch deck explaining the problem, its proposed solution and how AI is used, then present its project to the judges.",
+      "Judging considers functionality and user-centred design, social impact, originality, potential and presentation quality.",
+      "Select “Baku 1” when registering. If you do not have a team, you can post on the Ocaq platform to find teammates."
+    ]
+  },
+  "categories": [
+    "Hackathon",
+    "Technology"
+  ],
+  "deadline": "2027-01-20",
+  "image": {
+    "src": "/images/teens-in-ai-baku-1-2027.png",
+    "alt": {
+      "az": "Teens in AI Azerbaijan — Bakı 1 hakatonunun afişası",
+      "en": "Teens in AI Azerbaijan — Baku 1 hackathon poster"
+    }
+  },
+  "imageFit": "contain",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Yaş",
+        "en": "Age"
+      },
+      "value": {
+        "az": "13–18 yaş",
+        "en": "13–18 years"
+      }
+    },
+    {
+      "label": {
+        "az": "Tarix",
+        "en": "Dates"
+      },
+      "value": {
+        "az": "30–31 yanvar 2027",
+        "en": "January 30–31, 2027"
+      }
+    },
+    {
+      "label": {
+        "az": "Məkan",
+        "en": "Venue"
+      },
+      "value": {
+        "az": "Holberton School Azerbaijan, Bakı",
+        "en": "Holberton School Azerbaijan, Baku"
+      }
+    },
+    {
+      "label": {
+        "az": "Format",
+        "en": "Format"
+      },
+      "value": {
+        "az": "2 günlük, əyani",
+        "en": "2-day, in-person"
+      }
+    },
+    {
+      "label": {
+        "az": "Komanda",
+        "en": "Team"
+      },
+      "value": {
+        "az": "Platformada göstərilən ölçü: 1–4 nəfər",
+        "en": "Listed team size: 1–4 participants"
+      }
+    },
+    {
+      "label": {
+        "az": "İstiqamət",
+        "en": "Theme"
+      },
+      "value": {
+        "az": "Sosial fayda üçün süni intellekt",
+        "en": "AI for Social Good"
+      }
+    },
+    {
+      "label": {
+        "az": "Son tarix",
+        "en": "Deadline"
+      },
+      "value": {
+        "az": "20 yanvar 2027",
+        "en": "January 20, 2027"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Azərbaycanda 13–18 yaşlı şagirdlər üçün açıqdır. Ekspert səviyyəsində bilik tələb olunmur.",
+    "en": "Open to students aged 13–18 in Azerbaijan. Expert-level knowledge is not required."
+  },
+  "eligibility": {
+    "az": [
+      "İştirakçıların yaşı 13–18 arasında olmalıdır.",
+      "Tədbir Azərbaycandakı iştirakçılar üçün nəzərdə tutulub və Bakıda əyani keçirilir.",
+      "İştirakçılar 30–31 yanvar 2027-ci il tarixlərində tədbirdə iştirak edə bilməlidirlər.",
+      "Layihə “AI for Social Good” istiqamətinə uyğun olmalı və süni intellekt həllin əsas hissəsi kimi istifadə edilməlidir.",
+      "Layihə hakaton müddətində hazırlanmalı, orijinal olmalı və münsiflər heyətinə təqdim edilməlidir."
+    ],
+    "en": [
+      "Participants must be aged 13–18.",
+      "The event is intended for participants in Azerbaijan and takes place in person in Baku.",
+      "Participants must be available to attend on January 30–31, 2027.",
+      "Projects must address the “AI for Social Good” theme and use AI as a central part of the solution.",
+      "Projects must be original, developed during the hackathon and presented to the judges."
+    ]
+  },
+  "organizer": "LuneX Community, Entreset & GoUp",
+  "officialUrl": "https://ocaq.app/h/h_LCJ1LOZ6Ag2D",
+  "officialCta": {
+    "az": "Ətraflı məlumat və qeydiyyat",
+    "en": "Details and registration"
+  },
+  "dateAdded": "2026-11-08",
+  "lastVerified": "2026-11-08",
+  "featured": true
+},
   {
     "slug": "transporttech-hackathon-2026",
     "title": {
