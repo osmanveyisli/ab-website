@@ -1,5 +1,157 @@
 [
 {
+  "slug": "codejudge",
+  "title": {
+    "az": "CodeJudge Blitz 2026 — 1v1 Proqramlaşdırma Yarışı",
+    "en": "CodeJudge Blitz 2026 — 1v1 Programming Tournament"
+  },
+  "summary": {
+    "az": "16 noyabr saat 13:00-da CodeJudge Blitz yarışına qoşul! İştirakçılar 10 dəqiqəlik fərdi vaxt limiti ilə 1-ə-1 knockout qarşılaşmalarında yarışacaqlar.",
+    "en": "Join CodeJudge Blitz on November 16 at 13:00! Compete in 1v1 knockout programming matches with a 10-minute individual time limit."
+  },
+  "description": {
+    "az": [
+      "CodeJudge Blitz 16 noyabr 2026-cı il saat 13:00-da keçiriləcək fərqli formatlı proqramlaşdırma yarışıdır. İştirakçılar klassik yarışlardan fərqli olaraq bir-biri ilə birbaşa qarşılaşacaqlar.",
+      "Qeydiyyat bağlandıqdan sonra iştirakçılar təsadüfi şəkildə cütləşdiriləcək. Hər qarşılaşmada hər iki iştirakçıya eyni proqramlaşdırma məsələsi təqdim olunacaq.",
+      "Hər iştirakçının özünə məxsus 10 dəqiqəlik vaxt limiti olacaq. Hər səhv cavaba görə iştirakçının vaxtından 30 saniyə çıxılacaq.",
+      "Məsələni ilk düzgün həll edən iştirakçı qalib gələcək. Heç kim məsələni həll edə bilməsə, əvvəlcə cəhd edən, sonra isə daha az səhv cavabı olan iştirakçı üstün sayılacaq. Bütün göstəricilər bərabər olarsa, qalib püşkatma ilə müəyyən ediləcək.",
+      "Yarış knockout sistemi ilə keçiriləcək. Qarşılaşmalar YouTube üzərindən canlı yayımlanacaq. İştirakçılar ekranlarını paylaşmalıdırlar, lakin kameranı açmaq məcburi deyil.",
+      "Qeydiyyat açıq olduğu müddətdə CodeJudge platforması üzərindən yarışa qoşulmaq mümkündür."
+    ],
+    "en": [
+      "CodeJudge Blitz is a competitive programming tournament taking place on November 16, 2026, at 13:00. Unlike traditional programming contests, participants compete directly against one another.",
+      "Once registration closes, participants will be randomly paired. Both competitors in each match will receive the same programming problem.",
+      "Each participant will have an individual 10-minute time limit. Every incorrect submission results in a 30-second time penalty.",
+      "The first participant to solve the problem correctly wins. If neither solves it, priority is given first to the participant who attempted the problem earlier, then to the one with fewer incorrect submissions. If all criteria are equal, the winner is decided by a random draw.",
+      "The tournament follows a knockout format. Matches will be livestreamed on YouTube. Screen sharing is mandatory, but cameras are optional.",
+      "Participants can join through the CodeJudge platform while registration remains open."
+    ]
+  },
+  "categories": [
+    "Competition",
+    "Technology"
+  ],
+  "deadline": null,
+  "image": {
+    "src": "/images/codejudge-blitz-2026.png",
+    "alt": {
+      "az": "CodeJudge Blitz 2026 — 16 noyabr, saat 13:00, 1v1 knockout yarışı üçün banner",
+      "en": "CodeJudge Blitz 2026 — November 16, 13:00, 1v1 knockout tournament banner"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Tarix",
+        "en": "Date"
+      },
+      "value": {
+        "az": "16 noyabr 2026",
+        "en": "November 16, 2026"
+      }
+    },
+    {
+      "label": {
+        "az": "Başlama saatı",
+        "en": "Start time"
+      },
+      "value": {
+        "az": "13:00",
+        "en": "13:00"
+      }
+    },
+    {
+      "label": {
+        "az": "Format",
+        "en": "Format"
+      },
+      "value": {
+        "az": "1-ə-1, knockout",
+        "en": "1v1, knockout"
+      }
+    },
+    {
+      "label": {
+        "az": "Vaxt",
+        "en": "Time per participant"
+      },
+      "value": {
+        "az": "Hər iştirakçıya 10 dəqiqə",
+        "en": "10 minutes per participant"
+      }
+    },
+    {
+      "label": {
+        "az": "Səhv cavab cəriməsi",
+        "en": "Wrong-answer penalty"
+      },
+      "value": {
+        "az": "30 saniyə",
+        "en": "30 seconds"
+      }
+    },
+    {
+      "label": {
+        "az": "Platforma",
+        "en": "Platform"
+      },
+      "value": {
+        "az": "CodeJudge",
+        "en": "CodeJudge"
+      }
+    },
+    {
+      "label": {
+        "az": "Yayım",
+        "en": "Broadcast"
+      },
+      "value": {
+        "az": "YouTube-da canlı yayım",
+        "en": "YouTube livestream"
+      }
+    },
+    {
+      "label": {
+        "az": "Ekran paylaşımı",
+        "en": "Screen sharing"
+      },
+      "value": {
+        "az": "Məcburidir; kamera tələb olunmur",
+        "en": "Required; camera optional"
+      }
+    },
+    {
+      "label": {
+        "az": "Qeydiyyatın bağlanması",
+        "en": "Registration closes"
+      },
+      "value": {
+        "az": "Dəqiq vaxt elan edilməyib",
+        "en": "Exact time not announced"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "Proqramlaşdırma yarışı iştirakçıları üçün; yaş məhdudiyyəti və iştirak haqqı elanda göstərilmir.",
+    "en": "For competitive programming participants; age restrictions and entry fees are not specified."
+  },
+  "eligibility": {
+    "az": "Qeydiyyat açıq olduğu müddətdə CodeJudge üzərindən yarışa qoşulmaq mümkündür. Qarşılaşmalar zamanı ekran paylaşımı məcburidir, kamera isə tələb olunmur. Yaş məhdudiyyəti, iştirak haqqı və qeydiyyatın dəqiq bağlanma vaxtı elanda göstərilmir.",
+    "en": "Participants can register through CodeJudge while sign-ups remain open. Screen sharing during matches is mandatory, while cameras are optional. Age restrictions, entry fees, and the exact registration closing time are not specified."
+  },
+  "organizer": "CodeJudge",
+  "officialUrl": "https://codejudge.xyz/contests",
+  "officialCta": {
+    "az": "Rəsmi qeydiyyat səhifəsi",
+    "en": "Official registration page"
+  },
+  "dateAdded": "2026-11-15",
+  "featured": false
+},
+
+{
   "slug": "teens-in-ai-baku-1-2027",
   "title": {
     "az": "Teens in AI Azerbaijan — Bakı 1 Hakatonu 2027",
