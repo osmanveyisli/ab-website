@@ -1,4 +1,145 @@
-[
+[{
+  "slug": "fritl-integration",
+  "title": {
+    "az": "FRİTL İnteqral Həftəsi — Integration Bee formatında yarış",
+    "en": "FRITL Integration Week — Integration Bee-Style Competition"
+  },
+  "summary": {
+    "az": "MIT Integration Bee-dən ilhamlanan FRİTL İnteqral Həftəsində 9–11-ci sinif şagirdləri 20 inteqrallıq seçmə və 1v1 playoff mərhələlərində yarışacaqlar.",
+    "en": "Inspired by the MIT Integration Bee, FRITL Integration Week invites students in grades 9–11 to a 20-integral qualifier and 1v1 playoffs."
+  },
+  "description": {
+    "az": [
+      "FRİTL (Fizika, riyaziyyat və informatika təmayüllü lisey) MIT Integration Bee yarışından ilhamlanan “FRİTL İnteqral Həftəsi” turnirini Bakıda təşkil edir. Bu, MIT tərəfindən keçirilən rəsmi yarış deyil.",
+      "Turnirdə inteqralları hesablaya bilən 9, 10 və 11-ci sinif şagirdləri iştirak edə bilərlər.",
+      "Birinci mərhələ yazılı seçmə turudur: iştirakçılar 30 dəqiqə ərzində 20 inteqral həll edirlər. Kalkulyator, qrafik alətlər və düstur kitabçalarından istifadə qadağandır. Ən yüksək nəticə göstərən 8 iştirakçı playoff mərhələsinə keçir.",
+      "Playoff mərhələsində iştirakçılar lövhədə 1-ə-1 formatında, olimpiya sistemi ilə yarışırlar. Hər cütlüyə maksimum üç sual verilir, hər sual üçün təxminən 6–7 dəqiqə ayrılır. Düzgün həlli birinci təqdim edən iştirakçı raundu qazanır; lazım gəldikdə əlavə sual verilir.",
+      "Birinci yerin sahibi “İnteqral Ustası” diplomu və hədiyyə alacaq. İkinci və üçüncü yerlər hədiyyələrlə mükafatlandırılacaq; final mərhələsinə yüksələn digər iştirakçılara təşəkkür sertifikatları veriləcək.",
+      "Yarışın keçirilmə tarixi və qeydiyyatın son tarixi təqdim olunan rəsmi materiallarda göstərilməyib. Qaydalar üçün təşkilatçıların məlumat sənədlərinə baxın: https://drive.google.com/drive/folders/1-EWRCE98yxfPLd2HJ3M-DqsTAqmLsuaw"
+    ],
+    "en": [
+      "FRITL (the Physics, Mathematics and Informatics Lyceum) is organizing FRITL Integration Week in Baku, inspired by the MIT Integration Bee. This is not an official MIT-hosted competition.",
+      "Students in grades 9, 10 and 11 who can calculate integrals are eligible to take part.",
+      "Stage one is a written qualifier: participants solve 20 integrals in 30 minutes. Calculators, graphing tools and formula sheets are prohibited. The top eight participants advance to the playoffs.",
+      "In the playoffs, students compete head-to-head at the board in a single-elimination bracket. Each matchup contains up to three problems, with approximately 6–7 minutes per problem. The first participant to present the correct solution wins the round; a tie-breaker may be used.",
+      "First place receives the Grand Integrator diploma and a prize. Second and third place receive prizes, and other students reaching the final stage receive certificates of appreciation.",
+      "The event date and registration deadline are not stated in the official materials provided. See the organizers’ rules: https://drive.google.com/drive/folders/1-EWRCE98yxfPLd2HJ3M-DqsTAqmLsuaw"
+    ]
+  },
+  "categories": [
+    "Competition",
+    "STEM"
+  ],
+  "deadline": null,
+  "image": {
+    "src": "/images/fritl-inteqral-haftesi-2026.png",
+    "alt": {
+      "az": "FRİTL İnteqral Həftəsi — Bakıda inteqral həlli yarışı üçün banner",
+      "en": "FRITL Integration Week — Baku integration competition banner"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Siniflər",
+        "en": "Grades"
+      },
+      "value": {
+        "az": "9–11-ci siniflər",
+        "en": "Grades 9–11"
+      }
+    },
+    {
+      "label": {
+        "az": "Məkan",
+        "en": "Venue"
+      },
+      "value": {
+        "az": "FRİTL, Bakı",
+        "en": "FRITL, Baku"
+      }
+    },
+    {
+      "label": {
+        "az": "Seçmə mərhələsi",
+        "en": "Qualifying round"
+      },
+      "value": {
+        "az": "20 inteqral, 30 dəqiqə",
+        "en": "20 integrals, 30 minutes"
+      }
+    },
+    {
+      "label": {
+        "az": "Növbəti mərhələ",
+        "en": "Advancement"
+      },
+      "value": {
+        "az": "İlk 8 iştirakçı playoff-a keçir",
+        "en": "Top 8 advance to the playoffs"
+      }
+    },
+    {
+      "label": {
+        "az": "Playoff formatı",
+        "en": "Playoff format"
+      },
+      "value": {
+        "az": "Lövhədə 1v1, olimpiya sistemi",
+        "en": "1v1 at the board, single elimination"
+      }
+    },
+    {
+      "label": {
+        "az": "Sual üçün vaxt",
+        "en": "Time per problem"
+      },
+      "value": {
+        "az": "Təxminən 6–7 dəqiqə",
+        "en": "Approximately 6–7 minutes"
+      }
+    },
+    {
+      "label": {
+        "az": "Mükafatlar",
+        "en": "Prizes"
+      },
+      "value": {
+        "az": "1-ci yer: diplom və hədiyyə; 2–3-cü yerlər: hədiyyə",
+        "en": "1st: diploma and prize; 2nd–3rd: prizes"
+      }
+    },
+    {
+      "label": {
+        "az": "Qeydiyyatın son tarixi",
+        "en": "Registration deadline"
+      },
+      "value": {
+        "az": "Hələ açıqlanmayıb",
+        "en": "Not yet announced"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "İnteqralları hesablaya bilən 9, 10 və 11-ci sinif şagirdləri üçün.",
+    "en": "For students in grades 9–11 who can calculate integrals."
+  },
+  "eligibility": {
+    "az": "9, 10 və ya 11-ci sinifdə oxumaq və inteqralları hesablaya bilmək tələb olunur. Yazılı seçmədə kalkulyator, qrafik alətlər və düstur kitabçalarından istifadə etmək olmaz.",
+    "en": "Participants must be in grade 9, 10 or 11 and be able to calculate integrals. Calculators, graphing tools and formula sheets are not allowed during the written qualifier."
+  },
+  "organizer": "FRİTL — Fizika, riyaziyyat və informatika təmayüllü lisey",
+  "officialUrl": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAZVtfnVUOVdGSVA1SVFFTUVJNUQ0NVg1WlFRSjdQQi4u",
+  "officialCta": {
+    "az": "Qeydiyyat formasına keç",
+    "en": "Open registration form"
+  },
+  "dateAdded": "2026-11-15",
+  "lastVerified": "2026-11-15",
+  "featured": true
+},
 {
   "slug": "codejudge",
   "title": {
