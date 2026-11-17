@@ -1,4 +1,143 @@
 [{
+  "slug": "lunex",
+  "title": {
+    "az": "LuneX Seed 2026 — Startap inkubasiya proqramı",
+    "en": "LuneX Seed 2026 — Startup Incubation Program"
+  },
+  "summary": {
+    "az": "14–19 yaşlı gənclər üçün 2–4 nəfərlik komandalarla keçirilən ödənişsiz, 3 həftəlik onlayn startap inkubasiya proqramı. Son müraciət tarixi: 30 noyabr 2026.",
+    "en": "A free, three-week online startup incubation program for teams of 2–4 young people aged 14–19. Apply by November 30, 2026."
+  },
+  "description": {
+    "az": [
+      "LuneX icmasının təşkil etdiyi LuneX Seed ideyasını real startap layihəsinə çevirmək istəyən 14–19 yaşlı gənclər üçün 3 həftəlik ödənişsiz onlayn inkubasiya proqramıdır.",
+      "İştirakçı komandalar 3 həftə ərzində mentorlarla 6 onlayn sessiyada işləyəcəklər. Sessiyalar real problemin müəyyənləşdirilməsi, prototipin hazırlanması, biznes modelinin qurulması və layihənin təqdimatı (pitch) mövzularını əhatə edəcək.",
+      "Proqram 27 dekabr 2026-cı ildə Demo Day ilə başa çatacaq. Komandalar layihələrini münsiflər heyətinə təqdim edəcəklər və ən yaxşı 3 ideya mükafatlandırılacaq. Mükafatların növü və məbləği elan materialında göstərilməyib.",
+      "Proqramı tamamlayan hər bir iştirakçı sertifikat alacaq. Müraciət üçün 2–4 nəfərlik komanda tələb olunur və komanda üzvlərinin yaşı 14–19 arasında olmalıdır.",
+      "Müraciətlər 30 noyabr 2026-cı il tarixinədək qəbul olunur. Qeydiyyat təqdim olunan rəsmi Google Forms bağlantısı vasitəsilə aparılır."
+    ],
+    "en": [
+      "LuneX Seed, organized by the LuneX community, is a free three-week online incubation program for young people aged 14–19 who want to turn an idea into a real startup project.",
+      "Teams will work with mentors through six online sessions over three weeks. Topics include identifying a real problem, developing a prototype, building a business model and preparing a project pitch.",
+      "The program concludes with Demo Day on December 27, 2026. Teams will present their projects to a jury, and the top three ideas will receive prizes. The announcement does not specify the type or value of the prizes.",
+      "Every participant who completes the program will receive a certificate. Applicants must form a team of two to four people, with members aged 14–19.",
+      "Applications are due November 30, 2026, through the official Google Forms registration link provided in the announcement."
+    ]
+  },
+  "categories": [
+    "Entrepreneurship",
+    "Program"
+  ],
+  "deadline": "2026-11-30",
+  "image": {
+    "src": "/images/lunex-seed-2026.png",
+    "alt": {
+      "az": "LuneX Seed 2026 — startap inkubasiya proqramı üçün yaşıl rəngli vebsayt banneri",
+      "en": "LuneX Seed 2026 — green promotional banner for the startup incubation program"
+    }
+  },
+  "imageFit": "cover",
+  "imagePosition": "center center",
+  "detailFacts": [
+    {
+      "label": {
+        "az": "Format",
+        "en": "Format"
+      },
+      "value": {
+        "az": "3 həftə, onlayn",
+        "en": "3 weeks, online"
+      }
+    },
+    {
+      "label": {
+        "az": "Mentorluq",
+        "en": "Mentoring"
+      },
+      "value": {
+        "az": "6 onlayn sessiya",
+        "en": "6 online sessions"
+      }
+    },
+    {
+      "label": {
+        "az": "Yaş həddi",
+        "en": "Age range"
+      },
+      "value": {
+        "az": "14–19 yaş",
+        "en": "Ages 14–19"
+      }
+    },
+    {
+      "label": {
+        "az": "Komanda ölçüsü",
+        "en": "Team size"
+      },
+      "value": {
+        "az": "2–4 nəfər",
+        "en": "2–4 members"
+      }
+    },
+    {
+      "label": {
+        "az": "İştirak haqqı",
+        "en": "Cost"
+      },
+      "value": {
+        "az": "Ödənişsiz",
+        "en": "Free"
+      }
+    },
+    {
+      "label": {
+        "az": "Son müraciət tarixi",
+        "en": "Application deadline"
+      },
+      "value": {
+        "az": "30 noyabr 2026",
+        "en": "November 30, 2026"
+      }
+    },
+    {
+      "label": {
+        "az": "Demo Day",
+        "en": "Demo Day"
+      },
+      "value": {
+        "az": "27 dekabr 2026",
+        "en": "December 27, 2026"
+      }
+    },
+    {
+      "label": {
+        "az": "Mükafat və sertifikat",
+        "en": "Prizes and certificates"
+      },
+      "value": {
+        "az": "Ən yaxşı 3 ideya mükafatlandırılır; proqramı tamamlayanlara sertifikat verilir",
+        "en": "Prizes for the top 3 ideas; certificates for participants who complete the program"
+      }
+    }
+  ],
+  "eligibilitySummary": {
+    "az": "14–19 yaşlı gənclərdən ibarət 2–4 nəfərlik komandalar.",
+    "en": "Teams of 2–4 young people aged 14–19."
+  },
+  "eligibility": {
+    "az": "Komanda 2–4 nəfərdən ibarət olmalı və iştirakçıların yaşı 14–19 arasında olmalıdır. Proqram onlayn və ödənişsizdir.",
+    "en": "Apply as a team of 2–4 members, aged 14–19. Participation is online and free."
+  },
+  "organizer": "LuneX Community",
+  "officialUrl": "https://forms.gle/23S2J9cHmfPG2RUk7",
+  "officialCta": {
+    "az": "Proqrama müraciət et",
+    "en": "Apply to the program"
+  },
+  "dateAdded": "2026-11-17",
+  "featured": false
+},
+{
   "slug": "fritl-integration",
   "title": {
     "az": "FRİTL İnteqral Həftəsi — Integration Bee formatında yarış",
